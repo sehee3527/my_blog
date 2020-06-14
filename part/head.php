@@ -11,28 +11,22 @@
 </head>
 
 <body>
-    <div class="top-bar">
-        <div class="con height-100p flex">
-            <div class="logo flex-ai-c">
-                <i class="fab fa-cloudversify"></i>
-            </div>
-            <nav class="menu-box-1 flex flex-1-0-0">
-                <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c">Articles</a>
-                    </li>
-                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">About
-                            Me</a>
-                    </li>
-                    <li class="flex-1-0-0 flex"><a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCpJ4POvmdqflOlYcz4xf5XA?view_as=subscribere">yotube</a></li>
-                            <li><a href="https://sehee35271.tistory.com/">blog</a></li>
-                        </ul>
-
-                    </li>
-                </ul>
-            </nav>
+    <div class="top-bar flex">
+        <div class="logo flex-ai-c">
+            <div class="logo_name">SEHEE</div>
+            <i class="fab fa-cloudversify"></i>
+        </div>
+        <nav class="menu-box flex">
+            <ul class="flex">
+                <li class="flex"><a href="#" class="block flex flex-ai-c">HOME</a></li>
+                <li class="flex"><a href="#" class="block flex flex-ai-c">PROFILE</a></li>
+                <li class="flex"><a href="#" class="block flex flex-ai-c">PORTFLIO</a></li>
+                <li class="flex"><a href="#" class="block flex flex-ai-c">SNS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-bn">
+        <div class="main-box">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
         </div>
     </div>

@@ -301,41 +301,27 @@ label[for] {
 
 /* 탑바 시작 */
 .top-bar {
-    background-color: #032d4d;
-    color: white;
-    height: 100px;
-}
-.top-bar .menu-box-1>ul>li{
-    position: relative;
-}
-.top-bar .menu-box-1>ul>li>a {
-    font-weight: 800;
-}
-
-.top-bar .menu-box-1>ul>li:hover>a {
-    background-color: #146886;
-    color: black;
-}
-.top-bar .menu-box-1>ul ul{
-    display: none;
-    position: absolute;
-}
-.top-bar .menu-box-1>ul>li>ul{
-    top:100%;
-    left: 0;
+    position: fixed;
     width: 100%;
-    background-color: #208ca2;
-    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid rgb(29, 28, 28);
+    background-color: rgba(0,0,0,.5);
 }
-.top-bar .menu-box-1>ul>li>ul>li>a{
-    display: block;
-    padding: 10px;
-    font-weight: 600;
+.top-bar>.logo{
+    flex-grow:1;
+    padding:0 20px;
+    color:white;
 }
-.top-bar .menu-box-1>ul>li:hover ul{
-    display: block;
+.top-bar>.logo>i{
+    margin-top: 3px;
+    margin-left: 5px;
 }
-
-
-
+.top-bar>.menu-box>ul{
+    margin: 0 10px;
+}
+.top-bar>.menu-box>ul>li>a{
+    height: 50px;
+    padding: 0 20px;
+    color:white;
+}
 /* 탑바 끝 */
