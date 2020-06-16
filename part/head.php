@@ -37,17 +37,30 @@
         <div class="flex flex-1-0-0 flex-jc-c flex-ai-c">SEHEE</div>
         <div class="flex flex-1-0-0"></div>
     </div>
-    <div class="mobile-side-bar">
+    <div class="mobile-side-bar visible-sm-up">
         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">PROFILE</a></li>
             <li><a href="#">PORTFLIO</a></li>
-            <li><a href="#">SNS</a></li>
+            <li><a href="#">SNS</a>
+                <ul>
+                    <li><a href="#">수정</a></li>
+                    <li><a href="#">수정</a>
+                        <ul>
+                            <li><a href="#">수정</a></li>
+                            <li><a href="#">수정</a></li>
+                            <li><a href="#">수정</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
-    <div class="mobile-side-bar-bg"></div>
+    <div class="mobile-side-bar-bg visible-sm-up"></div>
     <div class="main-bn">
         <div class="main-box">
-            <div class="img-box"><img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
+            <div class="img-box"><img
+                    src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    alt=""></div>
         </div>
     </div>
