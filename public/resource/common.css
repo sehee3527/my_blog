@@ -1,4 +1,4 @@
-/* 폰트적용 */
+폰트적용
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html {
@@ -297,7 +297,12 @@ label[for] {
     width: 1356px;
 }
 
-@media(max-width:701px) {
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+@media(max-width:700px) {
     .visible-md-up {
         display: none;
     }
@@ -307,13 +312,16 @@ label[for] {
     }
 }
 
-@media(min-width:700px) {
+@media(min-width:701px) {
     .visible-sm-up {
         display: none;
     }
-    
     html.active {
-      overflow: hidden;
+        overflow: hidden;
+      }
+      
+    .main-bn {
+        margin-top: 80px;
     }
 
 }
@@ -324,9 +332,9 @@ label[for] {
 .top-bar {
     position: fixed;
     width: 100%;
-    height: 50px;
-    border-bottom: 1px solid rgb(29, 28, 28);
-    background-color: rgba(0, 0, 0, .5);
+    height: 70px;
+    background-color: #2b5cdb;
+    z-index: 100;
 }
 
 .top-bar>.logo {
@@ -334,10 +342,12 @@ label[for] {
     padding: 0 20px;
     color: white;
 }
-
-.top-bar>.logo>i {
-    margin-top: 3px;
-    margin-left: 5px;
+.top-bar>.logo>img{
+    height: 50px;
+}
+.top-bar>.logo >div{
+    font-size:1.5rem;
+    font-weight:600;
 }
 
 .top-bar>.menu-box>ul {
@@ -345,11 +355,15 @@ label[for] {
 }
 
 .top-bar>.menu-box>ul>li>a {
-    height: 50px;
+    height: 70px;
     padding: 0 20px;
     color: white;
+    font-weight: 500;
 }
-
+.top-bar>.menu-box>ul>li:hover>a{
+    background-color: #FFd84e;
+    color:black;
+} 
 /* 탑바 끝 */
 /* 모바일 탑바 */
 .mobile-top-bar {
@@ -360,7 +374,7 @@ label[for] {
     background-color: #7080a8;
     color: white;
     height: 30px;
-    z-index: 1;
+    z-index: 100;
 }
 
 .mobile-top-bar>.mobile-top-bar-side-bt>div {
@@ -415,7 +429,7 @@ label[for] {
     width: 200px;
     background-color: white;
     transition: left .3s;
-    z-index: 1;
+    z-index: 100;
 }
 
 .mobile-side-bar.active {
@@ -475,3 +489,30 @@ label[for] {
 }
 
 /* 모바일 탑바 끝 */
+
+/* 메인베너 */
+.main-bn{
+    height:calc(100% - 80px);
+    position: relative;
+}
+.main-box>div.yellow{
+    background-color:#FFd84e;
+    width:1200px;
+    height: 1200px;
+    border-radius:50%; 
+    position: absolute;
+    top:50%;
+    right:-600px;
+    transform: translateY(-50%);
+}
+.main-box>div.blue{
+    background-color:#5383ff;
+    width:700px;
+    height: 700px;
+    border-radius:50%; 
+    position: absolute;
+    top:50%;
+    right:200px;
+    transform: translateY(-50%);
+}
+/* 메인베너 끝 */
