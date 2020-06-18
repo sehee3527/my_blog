@@ -30,32 +30,26 @@ function MobileSideBar__init() {
         e.stopPropagation();
     });
 }
-
+function siedBarClick() {
+    $('.main-bn > .side-bars > .bar').click(function() {
+        var $clickedBtn = $(this);
+        var $slider = $clickedBtn.closest('.main-bn');
+        var $currnet = $slider.find('.slider > .active');
+        var $post = $currnet.next();
+        if ( $post.length == 0 ) {
+            $post = $slider.find('.slider > div:first-child');
+        }    
+        $currnet.removeClass('active');
+        $post.addClass('active');
+        $clickedBtn.addClass('active');
+    });
+}
 $(function () {
     MobileSideBar__init();
+    siedBarClick();
     $('.mobile-top-bar-side-bt').click();
     $('.mobile-side-bar>ul>li:last-child').click();
 });
 
 
-
-
-
-// function mobileSideBarLi__toggle() {
-//     var $mobileSideBarLi = $('.mobile-side-bar ul>li');
-
-//     if ($mobileSideBarLi.hasClass('active')) {
-//         $mobileSideBarLi.removeClass('active');
-//     } 
-    
-//     else {
-//         $mobileSideBarLi.addClass('active');
-//     }
-// }
-
-// function mobileSideBarLi__init() {
-//     $('.mobile-side-bar ul>li').click(mobileSideBarLi__toggle);
-// }
-// $(function () {
-//     mobileSideBarLi__init();
-// })
+// $ => 포장하다.

@@ -35,7 +35,9 @@
                 <div></div>
             </div>
         </div>
-        <div class="flex flex-1-0-0 flex-jc-c flex-ai-c">SEHEE</div>
+        <div class="logo flex flex-1-0-0 flex-jc-c flex-ai-c">
+            <img src="/resource/img/logo_side.png" alt="">
+        </div>
         <div class="flex flex-1-0-0"></div>
     </div>
     <div class="mobile-side-bar visible-sm-up">
@@ -58,9 +60,3 @@
         </ul>
     </div>
     <div class="mobile-side-bar-bg visible-sm-up"></div>
-    <div class="main-bn">
-        <div class="main-box">
-            <div class="yellow"></div>
-            <div class="blue"></div>
-        </div>
-    </div>

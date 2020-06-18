@@ -1,4 +1,4 @@
-폰트적용
+/* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html {
@@ -302,17 +302,17 @@ html, body{
     height: 100%;
 }
 
-@media(max-width:700px) {
+@media(max-width:701px) {
     .visible-md-up {
         display: none;
     }
 
     body {
-        padding-top: 30px;
+        padding-top: 50px;
     }
 }
 
-@media(min-width:701px) {
+@media(min-width:700px) {
     .visible-sm-up {
         display: none;
     }
@@ -371,16 +371,18 @@ html, body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #7080a8;
+    background-color: #2b5cdb;
     color: white;
-    height: 30px;
+    height: 50px;
     z-index: 100;
 }
-
+.mobile-top-bar>.logo>img{
+    height: 40px;
+}
 .mobile-top-bar>.mobile-top-bar-side-bt>div {
     width: 14px;
     height: 14px;
-    margin-left: 10px;
+    margin-left: 15px;
     position: relative;
     cursor: pointer;
 }
@@ -424,7 +426,7 @@ html, body{
 .mobile-side-bar {
     position: fixed;
     left: -200px;
-    top: 30px;
+    top: 50px;
     bottom: 0;
     width: 200px;
     background-color: white;
@@ -470,7 +472,7 @@ html, body{
 
 
 .mobile-side-bar ul>li.active>a {
-    background-color: #97a5c9;
+    background-color: #5383ff;
     color: white;
 }
 
@@ -492,7 +494,7 @@ html, body{
 
 /* 메인베너 */
 .main-bn{
-    height:calc(100% - 80px);
+    height:calc(950px - 80px);
     position: relative;
 }
 .main-box>div.yellow{
@@ -515,4 +517,47 @@ html, body{
     right:200px;
     transform: translateY(-50%);
 }
+.main-bn>.slider>.triangle>img{
+    position: absolute;
+    top:20%;
+    right:500px;
+    height:400px;
+}
+/* -메인사이드바- */
+.main-bn>.slider>.triangle{
+    opacity: 0;
+}
+.main-bn>.slider>.triangle.active{
+    opacity: 1;
+}
+.main-bn>.side-bars{
+    position: absolute;
+    top:50%;
+    transform:translatey(-50%);
+    left: 0;
+    width:60px;
+    height: 80px;
+    flex-direction:column;
+}
+.main-bn>.side-bars>.bar{
+    justify-content: center;
+    cursor:pointer;
+}
+.main-bn>.side-bars>.bar>div{
+    width:7px;
+    height: 7px;
+    border-radius:50%;
+    background-color:#afafaf;
+    transition:width .3s, height .3s, background-color .3s;
+}
+.main-bn>.side-bars>.bar:active>div{
+    width: 20px;
+    height: 20px;
+    background-color: #2b5cdb;
+}
+
+.main-bn>.side-bars>.bar.active>div{
+    background-color: #2b5cdb;
+}
+
 /* 메인베너 끝 */
