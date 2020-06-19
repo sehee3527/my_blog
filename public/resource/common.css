@@ -1,10 +1,11 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap');
 
 html {
-    font-family: "Noto Sans KR", sans-serif;
-}
+    font-family:'Staatliches',"Noto Sans KR", sans-serif;
 
+}
 /* 노말라이즈 */
 body,
 ul,
@@ -321,7 +322,7 @@ html, body{
       }
       
     .main-bn {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
 }
@@ -334,12 +335,12 @@ html, body{
     width: 100%;
     height: 70px;
     background-color: #2b5cdb;
-    z-index: 100;
+    z-index: 20;
 }
 
 .top-bar>.logo {
     flex-grow: 1;
-    padding: 0 20px;
+    padding: 0 25px;
     color: white;
 }
 .top-bar>.logo>img{
@@ -347,21 +348,20 @@ html, body{
 }
 .top-bar>.logo >div{
     font-size:1.5rem;
-    font-weight:600;
 }
 
 .top-bar>.menu-box>ul {
-    margin: 0 10px;
+    margin: 0 25px;
 }
 
 .top-bar>.menu-box>ul>li>a {
     height: 70px;
-    padding: 0 20px;
+    padding: 0 30px;
     color: white;
-    font-weight: 500;
+    font-size: 1.1rem;
 }
 .top-bar>.menu-box>ul>li:hover>a{
-    background-color: #FFd84e;
+    background-color: white;
     color:black;
 } 
 /* 탑바 끝 */
@@ -374,7 +374,7 @@ html, body{
     background-color: #2b5cdb;
     color: white;
     height: 50px;
-    z-index: 100;
+    z-index: 20;
 }
 .mobile-top-bar>.logo>img{
     height: 40px;
@@ -431,7 +431,7 @@ html, body{
     width: 200px;
     background-color: white;
     transition: left .3s;
-    z-index: 100;
+    z-index: 20;
 }
 
 .mobile-side-bar.active {
@@ -443,7 +443,6 @@ html, body{
 .mobile-side-bar ul>li>a {
     padding: 10px;
     display: block;
-    font-weight: 400;
 }
 .mobile-side-bar ul>li>a:not(:only-child)::after{
     content:"[+]";
@@ -496,6 +495,9 @@ html, body{
 .main-bn{
     height:calc(950px - 80px);
     position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: white;
 }
 .main-box>div.yellow{
     background-color:#FFd84e;
@@ -526,6 +528,7 @@ html, body{
 /* -메인사이드바- */
 .main-bn>.slider>.triangle{
     opacity: 0;
+    transition: opacity 1s;
 }
 .main-bn>.slider>.triangle.active{
     opacity: 1;
@@ -555,9 +558,48 @@ html, body{
     height: 20px;
     background-color: #2b5cdb;
 }
-
-.main-bn>.side-bars>.bar.active>div{
-    background-color: #2b5cdb;
+.main-bn>.bn-name{
+    position: absolute;
+    top:50%;
+    left: 100px;
+    transform:translateY(-50%);
+    font-size: 8rem;
+    color:#afafaf;
 }
-
+.main-bn>.bn-name>div:first-child{
+    font-size: 2rem;
+    color:#403d4b;
+}
+.main-bn>.bn-name>div:nth-child(2){
+    font-size: 8rem;
+    color:#afafaf;
+}
+.main-bn>.bn-name>div:nth-child(3){
+    font-size: 1rem;
+    color:#afafaf;
+}
 /* 메인베너 끝 */
+/* 픽시드이미지 */
+.fixed-img{
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top:0;
+    bottom:0;
+    right: 0;
+}
+.fixed-img>img{
+    width:100%;
+    height: 100%;;
+}
+/* 픽시드이미지 끝 */
+/* 두번째 배너 */
+.bn-2{
+    height: 600px;
+    margin-top: 200px;
+    background-color:white;
+}
+/* 두번째 배너끝 */
+h1{
+    background-color: white;
+}

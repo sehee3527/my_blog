@@ -22,7 +22,15 @@
             <div></div>
         </div>
     </div>
+    <div class="bn-name">
+        <div class="line-height-0 ">Web designer</div>
+        <div>Sehee blog</div>
+         <div class="line-height-0 ">대충아무말나중에 쓰기</div>
+    </div>
 </div>
+
+<div class="fixed-img"><img src="https://images.unsplash.com/photo-1591563710505-7ebbc61ed8ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></div>
+    <div class="bn-2"></div>
 <h1>안녕하세요</h1>
 <?php
     include "../part/foot.php";
