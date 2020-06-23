@@ -46,12 +46,18 @@ function siedBarClick() {
         $post.addClass('active');
     });
 }
+// function start(){
+//     $('.start').click(function(){
+//         $('.start').addClass('active');
+//     })
+// }
 
 $(function () {
     MobileSideBar__init();
     siedBarClick();
     $('.mobile-top-bar-side-bt').click();
     $('.mobile-side-bar>ul>li:last-child').click();
+    $('.start').addClass('active');
 });
 
 setInterval(function() {

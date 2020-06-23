@@ -1,6 +1,11 @@
 <?php
     include "../part/head.php";
 ?>
+<div class="start">
+    <div class="circle">
+        <div class="hello">hello!</div>
+    </div>
+</div>
 <div class="main-bn visible-md-up">
     <div class="main-box">
         <div class="yellow"></div>
@@ -27,10 +32,22 @@
         <div>Sehee blog</div>
          <div class="line-height-0 ">대충아무말나중에 쓰기</div>
     </div>
+
 </div>
 
 <div class="fixed-img"><img src="https://images.unsplash.com/photo-1591563710505-7ebbc61ed8ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></div>
-    <div class="bn-2"></div>
+    <div class="bn-2">
+        <div class="gray-circle1"></div>
+        <div class="gray-circle2"></div>
+        <div class="avatar">
+            <img src="/resource/img/avatar.png" alt="">
+        </div>
+        <div class="profile-box">
+            <div>Web publisher & Web Designer</div>
+            <div>PROFILE</div>
+            <div>Yang Se hee</div>
+        </div>
+    </div>
 <h1>안녕하세요</h1>
 <?php
     include "../part/foot.php";
