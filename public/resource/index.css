@@ -1,5 +1,5 @@
 /* 시작효과 */
-
+/* 
 .start{
     position: absolute;
     width:100%;
@@ -41,7 +41,7 @@
     transform:translateX(-50%) translatey(-50%) rotate(45deg);
     border-radius: 5%;
     top:-600px;
-}
+} */
 
 /* 시작효과끝 */
 /* 메인베너 */
@@ -59,18 +59,26 @@
     border-radius:50%; 
     position: absolute;
     top:50%;
-    right:-600px;
+    right:-200px;
     transform: translateY(-50%);
+    transition: right 1s .8s;
+}
+.main-box>div.yellow.active{
+    right:-600px;
 }
 .main-box>div.blue{
     background-color:#5383ff;
-    width:700px;
+    width: 700px;
     height: 700px;
     border-radius:50%; 
     position: absolute;
     top:50%;
-    right:200px;
+    right:100px;
     transform: translateY(-50%);
+    transition: right 1s .8s;
+}
+.main-box>div.blue.active{
+    right:200px;
 }
 .main-bn>.slider>.triangle>img{
     position: absolute;
@@ -113,11 +121,15 @@
 }
 .main-bn>.bn-name{
     position: absolute;
-    top:50%;
+    top:40%;
     left: 100px;
     transform:translateY(-50%);
     font-size: 8rem;
     color:#afafaf;
+    transition: top 1s .8s;
+}
+.main-bn>.bn-name.active{
+    top:50%;
 }
 .main-bn>.bn-name>div:first-child{
     font-size: 2rem;
@@ -195,6 +207,78 @@
 .bn-2>.profile-box>div:last-child{
     font-size:2rem;
     line-height:10px;
+}
+.bn-2>.profile-box>.gray-circle3{
+    position: absolute;
+    top:-70px;
+    left: 80%;
+    width:120px;
+    height: 120px;
+    border:2px solid #dfdfdf;
+    border-radius: 50%;
+    z-index: -1;
+}
+.bn-2>.profile-move{
+    position: absolute;
+    top:75%;
+    right:20%;
+    width:280px;
+    height: 50px;
+}
+.bn-2>.profile-move>div:not(:last-child){
+    width:15px;
+    height:15px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+
+}
+.bn-2>.profile-move>div:last-child{
+    padding:10px 20px;
+    border-radius: 25px;
+    border:2.5px solid #dfdfdf;
+    color:#afafaf;
+    font-weight: 400;
+}
+.bn-3{
+    height: 3000px;
+    background-color: #5383ff;
+    overflow: hidden;
+    position: relative;
+}
+.bn-3>.yellow-circle{
+    width:2100px;
+    height:2100px;
+    position: absolute;
+    border-radius: 50%;
+    top:-1200px;
+    left:50%;
+    transform:translateX(-50%);
+    background-color: #FFd84e;
+}
+.bn-3>.yellow-circle>.bn-3-name{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translateX(-50%);
+    color: white;
+    font-size: 5rem;
+}
+.bn-3>.yellow-circle>.bn-3-name>div{
+    width:40px;
+    height:40px;
+    background-color: white;
+    border-radius:50%;
+    margin: 0 20px;
+}
+.bn-3>.yellow-circle>.portflio-bn{
+    position: absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    width:800px;
+    height: 450px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
 }
 /* 두번째 배너끝 */
 h1{

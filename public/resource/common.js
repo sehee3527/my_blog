@@ -58,6 +58,9 @@ $(function () {
     $('.mobile-top-bar-side-bt').click();
     $('.mobile-side-bar>ul>li:last-child').click();
     $('.start').addClass('active');
+    $('.main-bn>.main-box>.yellow').addClass('active');
+    $('.main-bn>.main-box>.blue').addClass('active');
+    $('.main-bn>.bn-name').addClass('active');
 });
 
 setInterval(function() {

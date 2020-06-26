@@ -267,6 +267,11 @@ label[for] {
     justify-content: center;
 }
 
+*>.flex-jc-sb {
+    display: flex;
+    justify-content:space-between;
+}
+
 *>.flex-ai-c {
     display: flex;
     align-items: center;
@@ -300,10 +305,9 @@ label[for] {
 
 html, body{
     overflow-x: hidden;
-    height: 100%;
 }
 
-@media(max-width:701px) {
+@media(max-width:700px) {
     .visible-md-up {
         display: none;
     }
@@ -311,16 +315,16 @@ html, body{
     body {
         padding-top: 50px;
     }
+    html.active {
+        overflow: hidden;
+    }
+
 }
 
-@media(min-width:700px) {
+@media(min-width:701px) {
     .visible-sm-up {
         display: none;
     }
-    html.active {
-        overflow: hidden;
-      }
-      
     .main-bn {
         margin-top: 60px;
     }

@@ -36,6 +36,7 @@
 </div>
 
 <div class="fixed-img"><img src="https://images.unsplash.com/photo-1591563710505-7ebbc61ed8ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></div>
+
     <div class="bn-2">
         <div class="gray-circle1"></div>
         <div class="gray-circle2"></div>
@@ -46,9 +47,25 @@
             <div>Web publisher & Web Designer</div>
             <div>PROFILE</div>
             <div>Yang Se hee</div>
+            <div class="gray-circle3"></div>
+        </div>
+        <div class="profile-move flex flex-jc-sb flex-ai-c">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>자세히 보기</div>
         </div>
     </div>
-<h1>안녕하세요</h1>
+    <div class="bn-3">
+        <div class="yellow-circle">
+            <div class="bn-3-name flex flex-ai-c">
+                <div></div>
+                PORTFLIO
+                <div></div>
+            </div>
+            <div class="portflio-bn"></div>
+        </div>
+    </div>
 <?php
     include "../part/foot.php";
 ?>
