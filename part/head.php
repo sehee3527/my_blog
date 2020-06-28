@@ -23,7 +23,7 @@
             <ul class="flex">
                 <li class="flex"><a href="#" class="block flex flex-ai-c">HOME</a></li>
                 <li class="flex"><a href="#" class="block flex flex-ai-c">PROFILE</a></li>
-                <li class="flex"><a href="#" class="block flex flex-ai-c">PORTFLIO</a></li>
+                <li class="flex"><a href="/portflio.php" class="block flex flex-ai-c">PORTFLIO</a></li>
                 <li class="flex"><a href="#" class="block flex flex-ai-c">SNS</a></li>
             </ul>
         </nav>

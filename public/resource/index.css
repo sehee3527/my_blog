@@ -1,5 +1,5 @@
 /* 시작효과 */
-/* 
+
 .start{
     position: absolute;
     width:100%;
@@ -27,7 +27,7 @@
     top:50%;
     left: 50%;
     transform:translateX(-50%) translatey(-50%);
-    transition:transform .5s 1.2s, font-size .3s .5s;
+    transition:transform .5s 1.2s, font-size .4s .5s;
     color:white;
     font-size: 4rem;
 }
@@ -41,12 +41,12 @@
     transform:translateX(-50%) translatey(-50%) rotate(45deg);
     border-radius: 5%;
     top:-600px;
-} */
+}
 
 /* 시작효과끝 */
 /* 메인베너 */
 .main-bn{
-    height:calc(950px - 80px);
+    height:calc(950px - 70px);
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -246,18 +246,18 @@
     position: relative;
 }
 .bn-3>.yellow-circle{
-    width:2100px;
-    height:2100px;
+    width:3500px;
+    height:3500px;
     position: absolute;
     border-radius: 50%;
-    top:-1200px;
+    top:-2650px;
     left:50%;
     transform:translateX(-50%);
     background-color: #FFd84e;
 }
 .bn-3>.yellow-circle>.bn-3-name{
     position: absolute;
-    top:60%;
+    top:78%;
     left:50%;
     transform:translateX(-50%);
     color: white;
@@ -272,13 +272,44 @@
 }
 .bn-3>.yellow-circle>.portflio-bn{
     position: absolute;
-    top:67%;
-    left:50%;
+    top:82%;
+    left:calc(50% - 100px);
     transform:translateX(-50%);
-    width:800px;
-    height: 450px;
+    width:700px;
+    height: 400px;
     background-color: #dfdfdf;
     border-radius: 10px;
+    z-index: 2;
+}
+.bn-3>.yellow-circle>.portflio-bn>.portflio-bn-in{
+    position: absolute;
+    top:55%;
+    left: 103%;
+    white-space : nowrap;
+    color:white;
+}
+.bn-3>.yellow-circle>.portflio-bn>.portflio-bn-in>.portflio-bn-name{
+    font-size:3rem;
+    font-weight: 600;
+    line-height: 50px;
+}
+.bn-3>.yellow-circle>.portflio-bn>.portflio-bn-in>.portflio-bn-kind{
+    font-weight: 500;
+    font-size:.8rem;
+}
+.bn-3>.yellow-circle>.portflio-bn-content{
+    position: absolute;
+    top:83%;
+    left:calc(50% + 70px);
+    width:400px;
+    height: 400px;
+    border-radius:50%;
+    background-color:#5383ff;
+}
+.bn-3>.yellow-circle>.portflio-bn-content>img{
+    width:170px;
+    margin-left: 230px;
+    margin-top:50px;
 }
 /* 두번째 배너끝 */
 h1{

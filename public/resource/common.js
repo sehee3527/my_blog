@@ -45,12 +45,7 @@ function siedBarClick() {
         $currnet.removeClass('active');
         $post.addClass('active');
     });
-}
-// function start(){
-//     $('.start').click(function(){
-//         $('.start').addClass('active');
-//     })
-// }
+};
 
 $(function () {
     MobileSideBar__init();

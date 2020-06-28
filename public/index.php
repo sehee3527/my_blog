@@ -63,7 +63,16 @@
                 PORTFLIO
                 <div></div>
             </div>
-            <div class="portflio-bn"></div>
+            <div class="portflio-bn">
+                <div class="portflio-bn-in">
+                    <div>WEB DESIGN</div>
+                    <div class="portflio-bn-name">파나소닉</div>
+                    <div class="portflio-bn-kind">-반응형 웹 사이트 <br>-모작 </div>
+                </div>
+            </div>
+            <div class="portflio-bn-content">
+                <img src="/resource/img/triangle-2.png" alt="">
+            </div>
         </div>
     </div>
 <?php
