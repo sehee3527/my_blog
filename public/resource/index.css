@@ -254,6 +254,7 @@
     left:50%;
     transform:translateX(-50%);
     background-color: #FFd84e;
+    overflow: hidden;
 }
 .bn-3>.yellow-circle>.bn-3-name{
     position: absolute;
@@ -310,6 +311,56 @@
     width:170px;
     margin-left: 230px;
     margin-top:50px;
+}
+.bn-3>.yellow-circle>.slider{
+    position: absolute;
+    top:82%;
+    left:50%;
+    transform:translateX(-50%);
+    width:1150px;
+    height: 400px;
+}
+.bn-3>.yellow-circle>.slider>div{
+    width:50px;
+    color:white;
+    font-size:2rem;
+}
+.bn-3>.yellow-circle>.slider>div:last-child{
+    margin-left: auto;
+    margin-right: 0;
+}
+.bn-3>.yellow-circle>.portflio-view{
+    position:absolute;
+    color:white;
+    top:97%;
+    left:50%;
+    transform:translatex(-50%);
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.bn-3>.yellow-circle>.portflio-view>div{
+    position:absolute;
+    top:-50px;
+    left:0;
+    width:2000px;
+    height:2000px;
+    transform: translateX(-50%);
+    background-color: #ff668e;
+    opacity:20%;
+    border-radius: 50%;
+    transition:opacity .3s, top .3s;
+}
+.bn-3>.yellow-circle>.portflio-view:active>div{
+    opacity: 100%;
+    top:-70px;
+}
+.bn-3>.yellow-circle>.portflio-view>a{
+    position: absolute;
+    top:10px;
+    left: 0;
+    transform:translatex(-50%);
+
+    white-space : nowrap;
 }
 /* 두번째 배너끝 */
 h1{
