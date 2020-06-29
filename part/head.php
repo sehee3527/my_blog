@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/index.css">
+    <link rel="stylesheet" href="/resource/blog.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
@@ -21,9 +22,10 @@
         </div>
         <nav class="menu-box flex">
             <ul class="flex">
-                <li class="flex"><a href="#" class="block flex flex-ai-c">HOME</a></li>
+                <li class="flex"><a href="/" class="block flex flex-ai-c">HOME</a></li>
                 <li class="flex"><a href="#" class="block flex flex-ai-c">PROFILE</a></li>
                 <li class="flex"><a href="/portflio.php" class="block flex flex-ai-c">PORTFLIO</a></li>
+                <li class="flex"><a href="/blog.php" class="block flex flex-ai-c">blog</a></li>
                 <li class="flex"><a href="#" class="block flex flex-ai-c">SNS</a></li>
             </ul>
         </nav>

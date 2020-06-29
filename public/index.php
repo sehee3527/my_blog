@@ -85,6 +85,18 @@
             <a href="#">자세히 보기</a>
         </div>
     </div>
+    <!-- 세번째 하단배너(3.5) -->
+    <div class="contect"><img src="/resource/img/logo_side.png" alt=""> CONTECT</div>
+    <div class="bn-3-5-main-yellow">
+        <div>email : sehee3527@gamil.com</div>
+    </div>
+    <div class="circle-white"></div>
+    <div class="circle-pink"></div>
+    <div class="circle-blue"></div>
+    <div class="circle-blue"></div>
+    <div class="circle-border circle-border1"></div>
+    <div class="circle-border circle-border2"></div>
+    <div class="circle-border circle-border3"></div>
 </div>
 <?php
     include "../part/foot.php";

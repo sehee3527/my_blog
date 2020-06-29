@@ -239,8 +239,11 @@
     color:#afafaf;
     font-weight: 400;
 }
+
+/* 두번째 배너끝 */
+/* 세번째 배너 */
 .bn-3{
-    height: 3000px;
+    height: 1800px;
     background-color: #5383ff;
     overflow: hidden;
     position: relative;
@@ -362,7 +365,32 @@
 
     white-space : nowrap;
 }
-/* 두번째 배너끝 */
-h1{
-    background-color: white;
+/* 세번째 배너끝 */
+/* 세번째 하단 배너 */
+.bn-3>.contect{
+    position: absolute;
+    bottom: 770px;
+    font-weight: 600;
+    font-size:5rem;
+    color:white;
+    left: 50%;
+    transform: translateX(-50%);
 }
+.bn-3>.bn-3-5-main-yellow{
+    position:absolute;
+    bottom: -500px;
+    left: 50%;
+    transform:translateX(-50%);
+    width:1200px;
+    height:1200px;
+    background-color:#FFd84e;
+    border-radius: 50%;
+}
+.bn-3>.bn-3-5-main-yellow>div{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 2rem;
+    color:white;
+}
+
+/* 세번째 하단 배너끝 */
