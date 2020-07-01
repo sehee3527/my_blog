@@ -297,11 +297,12 @@ label[for] {
 
 /* 커스텀 */
 .con-min-width {
-    min-width: 1356px;
+    min-width: 1600px;
 }
 
 .con {
-    width: 1356px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 html, body{
