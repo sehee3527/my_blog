@@ -277,6 +277,11 @@ label[for] {
     align-items: center;
 }
 
+*>.flex-row-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
