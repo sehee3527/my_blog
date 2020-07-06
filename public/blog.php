@@ -77,6 +77,10 @@
             <div class="list-profile-content">C_point 블로그에 오신것을 환영합니다</div>
             <div>Welcome to the blog.</div>
         </div>
+        <section class="part">
+            <div class="part-name">목록</div>
+            <div></div>
+        </section>
     </div>
 </div>
 

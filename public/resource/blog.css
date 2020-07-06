@@ -1,6 +1,6 @@
 .blog_main{
-    margin-top:70px;
-    padding-bottom: 25%;
+    margin-top:3%;
+    padding-bottom: 15%;
     background-image: url('/resource/img/primary-color.jpg');
     background-repeat:no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     width:7%;
 }
 .blog-list{
-    margin-top:50px;
+    margin-top:3%;
 }
 .blog-none{
     padding: 50%;;

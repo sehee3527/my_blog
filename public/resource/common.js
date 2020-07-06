@@ -67,3 +67,4 @@ setInterval(function() {
 
     $next.click();
 }, 7000);
+
