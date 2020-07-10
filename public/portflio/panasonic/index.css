@@ -1,0 +1,773 @@
+/* 폰트적용 */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 라이브러리 */
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-height-0 {
+  line-height: 0;
+}
+
+.line-height-0 > * {
+  line-height: normal;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.cell {
+  float: left;
+  box-sizing: border-box;
+}
+
+.cell-right {
+  float: right;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 커스텀 */
+.con{
+  margin-right:5%;
+  margin-left:5%;
+}
+.top-box{
+  position:fixed;
+  width:100%;
+  height:96px;
+  top:0;
+  left:0;
+  background-color:white;
+  z-index:100;
+}
+.logo{
+  width:165px;
+  margin:35px 0;
+}
+
+/*상단 메뉴*/
+.top-menu>ul>li{
+  padding:36px 0;
+  margin:0 20px;
+  position:relative;
+}
+.top-menu>ul>li>a{
+  color:#4e4e4e;
+  font-weight:500;
+}
+.top-menu>ul>li:hover>a{
+  text-decoration:underline;
+}
+/*상단 2차메뉴*/
+.top-menu>ul>li>ul{
+  position:absolute;
+  display:none;
+  z-index:1;
+  top:100%;
+  width:140px;
+  left:50%;
+  transform:translatex(-50%);
+  background-color:white;
+  box-shadow:0px 8px 15px rgba(0,0,0,.3);
+}
+.top-menu>ul>li>ul>li:hover>a{
+  background-color:#001334;
+  color:white;
+}
+.top-menu>ul>li>ul>li>a{
+  font-size:0.9rem;
+  font-weight:400;
+  display:block;
+  padding:10px;
+}
+.top-menu>ul>li:hover>ul
+{
+  display:block;
+}
+/*상단 메뉴 끝*/
+/*상단 세로바*/
+.top-length-bar{
+  width:10px;
+  height:100%;
+  position:relative;
+}
+.top-length-bar>span{
+  position:absolute;
+  width:1px;
+  height:80%;
+  top:50%;
+  right:0;
+  transform:translatey(-50%);
+  background-color:#dfdfdf;
+}
+/*상단 세로바 끝*/
+/*상단 사이드 메뉴*/
+.top-side-menu>ul>li>a>.img-box>img{
+  width:20px;
+  padding:4px;
+  margin-top:-3px;
+}
+.top-side-menu>ul{
+  position:relative;
+}
+.top-side-menu>ul::before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:1px;
+  height:60%;
+  background-color:#efefef;
+  top:50%;
+  transform:translatey(-50%);
+}
+.top-side-menu>ul>li{
+  margin:0 20px;
+}
+.top-side-menu>ul>li>a{
+  color:#4e4e4e;
+  display:block;
+  padding:38px 0;
+  font-weight:500;
+  font-size:0.8rem;
+}
+/*상단 사이드 메뉴 끝*/
+@media (max-width:1400px) and ( min-width: 1101px ){
+  .top-side-menu>ul>li{
+    margin:0 13px;
+  }
+  .top-menu>ul>li{
+    margin:0 13px;
+  }
+}
+
+@media (max-width:1100px) and ( min-width: 801px ){
+  .top-side-menu>ul>li{
+    margin:0 10px;
+  }
+  .top-menu>ul>li{
+    margin:0 10px;
+  }
+  .top-side-menu>ul>li img{
+    display:none;
+  }
+}
+/*상단 배너*/
+.top-bn-box{
+  margin-top:96px;
+}
+.top-bn-box>.img-box:not(:first-child){
+  display:none;
+  position:relative;
+}
+
+.top-bn-box>.img-box>.img-box-name{
+  position:absolute;
+  top:27%;
+  left:5%;
+  color:white;
+  font-size:3.5vw;
+  font-weight:800;
+  line-height:120%;
+}
+.top-bn-box>.img-box>.img-box-content{
+  position:absolute;
+  top:50%;
+  left:5%;
+  color:white;
+  font-size:1vw;
+  font-weight:300;
+}
+.top-bn-box{
+  position:relative;
+}
+/*배너내부리스트*/
+.top-bn-box>.main-in-menu{
+  position:absolute;
+  left:0;
+  bottom:0;
+  background-color:white;
+  width:1000px;
+}
+.top-bn-box>.main-in-menu>ul>li{
+  width:calc(100%/4);
+  position:relative;
+}
+.top-bn-box>.main-in-menu>ul>li>a{
+  display:block;
+  padding:30px 0;
+  margin:0 10px;
+}
+.top-bn-box>.main-in-menu>ul>li>a>*{
+  line-height:0;
+}
+.top-bn-box>.main-in-menu>ul>li:last-child{
+  text-align:center;
+  background-color:#0041C0;
+  color:white;
+}
+.top-bn-box>.main-in-menu>ul>li:first-child::after, .top-bn-box>.main-in-menu>ul>li:nth-child(2)::after{
+  content:"";
+  display:block;
+  position:absolute;
+  background-color:#dfdfdf;
+  width:1px;
+  height:60%;
+  right:0;
+  top:50%;
+  transform:translatey(-50%);
+}
+
+.top-bn-box>.main-in-menu>ul>li:not(:last-child)::before{
+  content:"";
+  display:block;
+  position:absolute;
+  background-image:url(https://pessda.panasonic.co.kr/img/icon_dropdown.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  width:13px;
+  height:7px;
+  top:50%;
+  right:10%;
+  margin-top:-3px;
+  transition:transform .3s;
+}
+.top-bn-box>.main-in-menu>ul>li:not(:last-child):hover::before{
+  transform:rotate(180deg)
+}
+@media (max-width:1400px) and ( min-width: 1101px ){
+    .top-bn-box>.main-in-menu{
+      width:800px;
+    }
+    .top-bn-box>.main-in-menu>ul>li>a{
+      padding:25px 0;
+    }
+}
+  @media (max-width:1100px) and ( min-width: 801px ){
+    .top-bn-box>.main-in-menu{
+      width:600px;
+    }
+    .top-bn-box>.main-in-menu>ul>li>a{
+      padding:20px 0;
+    }
+}
+
+
+/*2번째 배너*/
+.bn-2-box{
+  width:100%;
+  padding-bottom:65%;
+  position:relative;
+}
+.bn-2-box>.gray-box{
+  position:absolute;
+  width:45%;
+  height:70%;
+  background-color:#E9EFEF;
+  top:22%;
+  left:0;
+  z-index:1;
+}
+.bn-2-box>.img-box{
+  position:absolute;
+  background-image:url(https://pessda.panasonic.co.kr/wp-content/uploads/2019/10/main_img_01.jpg);
+  background-repeat:no-repeat;
+  background-size:120%;
+  width:45%;
+  height:70%;
+  z-index:2;
+  left:10%;
+  top:15%;
+}
+.bn-2-box>.white-box{
+  position:absolute;
+  width:55%;
+  height:52%;
+  background-color:white;
+  left:33%;
+  top:35%;
+  z-index:3;
+}
+.bn-2-box>.white-box>div:first-of-type{
+  font-size:3vw;
+  padding-top:10%;
+  padding-left:8%;
+  padding-right:8%;
+}
+.bn-2-box>.white-box>div>div{
+  font-weight:bold;
+  display:inline-block;
+}
+.bn-2-box>.white-box>div:nth-last-child(2){
+  font-size:1.2vw;
+  padding-top:3%;
+  padding-left:12%;
+  padding-right:12%;
+}
+.bn-2-box>.white-box>div:last-child{
+  position:absolute;
+  width:30%;
+  height:30%;
+  top:0;
+  left:0;
+  padding:4%;
+}
+
+
+/*3번째 배너*/
+
+.bn-3-box{
+  width:100%;
+  padding-bottom:60%;
+  position:relative;
+}
+.bn-3-box>.img-box{
+  position:absolute;
+  background-image:url(https://pessda.panasonic.co.kr/img/main_bg_line.png);
+  background-repeat:no-repeat;
+  width:30%;
+  height:90%;
+  right:0;
+  z-index:1;
+}
+.bn-3-box>.product-bn{
+  position:absolute;
+  width:90%;
+  height:95%;
+  margin-top:4%;
+  background-color:#f5f5f7;
+  text-align:center;
+  z-index:2;
+}
+.bn-3-box>.product-bn>div:first-child{
+  color:#0041C0;
+  font-weight:500;
+  padding-top:7%;
+  font-size:1.2vw;
+}
+.bn-3-box>.product-bn>div:nth-child(2){
+  font-weight:800;
+  font-size:2.5vw;
+  padding-top:.5%;
+}
+/*5번째 배너*/
+.bn-5-box{
+  width:100%;
+  padding-bottom:60%;
+  position:relative;
+}
+.bn-5-box::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  left:100%;
+}
+.bn-5-box>.gray-box{
+  position:absolute;
+  background-color:#f5f5f7;
+  width:25%;
+  height:100%;
+  top:0;
+  left:0;
+}
+.bn-5-box>.last-box{
+  position:absolute;
+  background-color:#2A2D32;
+  width:100%;
+  height:45%;
+  bottom:0;
+  left:0;
+}
+.bn-5-box>.last-box>.con>.last-information{
+  margin-top:9%;
+  padding-left:100%;
+  padding-bottom:20%;
+  position:relative;
+}
+.bn-5-box>.last-box>.con>.last-information>.img-box{
+  position:absolute;
+  top:0;
+  left:0;
+  width:20%;
+  height:20%;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box{
+  position:absolute;
+  top:0;
+  left:25%;
+  width:75%;
+  height:80%;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>div{
+  font-size:1.2vw;
+  color:rgba(255,255,255,.8);
+  padding-bottom:1%;
+  word-spacing:.5px;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>div>strong{
+  color:white;
+  font-weight:500;
+}
+
+.bn-5-box>.last-box>.con>.last-information>.list-box>nav{
+  font-size:1.2vw;
+  color:rgba(255,255,255,.5);
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>nav:first-of-type{
+  height:1px;
+  padding-right:100%;
+  margin-bottom:5px;
+  background-color:rgba(255,255,255,.3);
+}
+.bn-5-box>.last-bn{
+  position:absolute;
+  margin-top:6%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:40%;
+}
+.bn-5-box>.last-bn>.img-box>a>.costomer-center{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:3% 7% 3% 3%;
+  background-color:#0041C0;
+  color:white;
+}
+.bn-5-box>.last-bn>.img-box>a>.costomer-center::after{
+  content:"";
+  display:block;
+  position:absolute;
+  top:50%;
+  left:80%;
+  transform:translatey(-50%);
+  width:10%;
+  height:13%;
+  background-image:url(https://pessda.panasonic.co.kr/img/icon_next.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain
+}
+/*3차배너 리스트*/
+.bn-3-box>.product-bn>ul{
+  height:65%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:3%;
+}
+.bn-3-box>.product-bn>ul>li{
+  width:calc(100%/4);
+  height:50%;
+  padding:1%;
+}
+.bn-3-box>.product-bn>ul>li>a{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.bn-3-box>.product-bn>ul>li>a>img{
+  width:100%;
+  height:100%;
+}
+.bn-3-box>.product-bn>ul>li>a::after{
+  content:"";
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,65,192,.8);
+  opacity:0;
+  transition:opacity .3s;
+  z-index:1;
+}
+.bn-3-box>.product-bn>ul>li:hover>a::after{
+  opacity:1;
+}
+.bn-3-box>.product-bn>ul>li>a::before{
+  content:"";
+  position:absolute;
+  display:block;
+  background-image:url(https://pessda.panasonic.co.kr/img/view_more.png);
+  background-size:100%;
+  background-repeat:no-repeat;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:2;
+  opacity:0;
+  transition:opacity 1s;
+}
+.bn-3-box>.product-bn>ul>li:hover>a::before{
+  opacity:1;
+}
+.bn-3-box>.product-bn>ul>li>a>.product-name{
+  position:absolute;
+  padding:5%;
+  font-size:1vw;
+  font-weight:bold;
+  color:#8097C3;
+  opacity:1;
+  transition:opacity .3s;
+  text-align:left;
+}
+.bn-3-box>.product-bn>ul>li:hover>a>.product-name{
+  opacity:0;
+}
+.bn-3-box>.product-bn>ul>li>a>.product-name>div{
+  font-size:1.5vw;
+  font-weight:bold;
+  color:black;
+}
+
+
+/*4번째 배너*/
+.bn-4-box{
+  width:100%;
+  padding-bottom:40%;
+  position:relative;
+  overflow-x:hidden;
+}
+.bn-4-box>span{
+  text-align:center;
+  display:block;
+}
+.bn-4-box>span:first-of-type{
+  color:#0041C0;
+  font-size:1.5vw;
+  padding-top:7%;
+}
+.bn-4-box>span:last-of-type{
+  color:black;
+  font-size:3vw;
+  font-weight:800;
+  padding-top:.5%;
+  padding-bottom:3%;
+}
+.bn-4-box>ul{
+  position:absolute;
+  display:block;
+  width:200%;
+  height:65%;
+}
+.bn-4-box>ul>li{
+  width:calc(200%/20);
+  height:60%;
+  padding:.5%;
+}
+.bn-4-box>ul>li>a{
+  background-color:#f5f5f7;
+  width:100%;
+  height:100%;
+  text-align:center;
+  position:relative;
+}
+.bn-4-box>ul>li>a::before{
+  content:"";
+  position:absolute;
+  background-image:url(https://pessda.panasonic.co.kr/img/dot_bg.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  top:0%;
+  right:0;
+  width:70%;
+  height:60%;
+  opacity:0;
+  transform:scale(0.8);
+  transition:opacity .3s, transform 0.3s;
+}
+.bn-4-box>ul>li:hover>a::before{
+  opacity:1;
+  transform:scale(1);
+}
+
+.bn-4-box>ul>li>a>img{
+  position:absolute;
+  width:100%;
+  margin-top:30%;
+  left:0;
+  top:0;
+}
+.bn-4-box>ul>li>a>.bn-4-list{
+  position:absolute;
+  top:100%;
+  width:100%;
+  margin-top:13%;
+}
+.bn-4-box>ul>li>a>.bn-4-list>.bn-4-list-name{
+  font-weight:500;
+  font-size:1.5vw;
+}
+.bn-4-box>ul>li>a>.bn-4-list>.bn-4-list-last{
+  font-weight:300;
+  font-size:1.6vw;
+  display:inline-block;
+  position:relative;
+}
+.bn-4-box>ul>li>a>.bn-4-list>.bn-4-list-last::after{
+  content:"";
+  display:block;
+  width:0%;
+  height:1px;
+  background-color:#0041C0;
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform:translatex(-50%);
+  transition:width .3s;
+}
+
+.bn-4-box>ul>li:hover>a>.bn-4-list>.bn-4-list-last::after{
+  width:100%;
+}
+.bn-4-box>ul>li:hover>a div{
+  color:#0041C0;
+}
+
+
+/*5번째 배너*/
+.bn-5-box{
+  width:100%;
+  padding-bottom:60%;
+  position:relative;
+}
+.bn-5-box::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  left:100%;
+}
+.bn-5-box>.gray-box{
+  position:absolute;
+  background-color:#f5f5f7;
+  width:25%;
+  height:100%;
+  top:0;
+  left:0;
+}
+.bn-5-box>.last-box{
+  position:absolute;
+  background-color:#2A2D32;
+  width:100%;
+  height:45%;
+  bottom:0;
+  left:0;
+}
+.bn-5-box>.last-box>.con>.last-information{
+  margin-top:9%;
+  padding-left:100%;
+  padding-bottom:20%;
+  position:relative;
+}
+.bn-5-box>.last-box>.con>.last-information>.img-box{
+  position:absolute;
+  top:0;
+  left:0;
+  width:20%;
+  height:20%;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box{
+  position:absolute;
+  top:0;
+  left:25%;
+  width:75%;
+  height:80%;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>div{
+  font-size:1.2vw;
+  color:rgba(255,255,255,.8);
+  padding-bottom:1%;
+  word-spacing:.5px;
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>div>strong{
+  color:white;
+  font-weight:500;
+}
+
+.bn-5-box>.last-box>.con>.last-information>.list-box>nav{
+  font-size:1.2vw;
+  color:rgba(255,255,255,.5);
+}
+.bn-5-box>.last-box>.con>.last-information>.list-box>nav:first-of-type{
+  height:1px;
+  padding-right:100%;
+  margin-bottom:5px;
+  background-color:rgba(255,255,255,.3);
+}
+.bn-5-box>.last-bn{
+  position:absolute;
+  margin-top:6%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:40%;
+}
+.bn-5-box>.last-bn>.img-box>a>.costomer-center{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:3% 7% 3% 3%;
+  background-color:#0041C0;
+  color:white;
+  font-size:1vw;
+}
+.bn-5-box>.last-bn>.img-box>a>.costomer-center::after{
+  content:"";
+  display:block;
+  position:absolute;
+  top:50%;
+  left:80%;
+  transform:translatey(-50%);
+  width:10%;
+  height:13%;
+  background-image:url(https://pessda.panasonic.co.kr/img/icon_next.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain
+}
