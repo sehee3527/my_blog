@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>제주 with kakako</title>
     <link rel="stylesheet" href="jeju-kakao/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jeju-kakao/index.js"></script>
 </head>
 
 <body>
@@ -26,14 +28,34 @@
     <div class="mobile-top-bar-box flex flex-jc-sb flex-ai-c flex-1-0-0">
         <div></div>
         <div>Jeju<span> with kakao</span></div>
-        <div class="mobile-top-bar-menu flex flex-d-c flex-jc-sa">
+        <div class="mobile-top-bar-menu">
             <div></div>
             <div></div>
             <div></div>
         </div>
+        <div class="mobile-top-bar-bg">
+            <ul class="mobile-top-bar-menu2">
+                <li><a href="#">홈</a></li>
+                <li><a href="#">공간소개</a>
+                <ul>
+                    <li><a href="#">카카오 스페이스</a></li>
+                    <li><a href="#">지도/주요장소</a></li>
+                    <li><a href="#">방문안내</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                </li>
+                <li><a href="#">With제주</a></li>
+                <li><a href="#">Live제주</a></li>
+                <li><a href="#">소식 보도자료</a></li>
+            </ul>
+            <div class="mobile-top-bar-plus"><div></div>플러스친구 추가하기</div>
+            <div>Copyright © Kakao Corp. All rights reserved.</div>
+        </div>
     </div>
     <div class="main-bn">
-        <div class="main-bn-main-img" style="background-image:url('http://sehee3527.github.io/img1/pf/jeju-with-kakao/c582fb00e9f741df837ab262fdca28dc.png')"></div>
+        <div class="main-bn-main-img"
+            style="background-image:url('http://sehee3527.github.io/img1/pf/jeju-with-kakao/c582fb00e9f741df837ab262fdca28dc.png')">
+        </div>
         <div class="main-bn-content">
             <div>더 좋은 제주를 위해 카카오가 응원합니다.</div>
             <div>Jeju with <span>Kakao</span></div>
