@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>제주 with kakako</title>
-    <link rel="stylesheet" href="jeju-kakao/index.css">
+    <link rel="stylesheet" href="/portfolio/jeju-kakao/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="jeju-kakao/index.js"></script>
+    <script src="/portfolio/jeju-kakao/index.js"></script>
 </head>
 
 <body>
