@@ -16,6 +16,10 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
+    <!-- swiper 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+
 </head>
 
 <body>
@@ -76,7 +80,7 @@
     <!-- 두번째 배너 -->
 
     <section class="main-product">
-        <ul class="main-product__list">
+        <ul class="main-product__list row">
             <li class="main-product__item item_01">
                 <figure class="main-product__figure">
                     <img class="img-fluid" src="http://sehee3527.github.io/img1/pf/bestuhl/img_main_product_01.png"
@@ -135,6 +139,74 @@
             </li>
         </ul>
     </section>
+    <!-- company -->
+
+    <section class="main-compuny" style="background-image:url(http://sehee3527.github.io/img1/pf/bestuhl/pc.jpg)">
+        <div class="main-company__inner">
+            <div class="main-company__info">
+                <p>회사소개</p>
+                <p>NEW CREATION<br>
+                    FOR<br>
+                    BETTER SPACE VALUE
+                </p>
+                <a>MORE</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- news -->
+<section class="main-news">
+  <div class="main-news__inner">
+    <h2 class="main-news__title">뉴스</h2>
+    <div class="swiper-button slider-button">
+      <div class="swiper-button-prev slider-button-prev"></div>
+      <div class="swiper-button-next slider-button-next"></div>
+    </div>
+    <div class="main-news__slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a class="link" href="">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/03/월간디자인-20년-4월호.jpg" alt=""></figure>
+            <h5 class="tit multi-truncate-2">홍보| 월간디자인 Vol.502 &#8211; 2020/04</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"><a class="link" href="">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/02/F.A.T-10-IF-1.jpg" alt="#"></figure>
+            <h5 class="tit multi-truncate-2">수상 | ‘F.A.T 10 시리즈’ 독일 iF 디자인 어워드 2020 &#8216;WINNER&#8217; 수상</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"><a class="link" href="#">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/02/DK191106039-scaled.jpg" alt=""></figure>
+            <h5 class="tit multi-truncate-2">수상 | 2019년 GOOD DESIGN AWARD</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"><a class="link" href="">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/02/2019-K-DESIGN-AWARD3-2-scaled.jpeg" alt=""></figure>
+            <h5 class="tit multi-truncate-2">수상 | 2019 K DESIGN AWARD</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"><a class="link" href="">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/02/IMG_2902-1-scaled-e1582587221710.jpg" alt=""></figure>
+            <h5 class="tit multi-truncate-2">수상 | 2019년 PINUP DESIGN AWARD</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"><a class="link" href="">
+            <figure class="thumb"><img class="img-fluid" src="http://bestuhl.co.kr/wp-content/uploads/2020/02/스크린샷-2020-02-24-오전-10.52.50-e1585272499804.png" alt=""></figure>
+            <h5 class="tit multi-truncate-2">수상 | 베스툴, 종합가구기업으로 도약.. 각종 수상 휩쓸어</h5><span class="btn_more">MORE</span>
+          </a></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+      </div>
+      <div class="swiper-pagination slider-pagination"></div>
+    </div>
+  </div>
+</section>
+<!-- 프로젝트 -->
+<div class="main-project">
+    <div class="main-project_inner">
+        <h2 class="main-project_name">프로젝트</h2>
+        <ul class="main-project_list row">
+            <li class="main-project_list_item cell"><a href="" class=" img-box"><img src="http://sehee3527.github.io/img1/pf/bestuhl/img4.jpg" alt=""><span class="list_item_name">관공서/교육 <span></span></span></a></li>
+            <li class="main-project_list_item cell"><a href="" class=" img-box"><img src="http://sehee3527.github.io/img1/pf/bestuhl/img1.jpg" alt=""><span class="list_item_name"></span></a></li>
+            <li class="main-project_list_item cell"><a href="" class=" img-box"><img src="http://sehee3527.github.io/img1/pf/bestuhl/DSCF0965-scaled.jpg" alt=""><span class="list_item_name"></span></a></li>
+            <li class="main-project_list_item cell"><a href="" class=" img-box"><img src="http://sehee3527.github.io/img1/pf/bestuhl/main-10.jpg" alt=""><span class="list_item_name"></span></a></li>
+        </ul>
+    </div>
+</div>
 </body>
 
 </html>
