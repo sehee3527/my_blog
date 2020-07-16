@@ -1,3 +1,4 @@
+var $html = $('html')
 function slider() {
     $('.my-slider-1 > .owl-carousel').owlCarousel({
         items: 1,
@@ -26,10 +27,21 @@ function news() {
         });
     });
 
-
+}
+function TopBar_init(){
+    $(window).scroll(function(){
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 2){
+            $html. addClass('top-bar-fly');
+        }
+        else{
+            $html. removeClass('top-bar-fly');
+        };
+    })
 }
 
 $(function () {
     slider();
     news();
+    TopBar_init();
 });
