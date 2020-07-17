@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="bestuhl/index.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <!-- owl 캐러셀 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    <script src="/portfolio/bestuhl/index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
@@ -19,6 +19,8 @@
     <!-- swiper 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+
+    <script src="/portfolio/bestuhl/index.js"></script>
 
 </head>
 
@@ -95,7 +97,6 @@
         <div class="top-bar-menu-bg"></div>
     </nav>
     <!-- 첫번째 배너 -->
-    </div>
     <div class="my-slider-1">
         <div class="owl-carousel owl-theme slider">
             <div class="item"
@@ -134,7 +135,7 @@
                         alt="오피스 T SERIES">
                 </figure>
                 <div class="main-product__info info_01">
-                    <div class="info_wrap">
+                    <div class="info_wrap info_wrap1 active-on-visible">
                         <p class="cat">오피스</p>
                         <h2 class="tit h2-en">T SERIES</h2>
                         <p class="txt">Ready for new possibility</p>
@@ -148,7 +149,7 @@
                         alt="오피스 M-TABLET">
                 </figure>
                 <div class="main-product__info info_02">
-                    <div class="info_wrap">
+                    <div class="info_wrap info_wrap2 active-on-visible">
                         <p class="cat">오피스</p>
                         <h2 class="tit h2-en">F.A.T 10</h2>
                         <p class="txt">New plan to express our opinions</p>
@@ -162,7 +163,7 @@
                         alt="의자 S15">
                 </figure>
                 <div class="main-product__info info_03">
-                    <div class="info_wrap">
+                    <div class="info_wrap info_wrap3 active-on-visible">
                         <p class="cat">의자</p>
                         <h2 class="tit h2-en">S15</h2>
                         <p class="txt">Useful value of good material</p>
@@ -176,7 +177,7 @@
                         alt="의자 T SERIES">
                 </figure>
                 <div class="main-product__info info_04">
-                    <div class="info_wrap">
+                    <div class="info_wrap info_wrap4 active-on-visible">
                         <p class="cat">의자</p>
                         <h2 class="tit h2-en">U40</h2>
                         <p class="txt">Get inspiration from style</p>
@@ -190,7 +191,7 @@
 
     <section class="main-compuny" style="background-image:url(http://sehee3527.github.io/img1/pf/bestuhl/pc.jpg)">
         <div class="main-company__inner con">
-            <div class="main-company__info">
+            <div class="main-company__info active-on-visible">
                 <p>회사소개</p>
                 <p>NEW CREATION<br>
                     FOR<br>
@@ -262,33 +263,41 @@
         <div class="main-project_inner con">
             <h2 class="main-project_name">프로젝트</h2>
             <ul class="main-project_list row">
-                <li class="main-project_list_item cell"><a href="" class=" img-box">
+                <li class="main-project_list_item cell"><a href="">
+                <div class="imgbox">
                         <div class="img"
                             style="background-image:url('http://sehee3527.github.io/img1/pf/bestuhl/img4.jpg')">
+                        </div>
                         </div>
                         <span class="list_item_name">
                             <p>관공서/교육</p><span>헌법재판소 도서관</span>
                         </span>
                     </a></li>
-                <li class="main-project_list_item cell"><a href="" class=" img-box">
+                <li class="main-project_list_item cell"><a href="">
+                <div class="imgbox">
                         <div class="img"
                             style="background-image:url('http://sehee3527.github.io/img1/pf/bestuhl/img1.jpg')">
+                        </div>
                         </div>
                         <span class="list_item_name">
                             <p>교육</p><span>강릉원주대-도서관</span>
                         </span>
                     </a></li>
-                <li class="main-project_list_item cell"><a href="" class=" img-box">
+                <li class="main-project_list_item cell"><a href="">
+                        <div class="imgbox">
                         <div class="img"
                             style="background-image:url('http://sehee3527.github.io/img1/pf/bestuhl/DSCF0965-scaled.jpg')">
+                        </div>
                         </div>
                         <span class="list_item_name">
                             <p>제조</p><span>녹수</span>
                         </span>
                     </a></li>
-                <li class="main-project_list_item cell"><a href="" class="img-box">
+                <li class="main-project_list_item cell"><a href="">
+                <div class="imgbox">
                         <div class="img"
                             style="background-image:url('http://sehee3527.github.io/img1/pf/bestuhl/main-10.jpg')">
+                        </div>
                         </div><span class="list_item_name">
                             <p>베트남</p><span>Capitaland</span>
                         </span>

@@ -520,10 +520,9 @@ html {
     white-space: nowrap;
     color:black;
   }
-  .my-slider-1 .item:first-child>.main-bn-content>div{
+  .owl-item:first-child>.item>.main-bn-content>div{
     color:white;
   }
-  
   .my-slider-1 .item>.main-bn-content>div:first-child{
     font-size: 32px;
   }
@@ -635,9 +634,14 @@ html {
   position: absolute;
   top:0;
   left:0;
-  height: 100%;
+  height: 0;
   width:100%;
   background-color: white;
+  overflow: hidden;
+}
+.main-product>.main-product__list>.main-product__item>.main-product__info>.info_wrap.active{
+  height: 100%;
+  transition: height 1s;
 }
 .main-product>.main-product__list>.main-product__item>.main-product__info>.info_wrap>.cat{
   font-weight: 800;
@@ -665,9 +669,13 @@ html {
 .main-compuny>.main-company__inner>.main-company__info{
   position:absolute;
   top:50%;
-  left: 0;
+  left: 20%;
   transform: translateY(-50%);
   color:white;
+  transition: left 1s;
+}
+.main-compuny>.main-company__inner>.main-company__info.active{
+  left: 0%;
 }
 .main-compuny>.main-company__inner>.main-company__info>p:first-child{
   font-weight: 700;
@@ -688,6 +696,10 @@ html {
   font-weight: 700;
   background-color: #383838;
   text-align:center;
+}
+.main-compuny>.main-company__inner>.main-company__info>a:hover{
+  background-color: #53565a;
+  cursor: pointer;
 }
 /* 메인 컴퍼니 시작 끝 */
 /* 뉴스시작 */
@@ -717,8 +729,16 @@ html {
   padding: 80px 0;
   overflow: hidden;
 }
+.thumb{
+  width:90%;
+  overflow: hidden;
+}
 .thumb > img {
-  width: 115%;
+  width: 100%;
+  transition:transform .3s;
+}
+.thumb:hover > img{
+  transform: scale(1.1);
 }
 .main-news__inner {
   position: relative;
@@ -791,7 +811,6 @@ html {
 .btn_more:hover::after{
   width:32px;
 }
-
 /* 뉴스시작끝 */
 /* 프로젝트 시작 */
 
@@ -811,11 +830,19 @@ html {
   margin-bottom: 130px;
 }
 .main-project>.main-project_inner>.main-project_list>li>a>div{
+  height: 100%;
+  overflow: hidden;
+}
+.main-project>.main-project_inner>.main-project_list>li>a>div>div{
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition:transform .3s;
+}
+.main-project>.main-project_inner>.main-project_list>li>a>div:hover>div{
+  transform: scale(1.1);
 }
 .main-project>.main-project_inner>.main-project_list>li>a>span>p{
   margin-top: 24px;
@@ -831,6 +858,11 @@ html {
   line-height: 1.6;
   font-weight: 700;
   padding-bottom: 30px;
+}
+.main-project>.main-project_inner>.main-project_list>li>a{
+  display: block;
+  height: 180px;
+  width:100%;
 }
 /* 프로젝트 끝 */
 /* footer */
