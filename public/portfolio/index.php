@@ -6,9 +6,10 @@
 <a href="/portfolio/align">align</a><br>
 <a href="/portfolio/jeju-kakao">jeju-kakao</a><br>
 <a href="/portfolio/bestuhl">bestuhl</a><br>
-<a href="http://bestuhl.co.kr/">bestuhl홈페이지</a>
+<a href="http://bestuhl.co.kr/">bestuhl홈페이지</a><br>
+<a href="/portfolio/vavavillage">바바빌리지 모작페이지</a><br>
+<a href="http://www.vava-village.com/">바바빌리지 홈페이지</a><br>
 
-<img src="http://sehee3527.github.io/img1/pf/design/7월달 이미지1-01.jpg" alt="" class=" width-60p">
 <?php
     include "../../part/foot.php";
 ?>
