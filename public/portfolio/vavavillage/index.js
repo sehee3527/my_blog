@@ -1,18 +1,20 @@
 function SlickSlider() {
-
-    $(document).ready(function () {
-        $(".slider").slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true,
-            autoplay: true
-        });
+    $(".slider-box > .slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        fade: true,
+        cssEase: 'linear'
     });
 
+    setTimeout(function() {
+        $(".slider-box").addClass('ani-on');
+    }, 10);
 }
 
-$(function(){
+$(function () {
     SlickSlider();
 });
