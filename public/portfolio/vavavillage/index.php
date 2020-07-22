@@ -83,7 +83,98 @@
         </div>
     </div>
     <div class="bn2-list">
+        <div class="inner">
+            <div class="new-item-name">NEW ITEM</div>
+            <div class="slider">
+                <div class="new-item-list">
 
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000047_main_036.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">바바빌리지 포스터</div>
+                        <div class="new-item-list-content">행복한 사람들이 모여서 사는 바바빌리지의 일상의 스토리가 그려지는 바바빌리지 포스터</div>
+                        <div class="new-item-list-price"><span></span>10,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+                <div class="new-item-list">
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000048_main_080.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">비바빌리지 스티커</div>
+                        <div class="new-item-list-content">한곳에 머물러 정지한 사람들에게 "RUN"이라는 메세지를 전달하는 부지런한 바바빌리지의 이미지를 담은
+                            바바빌리지 스티커</div>
+                        <div class="new-item-list-price"><span>7,000원</span>7,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+                <div class="new-item-list">
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000046_main_08.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">바바빌리지 캐릭터 담요</div>
+                        <div class="new-item-list-content">연인과 함께하는 포근한 시간</div>
+                        <div class="new-item-list-price"><span>24,000원</span>24,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+                <div class="new-item-list">
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000049_main_054.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">바바빌리지 오버사이즈 XL 후드티</div>
+                        <div class="new-item-list-content">바바빌리는 자연스럽지만 독특함을 품고 있는 옷들을 만들어 가려합니다.</div>
+                        <div class="new-item-list-price"><span>90,000원</span>60,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+                <div class="new-item-list">
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000050_main_084.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">바바빌리지 티셔츠</div>
+                        <div class="new-item-list-content">바바빌리지는 자연스럽지만 독특함을 품고 있는 옷들을 만들어 가려합니다.</div>
+                        <div class="new-item-list-price"><span>42,000원</span>35,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+                <div class="new-item-list">
+                    <div class="img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/1000000051_main_01.png" alt=""></div>
+                    <div class="new-item-list-inner">
+                        <div class="new-item-list-name">바바빌리지 여자 오버핏 XL 후드티</div>
+                        <div class="new-item-list-content">바바빌리지는 자연스럽지만 독특함을 품고 있는 옷들을 만들어 가려합니다.</div>
+                        <div class="new-item-list-price"><span>90,000원</span>60,000원</div>
+                        <div class="new-item-list-cart">ADD TO CART +</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="circle-rotate"><img src="http://sehee3527.github.io/img1/pf/vavavillage/rotate-img.png" alt="">
+        </div>
+    </div>
+    <!-- 배너3    -->
+    <div class="bn-2 row">
+        <div class="bn-2-main-img img-box cell"><a href="#" class="block img-box"><img
+                    src="http://sehee3527.github.io/img1/pf/vavavillage/1329131e1c3e2b30317da305b2b48b8f_94055.png"
+                    alt=""><div class="bn-2-main-img-name">RUN TO <br>VAVA VILLATE<br>[CLICK]<br><div><span>당신의 일상에서 벗어나세요</span><span>바바빌리지는 당신을 </span><span>기다리고 있습니다.</span></div>
+    </div></a></div>
+        <div class="bn-2-sub-img cell">
+            <ul class="row">
+                <li class="cell"><a href="#" class="block img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/a4679a6768309d4e35e9a4bcc1809801_45143.jpg"
+                            alt=""><div class="bn-2-sub-img-name">BLANKET</div></a></li>
+                <li class="cell"><a href="#" class="block img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/369f6cae3663c16692f9dea267b11174_13771.png"
+                            alt=""><div class="bn-2-sub-img-name">STICKER</div></a></li>
+                <li class="cell"><a href="#" class="block img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/e4562ff49d92d977a2fd57bbdc57034a_67446.png"
+                            alt=""><div class="bn-2-sub-img-name">VAVAPOSTER</div></a></li>
+                <li class="cell"><a href="#" class="block img-box"><img
+                            src="http://sehee3527.github.io/img1/pf/vavavillage/e35356260b919299c5b0da994963b350_94354.png"
+                            alt=""><div class="bn-2-sub-img-name">CLOTHES</div></a></li>
+            </ul>
+        </div>
     </div>
 
 </body>

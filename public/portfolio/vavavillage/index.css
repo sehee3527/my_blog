@@ -534,8 +534,12 @@ label[for] {
   box-sizing: border-box;
   opacity: 0;
   margin-top:60px;
+  box-shadow: 0 0 0px 0px rgba(255,255,255, .0);
+  transition: box-shadow 1s;
 }
-
+.slider-box > .slider .main-slider .slide-text>a:hover{
+  box-shadow: 0 0 7px 7px rgba(255,255,255, .2);
+}
 
 .slider-box.ani-on > .slider .main-slider.slick-active .slide-text>a{
   top:2vh;
@@ -586,6 +590,217 @@ label[for] {
 
 .bn2-list{
   padding: 0 5%;
+  position: relative;
 }
 
+.bn2-list>.inner>.new-item-name{
+  margin-bottom: 0 0 2% 0;
+  padding-top:7%;
+  text-align:center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.bn2-list>.inner>.slider{
+  position: relative;
+}
+.bn2-list>.inner>.slider .new-item-list{
+  padding: 0 10px;
+  
+}
+.bn2-list>.inner>.slider .new-item-list>.new-item-list-inner{
+  text-align: center;
+  width:75%;
+  display: block;
+  margin:-14px auto 0;
+  padding-bottom: 14px;
+}
+.bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-name{
+font-weight: 700;
+font-size: 26px;
+}
+
+.bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-content{
+  font-weight: 500;
+  font-size: 15px;
+  padding-top:15px;
+  color:#727272;
+  
+  }
+  
+  .bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-price{
+    padding-top:23px;
+    font-size: 21px;
+    font-weight:900;
+  }
+  .bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-price>span{
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color:#acacac;
+    padding-bottom: 7px;
+    text-decoration: line-through;
+  }
+  .bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-cart{
+    display: inline-block;
+    margin-top:24px;
+    padding:10px 15px;
+    box-sizing:border-box;
+    border:2px solid #191919;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing:2px;
+    text-align: center;
+    transition:background-color .3s, color .3s;
+  }
+  .bn2-list>.inner>.slider .new-item-list>.new-item-list-inner>.new-item-list-cart:hover{
+    background-color: black;
+    color:white;
+  }
+  .bn2-list>.inner>.slider .slick-next.slick-arrow{
+    width:30px;
+    height: 50px;
+    background-image: url("http://sehee3527.github.io/img1/pf/vavavillage/item-next-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:40%;
+    right:2%;
+    z-index: 1;
+  }
+  .bn2-list>.inner>.slider .slick-prev.slick-arrow{
+    width:30px;
+    height: 50px;
+    background-image: url("http://sehee3527.github.io/img1/pf/vavavillage/item-prev-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:40%;
+    left:2%;
+    z-index: 1;
+  }
+  .bn2-list>.inner>.slider .slick-next.slick-arrow::before{
+    display: none;
+  }
+  .bn2-list>.inner>.slider .slick-prev.slick-arrow::before{
+    display: none;
+  }
+  .bn2-list>.circle-rotate{
+    position: absolute;
+    top:15%;
+    left: 8%;
+    z-index: 2;
+  }
+  .bn2-list>.circle-rotate>img{
+    animation:rotate_image 10s linear infinite;
+  }
+  @keyframes rotate_image{
+    100%{
+      transform:rotate(360deg);
+    }
+  }
 /* 배너2슬라이드 끝 */
+/* 배너3슬라이드 시작 */
+.bn-2>.bn-2-main-img{
+  width:50%;
+  position: relative;
+  color:white;
+}
+.bn-2>.bn-2-main-img>a{
+  overflow: hidden;
+}
+.bn-2>.bn-2-main-img>a>img{
+  transition:transform .5s;
+  position: relative;
+}
+.bn-2>.bn-2-main-img>a:hover>img{
+  transform: scale(1.1);
+}
+.bn-2>.bn-2-main-img>a::after{
+  content:"";
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  transition:background-color .3s;
+}
+.bn-2>.bn-2-main-img:hover>a::after{
+  background-color: rgba(0, 0, 0, .75);
+}
+.bn-2>.bn-2-main-img>a>.bn-2-main-img-name{
+  position: absolute;
+  top:0;
+  left:0;
+  font-size: 40px;
+  font-weight: 700;
+  padding:8%;
+  color:white;
+  z-index: 2;
+}
+.bn-2>.bn-2-main-img>a>.bn-2-main-img-name>div{
+  padding-top:10px;
+}
+.bn-2>.bn-2-main-img>a>.bn-2-main-img-name>div>span{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+.bn-2>.bn-2-sub-img{
+  width:50%;
+}
+.bn-2>.bn-2-sub-img>ul>li{
+  width:50%;
+}
+.bn-2>.bn-2-sub-img>ul>li>a{
+  position: relative;
+  overflow: hidden;
+}
+
+.bn-2>.bn-2-sub-img>ul>li>a>img{
+  transition:transform .5s;
+  position: relative;
+}
+.bn-2>.bn-2-sub-img>ul>li>a:hover>img{
+  transform: scale(1.1);
+}
+.bn-2>.bn-2-sub-img>ul>li>a::after{
+  content:"";
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  transition:background-color .3s;
+}
+.bn-2>.bn-2-sub-img>ul>li>a:hover::after{
+
+  background-color: rgba(0, 0, 0, .75);
+}
+.bn-2>.bn-2-sub-img>ul>li>a>.bn-2-sub-img-name{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  color:white;
+  font-size: 40px;
+  font-weight: 700;
+  z-index: 2;
+}
+.bn-2>.bn-2-sub-img>ul>li>a>.bn-2-sub-img-name::after{
+  content:"";
+  display: block;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+  width:0;
+  height: 3px;
+  background-color: white;
+  transition:width .3s;
+}
+.bn-2>.bn-2-sub-img>ul>li>a:hover>.bn-2-sub-img-name::after{
+  width:100%;
+}
+/* 배너3슬라이드 끝 */
