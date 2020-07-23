@@ -402,6 +402,7 @@ label[for] {
 /* 메인 슬라이더 */
 .slider-box{
   position: relative;
+  overflow: hidden;
 
 }
 .slider-box > .slider {
@@ -583,7 +584,7 @@ label[for] {
   0%  {top:10px;}
   30% {opacity: 1;}
   50% {top:20px;opacity: 0;}
-  100% {top:0px;opacity: 0;}
+  100% {top:10px;opacity: 0;}
 }
 /* 메인 슬라이더 끝 */
 /* 배너2슬라이드 시작 */
@@ -804,3 +805,120 @@ font-size: 26px;
   width:100%;
 }
 /* 배너3슬라이드 끝 */
+/* 배너4 시작 */
+
+.bn-4-best-item>.bn-4-name{
+  margin-bottom: 0 0 2% 0;
+  padding-top:7%;
+  text-align:center;
+  font-size: 50px;
+  font-weight: 600;
+}
+body{
+  height: 10000px;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-left{
+  width:36%;
+  border:2px solid red;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-left>.bn-4-content-left-box{
+  position: absolute;
+  left: 0;
+  width:30%;
+  border:2px solid red;
+}
+
+.bn-4-best-item>.bn-4-content>.bn-4-content-right{
+  width:64%;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul{
+  padding-right:8%;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li{
+  width:50%;
+  
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>a{
+  margin:0 3%;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box{
+  padding:35px 30px;
+  font-size: 13px;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-detail{
+  margin-bottom: 27px;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-detail>a{
+  font-size:19px;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  margin-bottom:13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-detail>div{
+  color:#727272;
+  font-weight: 350;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-product{
+  display: block;
+  padding-top:30px;
+  border-top:1px solid #d8d8d8;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-product>.img-box{
+  width:24%;
+  margin-right: 6%;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-product>.best-item-product-detail{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>ul>li>.best-item-detail-box>.best-item-product>.best-item-product-detail>.product-detail-name{
+  margin-bottom: 20px;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>.more{
+  text-align: center;
+}
+.bn-4-best-item>.bn-4-content>.bn-4-content-right>.more>a{
+  display: inline-block;
+  text-align: center;
+  padding:12px 27px;
+  font-size: 15px;
+  font-weight: 700;
+  box-sizing: border-box;
+  margin-top:60px;
+  border:3px solid black;
+}
+/* 배너4 끝 */
+/* 배너5 시작 */
+
+.bn-5{
+  padding:6% 0 7%;
+  
+}
+.bn-5.scroll-text>.simply-scroll{
+  width:100%;
+  box-sizing:border-box;
+}
+.bn-5.scroll-text>.simply-scroll>.simply-scroll-clip{
+  width:100%;
+}
+.bn-5.scroll-text>.simply-scroll>.simply-scroll-clip>.simply-scroll-list{
+  width:2000px;
+}
+.bn-5.scroll-text .text-scriller{
+ font-size: 170px;
+ font-weight: 900;
+ white-space: nowrap;
+ -webkit-text-stroke: 3px;
+}
+.bn-5.scroll-text .text-scriller>span{
+  color:white;
+  -webkit-text-stroke: 3px black;
+}
+
+/* 배너5 끝 */
+
