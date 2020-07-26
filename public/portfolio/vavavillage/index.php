@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
-<!-- 심플리 스크롤 불러오기 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.css">
+    <!-- 심플리 스크롤 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.css">
 
     <script src="/portfolio/vavavillage/index.js"></script>
 
@@ -159,35 +160,35 @@
         </div>
     </div>
     <!-- 배너3    -->
-    <div class="bn-2 row">
-        <div class="bn-2-main-img img-box cell"><a href="#" class="block img-box"><img
+    <div class="bn-3 row">
+        <div class="bn-3-main-img img-box cell"><a href="#" class="block img-box"><img
                     src="http://sehee3527.github.io/img1/pf/vavavillage/1329131e1c3e2b30317da305b2b48b8f_94055.png"
                     alt="">
-                <div class="bn-2-main-img-name">RUN TO <br>VAVA VILLATE<br>[CLICK]<br>
+                <div class="bn-3-main-img-name">RUN TO <br>VAVA VILLATE<br>[CLICK]<br>
                     <div><span>당신의 일상에서 벗어나세요</span><span>바바빌리지는 당신을 </span><span>기다리고 있습니다.</span></div>
                 </div>
             </a></div>
-        <div class="bn-2-sub-img cell">
+        <div class="bn-3-sub-img cell">
             <ul class="row">
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/a4679a6768309d4e35e9a4bcc1809801_45143.jpg"
                             alt="">
-                        <div class="bn-2-sub-img-name">BLANKET</div>
+                        <div class="bn-3-sub-img-name">BLANKET</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/369f6cae3663c16692f9dea267b11174_13771.png"
                             alt="">
-                        <div class="bn-2-sub-img-name">STICKER</div>
+                        <div class="bn-3-sub-img-name">STICKER</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/e4562ff49d92d977a2fd57bbdc57034a_67446.png"
                             alt="">
-                        <div class="bn-2-sub-img-name">VAVAPOSTER</div>
+                        <div class="bn-3-sub-img-name">VAVAPOSTER</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/e35356260b919299c5b0da994963b350_94354.png"
                             alt="">
-                        <div class="bn-2-sub-img-name">CLOTHES</div>
+                        <div class="bn-3-sub-img-name">CLOTHES</div>
                     </a></li>
             </ul>
         </div>
@@ -288,17 +289,90 @@
                     </li>
                 </ul>
                 <div class="more">
-                <a href="#" class="more-view">MORE-VIEW +</a>
+                    <a href="#" class="more-view">MORE-VIEW +</a>
                 </div>
             </div>
         </div>
     </div>
-<!-- 5번째 배너 -->
-<div class="bn-5 scroll-text">
-    <div id="scroller">
-        <div class="text-scriller">VAVA VILLAGE <span>VAVA VILLAGE </span>VAVA VILLAGE <span>VAVA VILLAGE </span>VAVA VILLAGE </div>
+    <!-- 5번째 배너 -->
+    <div class="bn-5 scroll-text">
+        <div id="scroller">
+            <div class="text-scriller">VAVA VILLAGE <span>VAVA VILLAGE </span>VAVA VILLAGE <span>VAVA VILLAGE
+                </span>VAVA VILLAGE </div>
+        </div>
     </div>
-</div>
+    <!-- 6번째 배너 -->
+    <div class="bn-6 flex">
+        <div class="bn-6-video-left">
+            <iframe src="https://www.youtube.com/embed/vIyjQlq-f-k?rel=0" frameborder="0"></iframe>
+        </div>
+        <div class="bn-6-video-right flex flex-row-wrap">
+            <div class="bn-6-video-right-in">
+                <img src="http://sehee3527.github.io/img1/pf/vavavillage/8792891886a6a23e08677b1114b90ad2_49275.jpg"
+                    alt="">
+                <h3>#01</h3>
+                <p>VAVA village interview</p>
+            </div>
+            <div class="bn-6-video-right-in">
+                <img src="http://sehee3527.github.io/img1/pf/vavavillage/9f2310c32a6b1b9fda237b69fda5a76a_35339.jpg"
+                    alt="">
+                <h3>#02</h3>
+                <p>VAVA village Countdown 2012</p>
+            </div>
+            <div class="bn-6-video-right-in">
+                <img src="http://sehee3527.github.io/img1/pf/vavavillage/f0629130fddf0c5fafba3c63f0b2d064_68311.jpg"
+                    alt="">
+                <h3>#03</h3>
+                <p>바바빌리지 X 한국관광공사</p>
+            </div>
+        </div>
+    </div>
+    <!-- 7번째 배너 -->
+    <div class="bn-7 flex">
+        <div class="bn-7-1">
+            <a href="#" class="img-box">
+                <img src="http://sehee3527.github.io/img1/pf/vavavillage/9eec00f49ed763d66049d9a56dfa8d7b_39947.png"
+                    alt="">
+                <div class="bn-7-1-content">
+                    <p>COLLABORATION</p>
+                    <p>바바빌리지 콜라보레이션</p>
+                    <p>바바빌리지 콜라보레이션을 확인하세요</p>
+                </div>
+            </a>
+        </div>
+        <div class="bn-7-1 bn-7-2">
+            <a href="#" class="img-box">
+                <img src="http://sehee3527.github.io/img1/pf/vavavillage/b9c7595b7641a272608aa84f1d48d790_88493.png"
+                    alt="">
+                <div class="bn-7-1-content">
+                    <p>ABOUT VAVA VILLAGE</p>
+                    <p>어바웃 바바빌리지</p>
+                    <p>바바빌리지를 소개합니다</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="bn-8">
+        <div class="membership">MEMBERSHIP</div>
+        <ul class="membership-content flex flex-jc-c">
+            <li class="membership-content-wrap">
+                <a href="#">
+                    <img src="http://sehee3527.github.io/img1/pf/vavavillage/membership-icon02.png" alt="">
+                    <div>초대장 증정</div>
+                    <div>멤버쉽 회원이 되시면 <br>바바빌리지 행사 무료초대원을 <br>보내드립니다</div>
+                </a>
+            </li>
+            <li class="membership-content-wrap">
+                <a href="#">
+                    <img src="http://sehee3527.github.io/img1/pf/vavavillage/membership-icon03.png" alt="">
+                    <div>행사 내용 공유</div>
+                    <div>멤버쉽 회원이 되시면 <br>바바빌리지의 다양한 뉴스들을 <br>누구보다 빨리 받으실 수 있습니다</div>
+                </a>
+            </li>
+
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
