@@ -1,6 +1,5 @@
 html {
-    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
-    font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif, Nanum Gothic, "나눔 고딕", AppleGothic, Dotum, 'Apple SD Gothic Neo', "돋움", sans-serif;
   }
   
   /* 노말라이즈 */
@@ -341,8 +340,100 @@ html {
     width:1370px;
   }
 
-  .bn{
-      height: 100vh;
+  .section{
         border:2px solid red;
-        box-sizing: border-box;
+        
   }
+  .section{
+    position: relative;
+    overflow: hidden;
+  }
+  .section>.fp-tableCell>.bn-bg>.text-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color:white;
+    white-space:nowrap;
+  }
+  .section>.fp-tableCell>.bn-bg>video{
+    display: block;
+  }
+  /* 첫번째 배너 */
+  .section.bn1>.fp-tableCell>.bn-bg>.text-box>div:first-child{
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    margin: 0;
+    font-weight: 200;
+    }
+    .section.bn1>.fp-tableCell>.bn-bg>.text-box>div:nth-child(2){
+      font-size:70px;
+      line-height: 70px;
+      margin:25px 0 0 0;
+      font-weight: 200;
+    }
+    .section.bn1>.fp-tableCell>.bn-bg>.text-box>div:last-child{
+      font-family: 'motserrat';
+      font-size: 50px;
+      line-height: 50px;
+      margin:30px 0 0 0;
+      font-weight: bold;
+    }
+
+    /* 스크롤 다운 버튼 */
+    .section>.fp-tableCell>.bn-bg>.scroll-down{
+      position: absolute;
+      bottom:100px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .section>.fp-tableCell>.bn-bg>.scroll-down>.line{
+      width:1px;
+      height: 90px;
+      margin: 0 auto 18px;
+      background-color: white;
+    }
+    .section>.fp-tableCell>.bn-bg>.scroll-down>.scroll-bt{
+      line-height: 1.2rem;
+      color:white;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      
+    }
+
+/* 2~5배너 */
+.section>.fp-tableCell>.bn-bg{
+  position: absolute;
+  top:0;
+  left: 0;
+  border:2px solid blue;
+}
+
+@media(max-width:1450px){
+  .section>.fp-tableCell>.bn-bg{
+    width:1450px;
+  }
+}
+.section>.fp-tableCell>.bn-bg>.text-box>div:first-child{
+  font-size: 46px;
+  letter-spacing: -1.5px;
+  
+}
+.section>.fp-tableCell>.bn-bg>.text-box>div:last-child{
+  margin-top: 28px;
+  font-size:17px;
+}
+
+/* 배너6 */
+.section.bn6>.fp-tableCell>.bn-bg>.text-box{
+  color:black;
+}
+.section.bn6>.fp-tableCell>.bn-bg>.scroll-down>.scroll-bt{
+  color:black;
+}
+.section.bn6>.fp-tableCell>.bn-bg>.scroll-down>.line{
+  background-color: black;
+}
+/* 배너7 */
