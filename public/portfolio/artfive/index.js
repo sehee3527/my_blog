@@ -28,7 +28,6 @@ function FullPage() {
     });
   });
 }
-
 $(function () {
   FullPage();
 });
