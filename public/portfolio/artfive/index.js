@@ -28,6 +28,13 @@ function FullPage() {
     });
   });
 }
+function slickSlider() {
+  $(document).ready(function(){
+    $('.slick-slider').slick({
+    });
+  });
+}
 $(function () {
   FullPage();
+  slickSlider();
 });

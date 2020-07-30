@@ -398,10 +398,6 @@ html {
 }
   /* 탑바 끝 */
   .section{
-        border:2px solid red;
-        
-  }
-  .section{
     position: relative;
   }
   .section>.fp-tableCell>.bn-bg>.text-box{
@@ -671,4 +667,153 @@ html {
   letter-spacing: -.5px;
   margin-top: 28px;
   font-weight: 500;
+}
+/* 배너9 시작 */
+.bn9>.fp-tableCell>.bn-bg{
+  width:100%;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top{
+  margin: 0 auto;
+  width:1400px;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom{
+  margin: 0 auto;
+  width:1400px;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.bn9-top-left{
+  width:200px; 
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color:#333;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.bn9-bottom-left{
+  width:200px; 
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color:#333;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.slick-slider{
+  width:1200px;
+  padding:38px 0;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider{
+  border-top: 2px solid black;
+  width:1200px;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.slick-slider>.slick-prev.slick-arrow{
+  position: absolute;
+  top:80px;
+  left: -130px;
+  width:15px;
+  height: 20px;
+  background-image: url(https://sehee3527.github.io/img1/pf/artfive/notice_arrow_btn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider>.slick-prev.slick-arrow{
+  position: absolute;
+  top:80px;
+  left: -130px;
+  width:15px;
+  height: 20px;
+  background-image: url(https://sehee3527.github.io/img1/pf/artfive/notice_arrow_btn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.slick-slider>.slick-next.slick-arrow{
+  position: absolute;
+  top:80px;
+  left: -80px;
+  width:15px;
+  height: 20px;
+  background-image: url(https://sehee3527.github.io/img1/pf/artfive/notice_arrow_btn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg) translateY(50%);
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider>.slick-next.slick-arrow{
+  position: absolute;
+  top:80px;
+  left: -80px;
+  width:15px;
+  height: 20px;
+  background-image: url(https://sehee3527.github.io/img1/pf/artfive/notice_arrow_btn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg) translateY(50%);
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.slick-slider>.slick-prev.slick-arrow::before{
+  display: none;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider>.slick-prev.slick-arrow::before{
+  display: none;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-top>.slick-slider>.slick-next.slick-arrow::before{
+  display: none;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider>.slick-next.slick-arrow::before{
+  display: none;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom{
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider .media-content>.media-content-item>.date{
+  text-align: center;
+  font-size: 30px;
+  color:#333;
+  width:150px;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider .media-content>.media-content-item{
+  padding:38px 0;
+  border-bottom: 1px solid #777;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider .media-content>.media-content-item>.date>div:nth-child(2){
+  font-size: 15px;
+  color:#777;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider .media-content>.media-content-item>.media-content-item-item>.name{
+  font-size: 24px;
+  line-height: 24px;
+  color:#333;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.bn9>.fp-tableCell>.bn-bg>.center>.bn9-bottom>.slick-slider .media-content>.media-content-item>.media-content-item-item>.content{
+  color:#777;
+  font-size:17px;
+  line-height: 17px;
+  margin-top: 10px;
+}
+#footer{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media(max-width:1450px){
+  #footer{
+    width:1450px;
+  }
+}
+#footer>.logo{
+  margin-top: 150px;
+  display: inline-block;
+}
+#footer>a>img{
+  display: block;
+}
+#footer>ul{
+  margin-top: 35px;
+
+}
+#footer>ul>li{
+  font-size: 15px;
+  color:#333;
 }

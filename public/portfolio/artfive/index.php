@@ -299,10 +299,128 @@
         </div>
         <div class="section bn9">
             <div class="bn-bg">
+                <div class="center">
+                    <div class="bn9-top flex">
+                        <div class="bn9-top-left">
+                            NOTICE
+                        </div>
+                        <div class="slick-slider bn9-top-right">
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_15919684024tm7dwwl12.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_158831628520yqk6y87h.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1588316318330dfbbjee.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_15893942037ixgqguz2o.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1590684749gtrispx2ib.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_15883163052eg2h3k92u.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1588316272ok9a5kqo7a.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1588526232lvouspthu3.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1588316239ao0tj08t45.jpg"
+                                    alt=""></a>
+                            <a href="" class="block img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/artfive/b_file_1588316258hzuzzbbltp.jpg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <div class="bn9-bottom flex">
+                        <div class="bn9-bottom-left">
+                            MEDIA
+                        </div>
+                        <div class="slick-slider bn9-bottom-right">
+                            <div class="media-content">
+                                <div class="media-content-item flex">
+                                    <div class="date">
+                                        <div>05.01</div>
+                                        <div>2020</div>
+                                    </div>
+                                    <div class="media-content-item-item">
+                                        <div class="name">"아이에게 미술을 선물하세요"김은정 영통교육원장</div>
+                                        <div class="content">▲"아이에게 미술을 선물하세요"김은정 영통교욱원장아이들의 건강하고 밝은 성장은 모든 부모들의 공통된
+                                            희망사...</div>
+                                    </div>
+                                </div>
+
+                                <div class="media-content-item flex">
+                                    <div class="date">
+                                        <div>05.01</div>
+                                        <div>2020</div>
+                                    </div>
+                                    <div class="media-content-item-item">
+                                        <div class="name">"실패경험에서 자라는 창의력"윤은정 대표</div>
+                                        <div class="content">▲"실패경험에서 자라는 창의력"윤은정 대표(주)아트체어(대표 윤은정)의 미술학원창업 프랜차이...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-content">
+                                <div class="media-content-item flex">
+                                    <div class="date">
+                                        <div>05.01</div>
+                                        <div>2020</div>
+                                    </div>
+                                    <div class="media-content-item-item">
+                                        <div class="name">"행복한 아이가 잘논다"분당 정자동 박경희본원장</div>
+                                        <div class="content">▲정자동 아동미술 아트파이브, '행복한 아이가 잘 논다'아동미술프랜차이즈 학원 아트파이브가 아이들의 발상을
+                                            바탕으...</div>
+                                    </div>
+                                </div>
+                                <div class="media-content-item flex">
+                                    <div class="date">
+                                        <div>05.01</div>
+                                        <div>2020</div>
+                                    </div>
+                                    <div class="media-content-item-item">
+                                        <div class="name">"세상을 아름답게하는 가람이 되자"아트파이브 동탄센터 신소영 원장</div>
+                                        <div class="content">▲ 잍,파이브 동탄센터 교육원장 (사진=심건호기자)아이가 세상을 바라보는 관점은 '나'에서 출발한다. 모든
+                                            사고체계가...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-content">
+
+                                <div class="media-content-item flex">
+                                    <div class="date">
+                                        <div>05.01</div>
+                                        <div>2020</div>
+                                    </div>
+                                    <div class="media-content-item-item">
+                                        <div class="name">"인문학 초등미술교육의 힘" 동래 채윤천 교육원장</div>
+                                        <div class="content">▲ 아트파이브 동래교육원 교육현장 "인문학 초등미술교육 아트파이브의 힘"동래교육원 남다른 교육 주목
+                                            '부...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="section bn10">
-            <div class="bn-bg">
+        <div class="section bn10 fp-auto-height">
+            <div id="footer">
+                <a href="" class="logo"><img src="https://sehee3527.github.io/img1/pf/artfive/foot_center_logo.png" alt=""></a>
+                <ul class="footer-menu flex">
+                    <li><a href="#">VELUE</a></li>
+                    <li><a href="#">PROGRAMS</a></li>
+                    <li><a href="#">ARTFIVE CAMPUS</a></li>
+                    <li><a href="#">PR</a></li>
+                    <li><a href="#">FRANCHISE</a></li>
+                    <li><a href="#">TEACHERS</a></li>
+                </ul>
             </div>
         </div>
     </div>
