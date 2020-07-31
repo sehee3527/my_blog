@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-fullpage-index="0">
 
 <head>
     <meta charset="UTF-8">
@@ -25,8 +25,12 @@
 
 <body>
     <div class="top-bar flex flex-jc-sb">
+        <div class="logo-box">
         <div class="logo"><a href="#" class="img-box"><img
                     src="https://sehee3527.github.io/img1/pf/artfive/logo_white.png" alt=""></a></div>
+        <div class="logo-gray"><a href="#" class="img-box"><img
+                    src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a></div>
+        </div>
         <div class="top-bar-right flex">
             <div class="top-bar-right1 flex">
                 <div href="#"><a href="#" class="block"><svg version="1.1" id="util_tel"
@@ -109,9 +113,11 @@
     <div id="fullpage">
         <div class="section bn1">
             <div class="bn-bg">
+                <div class="video-box">
                 <video width="100%" muted="muted" autoplay loop>
                     <source src="https://sehee3527.github.io/img1/pf/artfive/v005.mp4" type="video/mp4">
                 </video>
+                </div>
                 <div class="text-box">
                     <div>신개념 프리미엄 어린이 미술교육</div>
                     <div>다섯손가락의 기적</div>
@@ -190,9 +196,11 @@
         </div>
         <div class="section bn6">
             <div class="bn-bg">
+                <div class="video-box">
                 <video width="100%" muted="muted" autoplay loop>
                     <source src="https://sehee3527.github.io/img1/pf/artfive/v003.mp4" type="video/mp4">
                 </video>
+                </div>
                 <div class="text-box">
                     <div>예술, 최고의 나를 만나는 순간</div>
                     <div>天人合一, 物我一體<br>
@@ -413,7 +421,7 @@
         <div class="section bn10 fp-auto-height">
             <div id="footer">
                 <a href="" class="logo"><img src="https://sehee3527.github.io/img1/pf/artfive/foot_center_logo.png" alt=""></a>
-                <ul class="footer-menu flex">
+                <ul class="footer-menu flex flex-jc-sa">
                     <li><a href="#">VELUE</a></li>
                     <li><a href="#">PROGRAMS</a></li>
                     <li><a href="#">ARTFIVE CAMPUS</a></li>
@@ -421,6 +429,32 @@
                     <li><a href="#">FRANCHISE</a></li>
                     <li><a href="#">TEACHERS</a></li>
                 </ul>
+                <div class="foot-bottom flex">
+                <a href="#"><img src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a>
+                <div class="text">2019 ART CHAIRE CO., LTD. All Rights Reserved. CEO YOON EUN JOUNG</div>
+                <ul class="footer-dot flex">
+                    <li>
+                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_insta.png" alt="">
+                        <div>인스타그램</div>
+                    </li>
+                    <li>
+                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon01.jpg" alt="">
+                        <div>수업상담</div>
+                    </li>
+                    <li>
+                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon02.jpg" alt="">
+                        <div>개설상담</div>
+                    </li>
+                    <li>
+                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon03.jpg" alt="">
+                        <div>리얼후기</div>
+                    </li>
+                    <li>
+                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon04.jpg" alt="">
+                        <div>센터찾기</div>
+                    </li>
+                </ul>
+                </div>
             </div>
         </div>
     </div>

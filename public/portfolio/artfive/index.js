@@ -1,3 +1,4 @@
+var $html = $('html');
 function FullPage() {
 
   $(document).ready(function () {
@@ -9,7 +10,7 @@ function FullPage() {
       onLeave: function (origin, destination, direction) {
         var $originVideo = $('#fullpage .section').eq(origin.index).find('video');
         var $destinationVideo = $('#fullpage .section').eq(destination.index).find('video');
-
+        $html.attr('data-fullpage-index', destination.index);
         if ( $originVideo.length > 0 ) {
           var video = $originVideo.get(0);
           video.pause();
@@ -20,6 +21,7 @@ function FullPage() {
           // video.currentTime = 0;
           video.play();
         };
+
       }
       //   슬라이드 직후에 실행
       // afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
@@ -34,6 +36,7 @@ function slickSlider() {
     });
   });
 }
+
 $(function () {
   FullPage();
   slickSlider();
