@@ -18,6 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <!-- 숫자 카운트 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
     <link rel="stylesheet" href="/portfolio/artfive/index.css">
     <script src="/portfolio/artfive/index.js"></script>
@@ -26,10 +30,10 @@
 <body>
     <div class="top-bar flex flex-jc-sb">
         <div class="logo-box">
-        <div class="logo"><a href="#" class="img-box"><img
-                    src="https://sehee3527.github.io/img1/pf/artfive/logo_white.png" alt=""></a></div>
-        <div class="logo-gray"><a href="#" class="img-box"><img
-                    src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a></div>
+            <div class="logo"><a href="#" class="img-box"><img
+                        src="https://sehee3527.github.io/img1/pf/artfive/logo_white.png" alt=""></a></div>
+            <div class="logo-gray"><a href="#" class="img-box"><img
+                        src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a></div>
         </div>
         <div class="top-bar-right flex">
             <div class="top-bar-right1 flex">
@@ -102,7 +106,7 @@
                             </g>
                         </svg></a></div>
             </div>
-            <div class="menu">
+            <div class="menu" onclick="Popup();">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -110,13 +114,24 @@
         </div>
     </div>
     </div>
+    <div class="pop-up">
+        <div class="pop-up-content">
+            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_center_logo.png" alt="">
+            <div>VALUE</div>
+            <div>PROGRAMS</div>
+            <div>ARTFIVE CAMPUS</div>
+            <div>PR</div>
+            <div>FRANCHISE</div>
+            <div>KIDS CAFE · TEACHERS</div>
+        </div>
+    </div>
     <div id="fullpage">
         <div class="section bn1">
             <div class="bn-bg">
                 <div class="video-box">
-                <video width="100%" muted="muted" autoplay loop>
-                    <source src="https://sehee3527.github.io/img1/pf/artfive/v005.mp4" type="video/mp4">
-                </video>
+                    <video width="100%" muted="muted" autoplay loop>
+                        <source src="https://sehee3527.github.io/img1/pf/artfive/v005.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="text-box">
                     <div>신개념 프리미엄 어린이 미술교육</div>
@@ -197,9 +212,9 @@
         <div class="section bn6">
             <div class="bn-bg">
                 <div class="video-box">
-                <video width="100%" muted="muted" autoplay loop>
-                    <source src="https://sehee3527.github.io/img1/pf/artfive/v003.mp4" type="video/mp4">
-                </video>
+                    <video width="100%" muted="muted" autoplay loop>
+                        <source src="https://sehee3527.github.io/img1/pf/artfive/v003.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="text-box">
                     <div>예술, 최고의 나를 만나는 순간</div>
@@ -282,10 +297,10 @@
                     <div class="bn8-name">
                         CREATIVE PROGRAMS
                     </div>
-                    <ul class="bn7-content-item flex flex-jc-sa">
+                    <ul class="bn7-content-item flex flex-jc-sa counter">
                         <li>
                             <img src="https://sehee3527.github.io/img1/pf/artfive/merit_icon01.jpg" alt="">
-                            <div>2003
+                            <div> 2003
                                 <div>설립</div>
                             </div>
                         </li>
@@ -356,11 +371,14 @@
                                         <div>05.01</div>
                                         <div>2020</div>
                                     </div>
-                                    <div class="media-content-item-item">
+                                    <div class="media-content-item-item flex-grow-1">
                                         <div class="name">"아이에게 미술을 선물하세요"김은정 영통교육원장</div>
                                         <div class="content">▲"아이에게 미술을 선물하세요"김은정 영통교욱원장아이들의 건강하고 밝은 성장은 모든 부모들의 공통된
                                             희망사...</div>
                                     </div>
+                                    <div class="plus-box">
+                                        <div class="plus"><span></span><span></span></div>
+                                    </div>
                                 </div>
 
                                 <div class="media-content-item flex">
@@ -368,11 +386,14 @@
                                         <div>05.01</div>
                                         <div>2020</div>
                                     </div>
-                                    <div class="media-content-item-item">
+                                    <div class="media-content-item-item flex-grow-1">
                                         <div class="name">"실패경험에서 자라는 창의력"윤은정 대표</div>
                                         <div class="content">▲"실패경험에서 자라는 창의력"윤은정 대표(주)아트체어(대표 윤은정)의 미술학원창업 프랜차이...
                                         </div>
                                     </div>
+                                    <div class="plus-box">
+                                        <div class="plus"><span></span><span></span></div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="media-content">
@@ -381,10 +402,13 @@
                                         <div>05.01</div>
                                         <div>2020</div>
                                     </div>
-                                    <div class="media-content-item-item">
+                                    <div class="media-content-item-item flex-grow-1">
                                         <div class="name">"행복한 아이가 잘논다"분당 정자동 박경희본원장</div>
                                         <div class="content">▲정자동 아동미술 아트파이브, '행복한 아이가 잘 논다'아동미술프랜차이즈 학원 아트파이브가 아이들의 발상을
                                             바탕으...</div>
+                                    </div>
+                                    <div class="plus-box">
+                                        <div class="plus"><span></span><span></span></div>
                                     </div>
                                 </div>
                                 <div class="media-content-item flex">
@@ -392,10 +416,13 @@
                                         <div>05.01</div>
                                         <div>2020</div>
                                     </div>
-                                    <div class="media-content-item-item">
+                                    <div class="media-content-item-item flex-grow-1">
                                         <div class="name">"세상을 아름답게하는 가람이 되자"아트파이브 동탄센터 신소영 원장</div>
                                         <div class="content">▲ 잍,파이브 동탄센터 교육원장 (사진=심건호기자)아이가 세상을 바라보는 관점은 '나'에서 출발한다. 모든
                                             사고체계가...</div>
+                                    </div>
+                                    <div class="plus-box">
+                                        <div class="plus"><span></span><span></span></div>
                                     </div>
                                 </div>
                             </div>
@@ -406,10 +433,13 @@
                                         <div>05.01</div>
                                         <div>2020</div>
                                     </div>
-                                    <div class="media-content-item-item">
+                                    <div class="media-content-item-item flex-grow-1">
                                         <div class="name">"인문학 초등미술교육의 힘" 동래 채윤천 교육원장</div>
                                         <div class="content">▲ 아트파이브 동래교육원 교육현장 "인문학 초등미술교육 아트파이브의 힘"동래교육원 남다른 교육 주목
                                             '부...</div>
+                                    </div>
+                                    <div class="plus-box">
+                                        <div class="plus"><span></span><span></span></div>
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +450,8 @@
         </div>
         <div class="section bn10 fp-auto-height">
             <div id="footer">
-                <a href="" class="logo"><img src="https://sehee3527.github.io/img1/pf/artfive/foot_center_logo.png" alt=""></a>
+                <a href="" class="logo"><img src="https://sehee3527.github.io/img1/pf/artfive/foot_center_logo.png"
+                        alt=""></a>
                 <ul class="footer-menu flex flex-jc-sa">
                     <li><a href="#">VELUE</a></li>
                     <li><a href="#">PROGRAMS</a></li>
@@ -430,30 +461,30 @@
                     <li><a href="#">TEACHERS</a></li>
                 </ul>
                 <div class="foot-bottom flex">
-                <a href="#"><img src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a>
-                <div class="text">2019 ART CHAIRE CO., LTD. All Rights Reserved. CEO YOON EUN JOUNG</div>
-                <ul class="footer-dot flex">
-                    <li>
-                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_insta.png" alt="">
-                        <div>인스타그램</div>
-                    </li>
-                    <li>
-                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon01.jpg" alt="">
-                        <div>수업상담</div>
-                    </li>
-                    <li>
-                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon02.jpg" alt="">
-                        <div>개설상담</div>
-                    </li>
-                    <li>
-                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon03.jpg" alt="">
-                        <div>리얼후기</div>
-                    </li>
-                    <li>
-                        <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon04.jpg" alt="">
-                        <div>센터찾기</div>
-                    </li>
-                </ul>
+                    <a href="#"><img src="https://sehee3527.github.io/img1/pf/artfive/logo_gray.png" alt=""></a>
+                    <div class="text">2019 ART CHAIRE CO., LTD. All Rights Reserved. CEO YOON EUN JOUNG</div>
+                    <ul class="footer-dot flex">
+                        <li>
+                            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_insta.png" alt="">
+                            <div>인스타그램</div>
+                        </li>
+                        <li>
+                            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon01.jpg" alt="">
+                            <div>수업상담</div>
+                        </li>
+                        <li>
+                            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon02.jpg" alt="">
+                            <div>개설상담</div>
+                        </li>
+                        <li>
+                            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon03.jpg" alt="">
+                            <div>리얼후기</div>
+                        </li>
+                        <li>
+                            <img src="https://sehee3527.github.io/img1/pf/artfive/foot_right_util_icon04.jpg" alt="">
+                            <div>센터찾기</div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
