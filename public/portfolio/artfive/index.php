@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>모작 아트파이브</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
     <!-- 구글 폰트 불러오기 -->
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
+    
     <!-- 풀페이지 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    
     <!-- 슬릭캐러셀 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    
     <!-- 숫자 카운트 불러오기 -->
     <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
@@ -28,6 +32,7 @@
 </head>
 
 <body>
+
     <div class="top-bar flex flex-jc-sb">
         <div class="logo-box">
             <div class="logo"><a href="#" class="img-box"><img
@@ -297,10 +302,10 @@
                     <div class="bn8-name">
                         CREATIVE PROGRAMS
                     </div>
-                    <ul class="bn7-content-item flex flex-jc-sa counter">
+                    <ul class="bn7-content-item flex flex-jc-sa">
                         <li>
                             <img src="https://sehee3527.github.io/img1/pf/artfive/merit_icon01.jpg" alt="">
-                            <div> 2003
+                            <div class="pp"><span class="counter"> 2003</span>
                                 <div>설립</div>
                             </div>
                         </li>
