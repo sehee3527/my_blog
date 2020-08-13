@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>코딩중 샤롯데</title>
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -18,7 +18,9 @@
 
     <!-- 구글 폰트 불러오기 -->
     <!-- rotobo(400/700/900), notosanskr(400/600/900) -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <!-- 폰트어썸 불러오기 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -63,15 +65,55 @@
             <div class="slider-item"
                 style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd-main.png')">
                 <div class="text-box">
-                <div>2019.10.02 ~ 2020.01.27.</div>
-                <div>SWEENEY TODD</div>
-                <div>The Demon Barber Of Fleet Street</div>
-                <div>블랙코미디와 스릴러 장르의 완벽한 결합 <br>불협화음과 박자의 변주가 그려낸 극적 긴장감 <br><br>광기와 환희로 가득한 날 선 복수극</div>
-                <div>view more</div>
-            </div>
+                    <div>2019.10.02 ~ 2020.01.27.</div>
+                    <div>SWEENEY TODD</div>
+                    <div>The Demon Barber Of Fleet Street</div>
+                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 <br>불협화음과 박자의 변주가 그려낸 극적 긴장감 <br><br>광기와 환희로 가득한 날 선 복수극</div>
+                    <div>view more</div>
+                </div>
             </div>
             <div class="slider-item">하세요</div>
             <div class="slider-item">반갑습니다.</div>
+        </div>
+    </div>
+    <div class="bn2 musical con flex">
+        <div class="musical-name">
+            <div>MUSICAL</div>
+            <div>현재 진행중인 뮤지컬을 확인하세요</div>
+        </div>
+        <div class="musical-list">
+            <div class="musical-slider">
+                <div class="musical-item">
+                    <div>스위니 토드</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
+                    <div>2019.10.02 ~ 2020.01.27</div>
+                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                </div>
+                <div class="musical-item">
+                    <div>스위니 토드</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
+                    <div>2019.10.02 ~ 2020.01.27</div>
+                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                </div>
+                <div class="musical-item">
+                    <div>스위니 토드</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
+                    <div>2019.10.02 ~ 2020.01.27</div>
+                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                </div>
+                <div class="musical-item">
+                    <div>스위니 토드</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
+                    <div>2019.10.02 ~ 2020.01.27</div>
+                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bn-3">
+        <div class="bn-3-content con">
+            <img src="https://sehee3527.github.io/img1/pf/charlottetheate/N00422_10.jpg" alt="">
+            <img src="https://sehee3527.github.io/img1/pf/charlottetheate/Ophelia.jpg" alt="">
         </div>
     </div>
 </body>

@@ -10,3 +10,14 @@ $(document).ready(function () {
     });
   });
   
+  $(document).ready(function () {
+    $(".musical-slider").slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      arrows: true,
+      slidesToScroll: 1
+    });
+  });
+  
