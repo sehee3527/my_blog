@@ -111,11 +111,57 @@
         </div>
     </div>
     <div class="bn-3">
-        <div class="bn-3-content con">
-            <img src="https://sehee3527.github.io/img1/pf/charlottetheate/N00422_10.jpg" alt="">
-            <img src="https://sehee3527.github.io/img1/pf/charlottetheate/Ophelia.jpg" alt="">
+        <div class="bn-3-content con flex">
+            <div class="img">
+                <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/N00422_10.jpg')">
+                </div>
+                <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/Ophelia.jpg')">
+                </div>
+            </div>
+            <div class="bn-3-text-box">
+                <div></div>
+                <div>Hamlet<span>2019.10.02. ~ 2020.01.27</span></div>
+                <div>William shakespeare - hamlet</div>
+                <div>대중적인 선율의 뮤지컬 넘버들과 화려한 회전 무대를 <br>사용한 역동적인 드라마 전개가 돋보이는 뮤지컬 <햄릿>
+                </div>
+                <div>view more</div>
+            </div>
         </div>
     </div>
+    <div class="bn-4">
+        <div class="bn-4-bg"
+            style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/bg-img.png')"></div>
+        <div class="bn-4-content con flex flex-jc-sb">
+            <div class="bn-4-left">
+                <div>Charlottetheate</div>
+                <div>대한민국 최초이자 최고의 뮤지컬 전용극장<br>샤롯데씨어터</div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="bn-4-right flex">
+                <div class="flex-grow-1">
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')"></div>
+                </div>
+                <div class="flex-grow-1">
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')"></div>
+                </div>
+                <div class="flex-grow-1">
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bn-5" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img4.png')">
+    <div>Charlottetheate</div>
+    <div>샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와 문화발전에 기여해 나갈 것입니다.</div>
+    </div>
+    <div class="bn-6"></div>
+    <div class="footer"></div>
 </body>
 
 </html>

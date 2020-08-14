@@ -454,7 +454,7 @@ label[for] {
 }
 
 .main-bn>.slider .slider-item {
-  padding-bottom: 6.7%;
+  padding-bottom: 7%;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -567,13 +567,14 @@ label[for] {
 .bn2 {
   margin-top: 7%;
   height: 0;
-  padding-bottom: 22%
+  padding-bottom: 22%;
+  padding-top:2%;
 }
 
 .bn2>.musical-name {
   width: 22%;
   box-sizing: border-box;
-  padding-left:2%;
+  padding-left:3%;
 }
 
 .bn2>.musical-name>div:first-child {
@@ -583,7 +584,7 @@ label[for] {
 }
 
 .bn2>.musical-name>div:last-child {
-  font-size: 0.5vw;
+  font-size: .8vw;
   font-weight: 500;
   line-height: 1vw;
   color: #7a7a7a
@@ -671,12 +672,178 @@ label[for] {
   height: 0;
   padding-bottom: 50%;
   position: relative;
+  overflow: hidden;
 }
-.bn-3>.bn-3-content>img:first-child{
+.bn-3>.bn-3-content>.img{
   width:50%;
-
+  padding-top:10%;
+  
 }
-.bn-3>.bn-3-content>img:nth-child(2){
-  position: absolute;
+.bn-3>.bn-3-content>.img>div:first-child{
+  width:100%;
+  padding-bottom: 70%;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.bn-3>.bn-3-content>.img>div:last-child{
+  width:40%;
+padding-bottom: 45%;
+margin-top:-28%;
+margin-left: 80%;
+background-position: 60% 20%;
+background-repeat:no-repeat;
+background-size: 180%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box{
+  color:white;
+  width:40%;
+  padding-top:21%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:first-child{
+  width: 150%;
+  border-top:1px solid white;
+  margin-left: 18%;
+  opacity: .9;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:nth-child(2){
+  font-size: 3vw;
+  padding-left: 18%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:nth-child(2)>span{
+  font-size: 1vw;
+  padding-left: 2%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:nth-child(3){
+  font-size: 1.4vw;
+  line-height: 1.7vw;
+  padding-left: 18%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:nth-child(4){
+  font-size: 1vw;
+  line-height: 1.4vw;
+  padding-top:2.5%;
+  padding-left: 37%;
+  width:73%;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:last-child{
+  font-size: 1vw;
+  margin-left: 37%;
+  margin-top:6%;
+  text-align: center;
+  padding: 2% 0%;
+  width:40%;
+  border:1px solid white;
+  transition: background-color .3s, color .3s;
+}
+.bn-3>.bn-3-content>.bn-3-text-box>div:last-child:hover{
+  background-color: white;
+  color:black;
 }
 /* 3번째 배너 끝 */
+
+
+/* 배너4 시작 */
+
+.bn-4{
+  height: 0;
+  padding-bottom: 48%;
+  position: relative;
+  overflow: hidden;
+}
+.bn-4>.bn-4-bg{
+  position: absolute;
+  top:0;
+  left: 0;
+  width:60%;
+  padding-bottom: 47%;
+  background-position: left center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity: 15%;
+  margin-top:-5%;
+  z-index: -1;
+}
+.bn-4>.bn-4-content{
+  height: 0;
+  padding-bottom: 48%;
+}
+.bn-4>.bn-4-content>.bn-4-left{
+  padding-top:23%;
+  padding-left: 5%;
+}
+.bn-4>.bn-4-content>.bn-4-left>div:first-child{
+  font-size:3vw;
+  font-weight: 500;
+}
+.bn-4>.bn-4-content>.bn-4-left>div:nth-child(2){
+  font-size:1vw;
+}
+.bn-4>.bn-4-content>.bn-4-left>div:last-child{
+  width:190%;
+  background-color: #CF1218;
+  padding-bottom: 35%;
+  margin-left: -70%;
+  margin-top:5%;
+}
+.bn-4>.bn-4-content>.bn-4-right{
+  width:55%;
+  padding-bottom: 60%;
+}
+.bn-4>.bn-4-content>.bn-4-right>div{
+  border-left: 1px solid #afafaf;
+  padding-bottom: 110%;
+}
+.bn-4>.bn-4-content>.bn-4-right>div:last-child{
+  border-right: 1px solid #afafaf;
+}
+.bn-4>.bn-4-content>.bn-4-right>div>div{
+  padding-bottom: 210%;
+  margin-top:80%;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.bn-4>.bn-4-content>.bn-4-right>div:nth-child(2)>div{
+  margin-top:40%;
+}
+.bn-4>.bn-4-content>.bn-4-right>div:last-child>div{
+  margin-top:60%;
+}
+/* 배너4 끝 */
+
+
+/* 배너5 시작 */
+
+.bn-5{
+  padding-bottom: 20%;
+  height: 0;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  color:white;
+  margin-bottom:1000px;
+}
+.bn-5>div:first-child{
+  padding-top:6.5%;
+  font-size: 3vw;
+  font-weight:500;
+}
+.bn-5>div:last-child{
+  font-size: 1vw;
+  width:50%;
+  margin: 0 auto;
+  opacity: .7;
+  line-height: 1.4vw;
+}
+/* 배너5 끝 */
+
+
+/* 배너6 시작 */
+
+/* 배너6 끝 */
+
+
+/* 푸터시작 */
+/* 푸터끝 */
