@@ -21,3 +21,14 @@ $(document).ready(function () {
     });
   });
   
+  
+  $(document).ready(function () {
+    $(".notice").slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      arrows: true,
+    });
+  });
+  

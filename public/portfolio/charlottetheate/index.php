@@ -43,7 +43,7 @@
             </a>
         </div>
         <ul class="menu-bar flex flex-jc-sa flex-grow-1 flex-ai-c">
-            <li><a href="#">charlottetheate</a></li>
+            <li><a href="#">charlottetheater</a></li>
             <li><a href="#">Presentation</a></li>
             <li><a href="#">Ticket</a></li>
             <li><a href="#">Event</a></li>
@@ -133,35 +133,156 @@
             style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/bg-img.png')"></div>
         <div class="bn-4-content con flex flex-jc-sb">
             <div class="bn-4-left">
-                <div>Charlottetheate</div>
+                <div>Charlottetheater</div>
                 <div>대한민국 최초이자 최고의 뮤지컬 전용극장<br>샤롯데씨어터</div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="flex">
+                    <div>
+                        <img src="https://sehee3527.github.io/img1/pf/charlottetheate/1.png" alt="">
+                        <div>티멧예매</div>
+                    </div>
+                    <div>
+                        <img src="https://sehee3527.github.io/img1/pf/charlottetheate/2.png" alt="">
+                        <div>대관안내</div>
+                    </div>
+                    <div>
+                        <img src="https://sehee3527.github.io/img1/pf/charlottetheate/3.png" alt="">
+                        <div>오시는 길</div>
+                    </div>
+                    <div>
+                        <img src="https://sehee3527.github.io/img1/pf/charlottetheate/4.png" alt="">
+                        <div>채용공고</div>
+                    </div>
+                    <div>
+                        <img src="https://sehee3527.github.io/img1/pf/charlottetheate/5.png" alt="">
+                        <div>제휴할인</div>
+                    </div>
                 </div>
             </div>
             <div class="bn-4-right flex">
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')"></div>
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')">
+                    </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')"></div>
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')">
+                    </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')"></div>
+                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="bn-5" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img4.png')">
-    <div>Charlottetheate</div>
-    <div>샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와 문화발전에 기여해 나갈 것입니다.</div>
+        <div>Charlottetheater</div>
+        <div>샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와
+            문화발전에 기여해 나갈 것입니다.</div>
     </div>
-    <div class="bn-6"></div>
-    <div class="footer"></div>
+    <div class="bn-6 con flex">
+        <div class="bn-6-notice">
+            <div class="notice-name">Notice</div>
+            <div class="notice">
+                <div class="item">
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2020<div>07.28</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>[예매오픈]<브로드웨이42번가>추가회차 티켓오픈 안내</div>
+                            <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>추가회차 오픈안내입니다.</div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2020<div>07.28</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>[예매오픈]<브로드웨이42번가>마지막 티켓 오픈</div>
+                            <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>마지막 티켓 안내입니다</div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2020<div>04.22</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>[예매오픈]뮤지컬<드라큘라>마지막 티켓오픈 안내</div>
+                            <div>항상 샤롯데씨어터를 사랑해 주셔서 감사합니다.<br>뮤지컬 <드라큘라> 마지막 티켓 오픈 안내입니다.</div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2020<div>04.01</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>[오픈일시변경] 뮤지컬 드라큘라 (Dracula : The Musical) 5차 티켓 오픈</div>
+                            <div>항상 샤롯데씨어터를 사랑해 주셔서 감사합니다.<br>5차 티켓오픈 일정이 아래와 같이 변경되었습니다.</div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2020<div>02.05</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>신종 코로나바이러스 감염증 대처 계획 안내</div>
+                            <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>추가회차 오픈안내입니다.</div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                    <div class="item-content flex">
+                        <div class="notice-date">
+                            2019<div>12.06</div>
+                        </div>
+                        <div class="notice-content">
+                            <div>
+                                <스위니토드> 수험생 특별 할인 연장
+                            </div>
+                            <div>
+                                <스위니토드>가 준비한 수험생 특별 할인 기간이 연장 되었습니다.<br>* 2020 대학수학능력시험 수험생 특별 할인.
+                            </div>
+                        </div>
+                        <div class="notice-plus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bn-6-service flex-grow-1">
+            <div class="service-name">Service center</div>
+            <div>자주하는 질문</div>
+            <div>[예매] 로그인 후 예매 확인시 예매리스트가 보이지 않습니다.</div>
+            <div>[대관] 대관 신청 시 별도의 자격 기준이 있나요?</div>
+            <div>[대관] 대관 신청에 필요한 자료는 무엇인가요?</div>
+            <div class="flex">
+                <div class="flex-grow-1">FAQ<div>바로가기</div>
+                </div>
+                <div class="flex-grow-1">1:1 문의<div>1644-0078</div>
+                </div>
+                <div class="flex-grow-1">단체 관람<div>1899-6336</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="con flex">
+            <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/logo_white.png" alt=""></div>
+            <div class="flex-grow-1">
+                <div>화원약관 | 개인정보처리방침 | 사이트맵<br>서울특별시 송파구 올림픽로 240(잠실동) 롯데컬쳐웍스(주) 대표이사 기원규 사업자 등록번호 313-87-00979 | 개인정보보호 책임자 상무 이미선</div>
+                <div></div>
+                <div>티켓예매문의 | 1899-6336&nbsp;&nbsp;&nbsp;공연장(시설킻 운영)문의 | 1644-0078&nbsp;&nbsp;&nbsp;공연장 광고문의 | KIM_YG@lotte.net <br>CopyrightⓒLOTTE CULTUREWORKS All rights Reserved.</div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
