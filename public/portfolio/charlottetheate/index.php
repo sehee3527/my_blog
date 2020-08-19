@@ -90,16 +90,16 @@
                     <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
                 </div>
                 <div class="musical-item">
-                    <div>스위니 토드</div>
-                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
-                    <div>2019.10.02 ~ 2020.01.27</div>
-                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                    <div>드라큘라</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/dracula.png" alt=""></div>
+                    <div>2020.02.11 ~ 2020.06.07</div>
+                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤/한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를 사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을 초월한 세기의 러브스토리</div>
                 </div>
                 <div class="musical-item">
-                    <div>스위니 토드</div>
-                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd.png" alt=""></div>
-                    <div>2019.10.02 ~ 2020.01.27</div>
-                    <div>블랙코미디와 스릴러 장르의 완벽한 결합 / 불협화음과 박자의 변주가 그려낸 극적 긴장감</div>
+                    <div>브로드웨이 42번가</div>
+                    <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/42nd.png" alt=""></div>
+                    <div>2020.06.20 ~ 2020.08.23</div>
+                    <div>화려한 의상과 무대, 환상의 탭댄스, 중독적인 뮤지컬넘버/당신이 꿈꿔온 바로 그 뮤지컬</div>
                 </div>
                 <div class="musical-item">
                     <div>스위니 토드</div>
@@ -120,11 +120,11 @@
             </div>
             <div class="bn-3-text-box">
                 <div></div>
-                <div>Hamlet<span>2019.10.02. ~ 2020.01.27</span></div>
-                <div>William shakespeare - hamlet</div>
-                <div>대중적인 선율의 뮤지컬 넘버들과 화려한 회전 무대를 <br>사용한 역동적인 드라마 전개가 돋보이는 뮤지컬 <햄릿>
+                <div class="active-on-visible">Hamlet<span>2019.10.02. ~ 2020.01.27</span></div>
+                <div class="active-on-visible">William shakespeare - hamlet</div>
+                <div class="active-on-visible">대중적인 선율의 뮤지컬 넘버들과 화려한 회전 무대를 <br class="active-on-visible">사용한 역동적인 드라마 전개가 돋보이는 뮤지컬 <햄릿>
                 </div>
-                <div>view more</div>
+                <div class="active-on-visible">view more</div>
             </div>
         </div>
     </div>
@@ -133,26 +133,26 @@
             style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/bg-img.png')"></div>
         <div class="bn-4-content con flex flex-jc-sb">
             <div class="bn-4-left">
-                <div>Charlottetheater</div>
-                <div>대한민국 최초이자 최고의 뮤지컬 전용극장<br>샤롯데씨어터</div>
+                <div class="active-on-visible">Charlottetheater</div>
+                <div class="active-on-visible">대한민국 최초이자 최고의 뮤지컬 전용극장<br>샤롯데씨어터</div>
                 <div class="flex">
-                    <div>
+                    <div class="active-on-visible">
                         <img src="https://sehee3527.github.io/img1/pf/charlottetheate/1.png" alt="">
-                        <div>티멧예매</div>
+                        <div>티켓예매</div>
                     </div>
-                    <div>
+                    <div class="active-on-visible">
                         <img src="https://sehee3527.github.io/img1/pf/charlottetheate/2.png" alt="">
                         <div>대관안내</div>
                     </div>
-                    <div>
+                    <div class="active-on-visible">
                         <img src="https://sehee3527.github.io/img1/pf/charlottetheate/3.png" alt="">
                         <div>오시는 길</div>
                     </div>
-                    <div>
+                    <div class="active-on-visible">
                         <img src="https://sehee3527.github.io/img1/pf/charlottetheate/4.png" alt="">
                         <div>채용공고</div>
                     </div>
-                    <div>
+                    <div class="active-on-visible">
                         <img src="https://sehee3527.github.io/img1/pf/charlottetheate/5.png" alt="">
                         <div>제휴할인</div>
                     </div>
@@ -160,23 +160,23 @@
             </div>
             <div class="bn-4-right flex">
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')">
+                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')">
                     </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')">
+                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')">
                     </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')">
+                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="bn-5" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img4.png')">
-        <div>Charlottetheater</div>
-        <div>샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와
+        <div class="active-on-visible">Charlottetheater</div>
+        <div class="active-on-visible">샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와
             문화발전에 기여해 나갈 것입니다.</div>
     </div>
     <div class="bn-6 con flex">
@@ -192,7 +192,9 @@
                             <div>[예매오픈]<브로드웨이42번가>추가회차 티켓오픈 안내</div>
                             <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>추가회차 오픈안내입니다.</div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                     <div class="item-content flex">
                         <div class="notice-date">
@@ -202,7 +204,9 @@
                             <div>[예매오픈]<브로드웨이42번가>마지막 티켓 오픈</div>
                             <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>마지막 티켓 안내입니다</div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                 </div>
                 <div class="item">
@@ -214,17 +218,21 @@
                             <div>[예매오픈]뮤지컬<드라큘라>마지막 티켓오픈 안내</div>
                             <div>항상 샤롯데씨어터를 사랑해 주셔서 감사합니다.<br>뮤지컬 <드라큘라> 마지막 티켓 오픈 안내입니다.</div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                     <div class="item-content flex">
                         <div class="notice-date">
                             2020<div>04.01</div>
                         </div>
                         <div class="notice-content">
-                            <div>[오픈일시변경] 뮤지컬 드라큘라 (Dracula : The Musical) 5차 티켓 오픈</div>
+                            <div>[오픈일시변경] 뮤지컬 드라큘라 5차 티켓 오픈</div>
                             <div>항상 샤롯데씨어터를 사랑해 주셔서 감사합니다.<br>5차 티켓오픈 일정이 아래와 같이 변경되었습니다.</div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                 </div>
                 <div class="item">
@@ -236,7 +244,9 @@
                             <div>신종 코로나바이러스 감염증 대처 계획 안내</div>
                             <div>안녕하세요 샤롯데씨어터입니다.<br>뮤지컬<브로드웨이42번가>추가회차 오픈안내입니다.</div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                     <div class="item-content flex">
                         <div class="notice-date">
@@ -250,7 +260,9 @@
                                 <스위니토드>가 준비한 수험생 특별 할인 기간이 연장 되었습니다.<br>* 2020 대학수학능력시험 수험생 특별 할인.
                             </div>
                         </div>
-                        <div class="notice-plus"></div>
+                        <div class="notice-plus">
+                            <div><i class="fas fa-plus"></i></div>
+                        </div>
                     </div>
                 </div>
             </div>
