@@ -2,10 +2,10 @@ $(document).ready(function () {
     $(".slider").slick({
       dots: true,
       infinite: true,
-      speed: 300,
+      speed: 1000,
       slidesToShow: 1,
-    //   autoplay: true,
-    //   autoplaySpeed: 5000,
+      autoplay: true,
+      autoplaySpeed: 3500,
       arrows: false
     });
   });
@@ -106,7 +106,13 @@ function ActiveOnVisible__checkAndActive() {
 
 /* 발견되면 활성화시키는 라이브러리 끝 */
 
+function start() {
+  $('.slider-item:nth-child(2)').addClass('start')
+  
+}
+
 $(function(){
   TopBar_init();
   ActiveOnVisible__init();
+  start();
 });

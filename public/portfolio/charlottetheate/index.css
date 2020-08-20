@@ -487,7 +487,16 @@ body{
   right: 0;
   background-color: rgba(0, 0, 0, .2)
 }
-
+.main-bn>.slider .slider-item:nth-child(4):before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .2)
+}
 .main-bn>.slider .slider-item>.text-box {
   position: absolute;
   top: 50%;
@@ -495,7 +504,33 @@ body{
   transform: translateY(-50%);
   font-weight: 300;
 }
+/* 슬라이더 텍스트 효과 */
+.main-bn>.slider .slider-item>.text-box>div, .main-bn>.slider .slider-item:nth-child(2).slick-active>.text-box>div{
+  transform: translateY(30%);
+  opacity: 0;
+  transition:transform .5s 1s, opacity .5s 1s;
+}
+.main-bn>.slider .slider-item>.text-box>div:nth-child(2), .main-bn>.slider .slider-item:nth-child(2).slick-active.start>.text-box>div:nth-child(2){
+  transition:transform .7s 1.2s, opacity .7s 1.2s;
+}
+.main-bn>.slider .slider-item>.text-box>div:nth-child(3), .main-bn>.slider .slider-item:nth-child(2).slick-active.start>.text-box>div:nth-child(3){
+  transition:transform .9s 1.4s, opacity .9s 1.4s;
+}
+.main-bn>.slider .slider-item>.text-box>div:nth-child(4), .main-bn>.slider .slider-item:nth-child(2).slick-active.start>.text-box>div:nth-child(4){
+  transition:transform .7s 1.8s, opacity .7s 1.8s;
+}
+.main-bn>.slider .slider-item>.text-box>div:nth-child(5), .main-bn>.slider .slider-item:nth-child(2).slick-active.start>.text-box>div:nth-child(5){
+  transition:transform .5s 2s, opacity .5s 2s, color .3s .1s;
+}
+.main-bn>.slider .slider-item.slick-active>.text-box>div, .main-bn>.slider .slider-item:nth-child(2).slick-active.start>.text-box>div{
+  transform: translateY(0%);
+  opacity: 1;
+}
 
+/* 슬라이더 텍스트 효과 끝 */
+.main-bn>.slider .slider-item:nth-child(4)>.text-box{
+  left:10%;
+}
 .main-bn>.slider .slider-item>.text-box>div:first-child {
   font-size: 1.5vw;
 }
@@ -521,7 +556,6 @@ body{
   font-size: 1vw;
   margin-top: 5%;
   position: relative;
-  transition: color .3s .1s;
 }
 
 .main-bn>.slider .slider-item>.text-box>div:last-child:hover {
@@ -927,8 +961,8 @@ margin-left: 37%;
 }
 .bn-4>.bn-4-content>.bn-4-right>div:nth-child(2)>div{
   margin-top:40%;
-  transform: translateY(-40%);
-  transition:transform 1s .3s, opacity 1s .3s;
+  transform: translateY(-10%);
+  transition:transform 1s 1s, opacity 1s 1s;
 }
 .bn-4>.bn-4-content>.bn-4-right>div:last-child>div{
   margin-top:60%;
@@ -954,13 +988,15 @@ margin-left: 37%;
 }
 .bn-5>div:first-child{
   padding-top:6.5%;
+}
+.bn-5>div:nth-child(2){
   font-size: 3vw;
   font-weight:500;
   transform: translateY(30%);
   opacity: 0;
   transition:transform .8s, opacity .8s;
 }
-.bn-5>div:first-child.active{
+.bn-5>div:nth-child(2).active{
   transform: translateY(0);
   opacity: 1;
 }

@@ -65,15 +65,33 @@
             <div class="slider-item"
                 style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/sweeney-todd-main.png')">
                 <div class="text-box">
-                    <div>2019.10.02 ~ 2020.01.27.</div>
+                    <div>2019.10.02 ~ 2020.01.27</div>
                     <div>SWEENEY TODD</div>
                     <div>The Demon Barber Of Fleet Street</div>
                     <div>블랙코미디와 스릴러 장르의 완벽한 결합 <br>불협화음과 박자의 변주가 그려낸 극적 긴장감 <br><br>광기와 환희로 가득한 날 선 복수극</div>
                     <div>view more</div>
                 </div>
             </div>
-            <div class="slider-item">하세요</div>
-            <div class="slider-item">반갑습니다.</div>
+            <div class="slider-item"
+                style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/42nd-main.png')">
+                <div class="text-box">
+                    <div>2020.06.20 ~ 2020.08.23</div>
+                    <div>MUSICAL 42ND STREET</div>
+                    <div>Broadway musical story</div>
+                    <div> 화려한 의상과 무대, 환상의 탭댄스, 중독적인 <br>뮤지컬넘버/당신이 꿈꿔온 바로 그 뮤지컬</div>
+                    <div>view more</div>
+                </div>
+            </div>
+            <div class="slider-item"
+                style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/dracula-main.png')">
+                <div class="text-box">
+                    <div>2020.02.11 ~ 2020.06.07</div>
+                    <div>DRACULA</div>
+                    <div>IM-MOR-DI-TE NOS-FE-RA-TU</div>
+                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤 <br>한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를<br>사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을 초월한<br> 세기의 러브스토리</div>
+                    <div>view more</div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="bn2 musical con flex">
@@ -175,6 +193,7 @@
         </div>
     </div>
     <div class="bn-5" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img4.png')">
+        <div></div>
         <div class="active-on-visible">Charlottetheater</div>
         <div class="active-on-visible">샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와
             문화발전에 기여해 나갈 것입니다.</div>
