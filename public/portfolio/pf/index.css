@@ -1,7 +1,7 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 html {
     /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
-    font-family:"code-light","nanumsquare", "Roboto","genrtica-bold-er", "Noto Sans KR", sans-serif;
+    font-family:"code-light","nanumsquare", "Roboto","generica-bold-er", "Noto Sans KR", sans-serif;
   }
   
   /* 노말라이즈 */
@@ -482,7 +482,7 @@ height: 30px;
   font-weight: 500;
   bottom:15%;
   left: 0%;
-  font-family: "genrtica";
+  font-family: "generica";
 }
 .page-1>.page-1-con>div:nth-child(6){
   position: absolute;
@@ -492,7 +492,7 @@ height: 30px;
   font-weight: 500;
   bottom:20%;
   right: 0%;
-  font-family: "genrtica";
+  font-family: "generica";
 }
 
 /* 두번째 배너 */
@@ -532,7 +532,7 @@ height: 30px;
   display: inline-block;
   top:700px;
   left: 5px;
-  font-family: "genrtica";
+  font-family: "generica";
   font-size: 1rem;
 
 }
@@ -545,7 +545,7 @@ height: 30px;
   display: inline-block;
   top:1100px;
   left: 5px;
-  font-family: "genrtica";
+  font-family: "generica";
   font-size: 1rem;
   white-space: nowrap;
   transform: rotate(90deg);
@@ -579,6 +579,26 @@ height: 30px;
   background-color: #565656;
   height:35vh;
   position: relative;
+}
+
+.page-3>.page-3-con{
+  height: 100%;
+  position: relative;
+}
+.page-3>.page-3-con>.page-3-line{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+.page-3>.page-3-con>.page-3-line>div{
+  height: 100%;
+  width:1px;
+  background-color: #dfdfdf;
+}
+.page-3>.page-3-con>.page-3-line>div:nth-child(2){
+  margin-right: 25%;
 }
 .page-3>.pad{
   position: absolute;
@@ -696,4 +716,116 @@ width:45%;
 }
   body{
       height: 10000px;
+  }
+
+  /* 페이지4 */
+  .page-4{
+    background-color: #565656;
+    height:130vh;
+    position: relative;
+  }
+  
+  @media(max-width:1500px){
+    .page-4{
+      height:100vh;
+    }
+  }
+  @media(max-width:1200px){
+    .page-4{
+      height:85vh;
+    }
+  }
+  .page-4>.page-4-con{
+    height: 100%;
+    position: relative;
+  }
+  .page-4>.page-4-con>.page-4-line{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+  }
+  .page-4>.page-4-con>.page-4-line>div{
+    height: 100%;
+    width:1px;
+    background-color: #dfdfdf;
+  }
+  .page-4>.page-4-con>.page-4-line>div:nth-child(2){
+    margin-right: 25%;
+  }
+  .page-4>.page-4-con>.phone{
+    width:37.5%;
+    height: 100%;
+  }
+  .page-4>.page-4-con>.phone>.phone-img{
+    transform: translateX(5%) translateY(5%);
+  }
+  .page-4>.page-4-con>.phone>div:first-child{
+    border-bottom: 1px solid #dfdfdf;
+    color:white;
+    padding:10px;
+  }
+  .page-4>.page-4-con>.phone>div:first-child>div:first-child{
+    font-size: 3rem;
+  }
+  .page-4>.page-4-con>.watch{
+    width:62.5%;
+    height: 100%;
+  }
+  .page-4>.page-4-con>.watch>.watches{
+    width:100%;
+    border-top:1px solid #dfdfdf;
+    margin-top:125px;
+    text-align: center;
+    height: 100%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div{
+    margin: 0 auto;
+    height: 80%;
+    width:90%;
+    padding-top: 5%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div{
+    background-color: black;
+    width:calc(100% / 3 - 4%);
+    padding-bottom: 30%;
+    border-radius:15%;
+    margin:2%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div:nth-child(3n+2){
+    transform: translateY(-20px);
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    color:white;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-in{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: "generica";
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-in>div:last-child{
+    width:10%;
+    padding-right: 10%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-in>div:last-child>div{
+    height: 1px;
+    width:100%;
+    background-color: white;
+    margin-top:30%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-name{
+    padding-top:30%;
+    font-size: 2vw;
+    word-break:break-all;
+    margin: 0 5%;
+    cursor: pointer;
+    font-family: "generica";
   }

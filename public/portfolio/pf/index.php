@@ -51,6 +51,13 @@
         </div>
     </section>
     <section class="page-3">
+        <div class="page-3-con con">
+            <div class="page-3-line flex flex-jc-sb">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
         <div class="pad img-box"><img src="http://sehee3527.github.io/img1/pf/pf/pad_1.png" alt="">
             <div class="pad-content">
                 <div class="pad-top-bar flex flex-jc-sa">
@@ -101,8 +108,8 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>HTML</div>
-                                            </div>
+                                            <div>HTML</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
@@ -116,13 +123,12 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>CSS</div>
-                                            </div>
+                                            <div>CSS</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>기본기 탄탄한 의미있는 구조 마크업,
-                                        웹 표준·웹 접근성에 대한 전반적인 이해</div>
+                                    <div>이해도 높은 사용으로 보다 실용적인 코드 작성, 반응형 사이트 이해 및 구현</div>
                                     <div>70%</div>
                                 </div>
                             </div>
@@ -131,13 +137,12 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>JQ</div>
-                                            </div>
+                                            <div>JQ</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>기본기 탄탄한 의미있는 구조 마크업,
-                                        웹 표준·웹 접근성에 대한 전반적인 이해</div>
+                                    <div>제이쿼리 라이브러리를 사용하여 필요한 기능 구현, 유용한 플러그인 사용</div>
                                     <div>70%</div>
                                 </div>
                             </div>
@@ -146,13 +151,12 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>JS</div>
-                                            </div>
+                                            <div>JS</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>기본기 탄탄한 의미있는 구조 마크업,
-                                        웹 표준·웹 접근성에 대한 전반적인 이해</div>
+                                    <div>자바스크립트의 기본 문법 이해, 기본적인 알고리즘 문제 해결</div>
                                     <div>70%</div>
                                 </div>
                             </div>
@@ -161,13 +165,12 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>PS</div>
-                                            </div>
+                                            <div>PS</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>기본기 탄탄한 의미있는 구조 마크업,
-                                        웹 표준·웹 접근성에 대한 전반적인 이해</div>
+                                    <div>필요한 툴과 다양한 편집기능을 유용하게 사용 가능</div>
                                     <div>70%</div>
                                 </div>
                             </div>
@@ -176,16 +179,106 @@
                                     <div>
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
-                                                <div>AI</div>
-                                            </div>
+                                            <div>AI</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>기본기 탄탄한 의미있는 구조 마크업,
-                                        웹 표준·웹 접근성에 대한 전반적인 이해</div>
+                                    <div>필요한 툴과 기본적인 아이콘 제작 및 수정 가능</div>
                                     <div>70%</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-4">
+        <div class="page-4-con con flex">
+            <div class="page-4-line flex flex-jc-sb">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="phone">
+                <div class="flex flex-jc-sb flex-ai-e">
+                    <div>PORTFOLIO</div>
+                    <div>CODING</div>
+                </div>
+                <div class="phone-img img-box"><img src="http://sehee3527.github.io/img1/pf/pf/phone_1.png" alt="">
+                </div>
+            </div>
+            <div class="watch">
+                <div class="watches">
+                    <div class="row">
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name">ARTFIVE</div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name">BESTUHL</div>
+                            </div>
+
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name">CHARLOTTETHEATE</div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name">VAVAVILLAGE</div>
+                            </div>
+
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name">PANASONIC</div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

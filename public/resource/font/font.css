@@ -13,16 +13,16 @@
     font-family: "code-bold";
 }
 @font-face {
-    font-family: 'genrtica';
+    font-family: 'generica';
     src:url('/resource/font/genrtica/generica.otf') format('opentype');
 }
 @font-face {
-    font-family: 'genrtica-bold';
+    font-family: 'generica-bold';
     src:url('/resource/font/genrtica/generica-bold.otf') format('opentype');
 }
 .genrtica{
-    font-family: "genrtica";
+    font-family: "generica";
 }
 .genrtica-bold{
-    font-family: "genrtica-bold";
+    font-family: "generica-bold";
 }
