@@ -281,6 +281,10 @@ html {
   
   * > .flex-jc-sb {
     justify-content:space-between;
+  }  
+
+  * > .flex-jc-sa {
+    justify-content:space-around;
   }
   
   * > .flex-ai-c {
@@ -492,33 +496,203 @@ height: 30px;
 }
 
 /* 두번째 배너 */
-.page-2-con{
+.page-2>.page-2-con{
   position: relative;
   height: 300vh;
 }
-.page-2-con>.bg-line{
+@media (max-width:1300px){
+  .page-2>.page-2-con{
+    height: 250vh;
+  }
+}
+@media (max-width:1000px){
+  .page-2>.page-2-con{
+    height: 200vh;
+  }
+}
+.page-2>.page-2-con>.bg-line{
   position: absolute;
   top:0;
   left: 0;
   bottom:0;
   right:0;
+  z-index: -1;
 }
-.page-2-con>.bg-line>div{
+.page-2>.page-2-con>.bg-line>div{
   height:100%;
   width:1px;
   background-color: #dfdfdf;
 }
+.page-2>.page-2-con>.bg-line>div:nth-child(2){
+  position: relative;
+}
+.page-2>.page-2-con>.bg-line>div:nth-child(2)::after{
+  content: "02";
+  position: absolute;
+  display: inline-block;
+  top:700px;
+  left: 5px;
+  font-family: "genrtica";
+  font-size: 1rem;
+
+}
+.page-2>.page-2-con>.bg-line>div:nth-child(5){
+  position: relative;
+}
+.page-2-con>.bg-line>div:nth-child(5)::after{
+  content: "page-02";
+  position: absolute;
+  display: inline-block;
+  top:1100px;
+  left: 5px;
+  font-family: "genrtica";
+  font-size: 1rem;
+  white-space: nowrap;
+  transform: rotate(90deg);
+  transform-origin: left bottom;
+}
 @media (max-width:800px){
-  .page-2-con>.bg-line>div:first-child{
+  .page-2>.page-2-con>.bg-line>div:first-child{
     display: none;
   }
-  .page-2-con>.bg-line>div:last-child{
+  .page-2>.page-2-con>.bg-line>div:last-child{
     display: none;
   }
 }
-.page-2-con>div>.page-2-content{
+.page-2>.page-2-con>div>.page-2-content{
   text-align: center;
-  margin-top:900px;
+  padding-top:900px;
+  font-size: 3rem;
+}
+.page-2>.page-2-con>div>.page-2-content>div:last-child{
+  font-size: 1rem;
+}
+.page-2>.page-2-con>.pad{
+  position: absolute;
+  top: 250vh;
+  left: 50%;
+  transform:translateX(-50%);
+  width:90%;
+}
+/* 페이지3 */
+.page-3{
+  background-color: #565656;
+  height:35vh;
+  position: relative;
+}
+.page-3>.pad{
+  position: absolute;
+  bottom:0;
+  left: 51%;
+  transform:translateX(-50%);
+  width:80%;
+}
+.page-3>.pad>.pad-content{
+  position: absolute;
+  top:10.5%;
+  left: 48.42%;
+  transform: translateX(-50%);
+  width:84.4%;
+  height: 72.5%;
+}
+.page-3>.pad>.pad-content>.pad-top-bar{
+  font-size: 3rem;
+  border-bottom: 1px solid #dfdfdf;
+  padding:18px 0 10px;
+  text-align: center;
+}
+.page-3>.pad>.pad-content>.pad-top-bar>div:first-child{
+  width:60px;
+}
+.page-3>.pad>.pad-content>.pad-top-bar>div:last-child{
+  width:30px;
+  height: 30px;
+  margin-right:30px;
+  margin-top:10px;
+  }
+  .page-3>.pad>.pad-content>.pad-top-bar>div:last-child>div{
+  width:100%;
+  height: 1px;
+  background-color: black;
+}
+.page-3>.pad>.pad-content>.pad-top-bar>div:last-child>div:nth-child(2){
+  margin-top:9px;
+}
+.page-3>.pad>.pad-content>.pad-top-bar>div:last-child>div:nth-child(3){
+  margin-top:9px;
+}
+.page-3>.pad>.pad-content>.pad-in{
+  height: calc(100% - 78px);
+  font-family: "nanumsquare";
+  font-size: 0.7vw;
+}
+.page-3>.pad>.pad-content>.pad-in>.information{
+  width:30%;
+  border-right:1px solid #dfdfdf;
+  box-sizing: border-box;
+  padding: 3%;
+  line-height: 1.5vw;
+}
+@media (max-width:1300px){
+  .page-3>.pad>.pad-content>.pad-in>.information>div>div>div{
+    display: none;
+  }
+}
+.page-3>.pad>.pad-content>.pad-in>.information>div:first-child{
+  line-height: 1vw;
+}
+.page-3>.pad>.pad-content>.pad-in>.information>div:nth-child(2){
+  width:100%;
+  height: 54%;
+  background-color: #dfdfdf;
+  margin:10px 0;
+}
+.page-3>.pad>.pad-content>.pad-in>.information>.info-text>div:first-child{
+  padding-right: 1vw;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill{
+  box-sizing: border-box;
+  padding: 3%;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills{
+  margin-top:10px;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div{
+margin-bottom: 5vw;
+width:45%;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div:nth-child(2n){
+  margin-left: 2vw;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:first-child{
+  width:30%;
+  border:5px solid #dfdfdf;
+  border-radius: 50%;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:first-child>div{
+  margin: 2px;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:first-child>div>div{
+  position: relative;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:first-child>div>div>div{
+  position: absolute;
+  top:40%;
+  right:7%;
+  font-size: 1.4vw;
+  font-weight: 500;
+  font-family: "nanumsquare";
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child{
+  width:70%;
+  padding-top:5%;
+  margin-left: 5%;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child>div:first-child{
+  border-bottom: 1px solid #dfdfdf;
+}
+.page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child>div:last-child{
+  font-size: 1.5vw;
 }
   body{
       height: 10000px;
