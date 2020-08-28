@@ -342,8 +342,8 @@ html {
   }
   
   .con {
-    margin-left:50px;
-    margin-right:50px;
+    margin-left:7%;
+    margin-right:7%;
   }
 
   /* 메인페이지 */
@@ -760,6 +760,69 @@ width:45%;
   }
   .page-4>.page-4-con>.phone>.phone-img{
     transform: translateX(5%) translateY(5%);
+    position: relative;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(46,157,201,1) 36%, rgba(72,78,214,1) 87%);
+    position: absolute;
+    top:12%;
+    left: 14%;;
+    height: 63%;
+    width:60%;
+    overflow: hidden;
+    overflow-y:scroll;
+    border-radius: 5px;
+    border:1px solid #818291;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in::after{
+    content: "VIEW";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    display:inline-block;
+    border:1px solid white;
+    border-radius:10px;
+    color:white;
+    padding:5% 10%;
+    font-family: "generica-bold-er";
+    opacity: 0;
+    transition:opacity .3s;
+    z-index: 5;
+    font-size: 1.5vw;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover::after{
+    opacity: .8;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover::after{
+
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in::-webkit-scrollbar{
+    display: none;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a>img{
+    width:100%;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a{
+    display:block;
+    margin:0;
+    padding:0;
+    position: relative;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a::after{
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0);
+    transition:background-color .3s;
+    z-index: 3;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover>a::after{
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .page-4>.page-4-con>.phone>div:first-child{
     border-bottom: 1px solid #dfdfdf;
@@ -784,7 +847,7 @@ width:45%;
     margin: 0 auto;
     height: 80%;
     width:90%;
-    padding-top: 5%;
+    padding-top: 8%;
   }
   .page-4>.page-4-con>.watch>.watches>div>div{
     background-color: black;
@@ -794,6 +857,7 @@ width:45%;
     margin:2%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     position: relative;
+    overflow: hidden;
   }
   .page-4>.page-4-con>.watch>.watches>div>div:nth-child(3n+2){
     transform: translateY(-20px);
@@ -814,6 +878,7 @@ width:45%;
   .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-in>div:last-child{
     width:10%;
     padding-right: 10%;
+    padding-top:3%;
   }
   .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-in>div:last-child>div{
     height: 1px;
@@ -822,10 +887,68 @@ width:45%;
     margin-top:30%;
   }
   .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-name{
-    padding-top:30%;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width:85%;
+    padding:15% 0;
     font-size: 2vw;
     word-break:break-all;
-    margin: 0 5%;
     cursor: pointer;
     font-family: "generica";
+    font-weight: 100;
+    z-index: 1;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-circle{
+    position: absolute;
+    top:56%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    width:0%;
+    height: 0%;
+    background: linear-gradient(0deg, rgba(74,220,237,1) 0%, rgba(72,78,214,1) 100%);
+    border-radius:50%;
+    transition: width .4s, height .4s;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div:hover>.watch-circle{
+    width:51%;
+    height: 50%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-circle::after{
+    content:"";
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width:0%;
+    height: 0%;
+    background-color: black;
+    border-radius:50%;
+    z-index: 1;
+    transition: width .5s .35s, height .5s .35s;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div:hover>.watch-circle::after
+{
+    width:45%;
+    height: 45%;
+  }
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-circle.active::after{
+    width:90%;
+    height: 90%;
+    transition: width .5s, height .5s;
+  }
+  /* 여기로 */
+  .page-4>.page-4-con>.watch>.watches>div>div>div>.watch-circle.active{
+    width:51%;
+    height: 50%;
+    background: linear-gradient(0deg, rgba(237,74,171,1) 0%, rgba(72,78,214,1) 100%);
+    animation:rotate_circle 5s linear infinite;
+  }
+
+
+@keyframes rotate_circle{
+  100%{
+    transform: translateX(-50%) translateY(-50%) rotate(405deg);
   }

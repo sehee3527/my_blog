@@ -10,6 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/portfolio/pf/index.css">
     <link rel="stylesheet" href="/resource/font/font.css">
+    <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/portfolio/pf/index.js"></script>
 </head>
@@ -207,6 +208,11 @@
                     <div>CODING</div>
                 </div>
                 <div class="phone-img img-box"><img src="http://sehee3527.github.io/img1/pf/pf/phone_1.png" alt="">
+                    <div class="phone-img-in">
+                        <a href="http://localhost:8077/portfolio/artfive">
+                            <img src="http://sehee3527.github.io/img1/pf/pf/artfive.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="watch">
@@ -222,7 +228,65 @@
                                         <div></div>
                                     </div>
                                 </div>
-                                <div class="watch-name">ARTFIVE</div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/artfive"  data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"  onclick="Slider1__itemClick(this);" >ARTFIVE</div>
+                                <div class="watch-circle active"></div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"  data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"  onclick="Slider1__itemClick(this);">BESTUHL</div>
+                                <div class="watch-circle"></div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/sharlottetheate"  data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png"  onclick="Slider1__itemClick(this);">CHARLOTTETHEATE</div>
+                                <div class="watch-circle"></div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/vavavillage"  data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png"  onclick="Slider1__itemClick(this);">VAVA<br>VILLAGE</div>
+                                <div class="watch-circle"></div>
+                            </div>
+
+                        </div>
+                        <div class="cell">
+                            <div>
+                                <div class="watch-in
+                                flex flex-jc-sb">
+                                    <div>Responesive</div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/panasonic"  data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png"  onclick="Slider1__itemClick(this);">PANASONIC</div>
+                                <div class="watch-circle"></div>
                             </div>
                         </div>
                         <div class="cell">
@@ -236,20 +300,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name">BESTUHL</div>
-                            </div>
-
-                        </div>
-                        <div class="cell">
-                            <div>
-                                <div class="watch-in
-                                flex flex-jc-sb">
-                                    <div>Responesive</div>
-                                    <div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                </div>
-                                <div class="watch-name">CHARLOTTETHEATE</div>
+                                <div class="watch-circle"></div>
                             </div>
                         </div>
                         <div class="cell">
@@ -262,9 +313,9 @@
                                         <div></div>
                                     </div>
                                 </div>
-                                <div class="watch-name">VAVAVILLAGE</div>
+                                <div class="watch-name">BESTUHL</div>
+                                <div class="watch-circle"></div>
                             </div>
-
                         </div>
                         <div class="cell">
                             <div>
@@ -276,9 +327,9 @@
                                         <div></div>
                                     </div>
                                 </div>
-                                <div class="watch-name">PANASONIC</div>
+                                <div class="watch-name">BESTUHL</div>
+                                <div class="watch-circle"></div>
                             </div>
-
                         </div>
                     </div>
                 </div>
