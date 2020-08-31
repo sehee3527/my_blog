@@ -1043,15 +1043,28 @@ width:45%;
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad{
   width:81%;
   position: relative;
+  padding-bottom: 10%;
 }
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in{
-  background-color: red;
   position: absolute;
-  top:8.7%;
+  top:7%;
   left: 5%;
   width:87%;
-  height: 77.5%;
+  height: 64%;
   border-radius:3px;
+  overflow: hidden;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider{
+height: 100%;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-list{
+  height: 100% !important;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-list>.slick-track{
+  height: 100% !important;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider .slider-in{
+  border:2px solid green;
 }
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right{
   width:19%;
@@ -1072,3 +1085,6 @@ width:45%;
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right>div:last-child>div:last-child{
   color:#565656;
 }
+
+
+/* 푸터 */

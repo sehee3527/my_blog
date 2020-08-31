@@ -17,13 +17,27 @@ function watchIn() {
         }
     });
 }
+
+function SlickSlider() {
+    $(".page-5-pad-in > .slider").slick({
+        dots: true,
+        arrows:false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        cssEase: 'linear'
+    });
+}
 $(function(){
-    var watchBtn = $(".watch-name");
+    var watchBtn = $(".slider");
     watchBtn.click(function(){
     watchBtn.parent().find(".watch-circle").removeClass("active");
     $(this).parent().find(".watch-circle").addClass("active");
     })
     watchIn();
+    SlickSlider();
    })
   
    
