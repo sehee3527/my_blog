@@ -14,11 +14,11 @@
 }
 @font-face {
     font-family: 'generica';
-    src:url('/resource/font/genrtica/generica.otf') format('opentype');
+    src:url('/resource/font/generica/generica.otf') format('opentype');
 }
 @font-face {
     font-family: 'generica-bold';
-    src:url('/resource/font/genrtica/generica-bold.otf') format('opentype');
+    src:url('/resource/font/generica/generica-bold.otf') format('opentype');
 }
 .genrtica{
     font-family: "generica";
