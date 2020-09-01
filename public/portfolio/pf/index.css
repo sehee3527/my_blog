@@ -572,6 +572,24 @@ height: 30px;
   padding-top:900px;
   font-size: 3.5vw;
 }
+
+.page-2>.page-2-con>div>.page-2-content>div{
+  transform:translateY(300%);
+  opacity: 0.0;
+  transition:transform .7s, opacity .7s;
+}
+
+.page-2>.page-2-con>div>.page-2-content>div:last-child{
+  transition:transform .7s .4s, opacity .7s .4s;
+}
+.page-2>.page-2-con>div>.page-2-content>div:first-child.active{
+  transform:translateY(0);
+  opacity: 1;
+}
+.page-2>.page-2-con>div>.page-2-content>div:last-child.active{
+  transform:translateY(0);
+  opacity: 1;
+}
 .page-2>.page-2-con>div>.page-2-content>div:last-child{
   font-size: 1rem;
 }
@@ -723,9 +741,15 @@ width:45%;
 .page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child>div:last-child{
   font-size: 1.5vw;
 }
-  body{
-      height: 10000px;
+@media (max-width:900px){
+  .page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child>div:first-child{
+    display: none;
   }
+  .page-3>.pad>.pad-content>.pad-in>.skill>.skills>div>div:last-child>div:last-child{
+    font-size: 2vw;
+    padding-top:9.5%;
+  }
+}
 /* 페이지3끝 */
   /* 페이지4 */
   .page-4{
@@ -787,15 +811,17 @@ width:45%;
     border-radius: 5px;
     border:1px solid #818291;
   }
-  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in::after{
+  
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a
+  {
+    position: relative;
+  }
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a::after{
     content: "VIEW";
     position: fixed;
-    top:42%;
-    left: 45%;
-    transform:translateX(-50%) translateY(-50%);
+    top:40%;
+    left: 37%;
     display:inline-block;
-    border:1px solid white;
-    border-radius:10px;
     color:white;
     padding:3% 6%;
     font-family: "generica-bold-er";
@@ -803,12 +829,11 @@ width:45%;
     transition:opacity .3s;
     z-index: 5;
     font-size: 1.5vw;
+    padding:1% 2% 1.5%;
+    border:1px solid white;
+    border-radius: 5px;
   }
-  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in::after:hover{
-    background-color: white;
-    color:black;
-  }
-  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover::after{
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover>a::after{
     opacity: .8;
   }
   .page-4>.page-4-con>.phone>.phone-img>.phone-img-in::-webkit-scrollbar{
@@ -825,7 +850,7 @@ width:45%;
     padding:0;
     position: relative;
   }
-  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a::after{
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in>a::before{
     content:"";
     display: block;
     position: absolute;
@@ -837,7 +862,7 @@ width:45%;
     transition:background-color .3s;
     z-index: 3;
   }
-  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover>a::after{
+  .page-4>.page-4-con>.phone>.phone-img>.phone-img-in:hover>a::before{
     background-color: rgba(0, 0, 0, 0.5);
   }
   .page-4>.page-4-con>.phone>div:first-child{
@@ -1085,14 +1110,7 @@ width:45%;
   height: 100%;
   position: relative;
 }
-.page-5>.page-5-con>.page-5-in>.page-5-name>div:first-child{
-  padding-top:12%;
-  font-size: 1.2vw;
-  padding-left:5%;
-  text-align: left;
-  transform:translateY(10%);
-}
-.page-5>.page-5-con>.page-5-in>.page-5-name>div:last-child{
+.page-5>.page-5-con>.page-5-in>.page-5-name>div{
   padding-top:10%;
   font-size: 3.5vw;
   padding-right:9%;
@@ -1172,16 +1190,6 @@ height: 100%;
 }
 /* 슬릭 닷 끝 */
 /* 5슬라이더 끝 */
-/* 5페이지 폰 시작 */
-.page-5>.page-5-phone{
-  position: absolute;
-  top:50%;
-  left: -50%;
-  transform: translatey(-50%);
-  width:28%;
-  z-index: 10;
-}
-/* 5페이지 폰 끝 */
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right{
   width:19%;
 }
@@ -1198,3 +1206,33 @@ height: 100%;
 
 
 /* 푸터 */
+.footer{
+  background-color: black;
+  margin-bottom: 7%;
+  color:white;
+  text-align: center;
+  background-position: center 110%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer>div:first-child{
+  font-size: 2.5vw;
+  border-bottom: 1px solid #818291;
+  margin:0 20%;
+  padding-top: 150px;
+  padding-bottom: 5px;
+}
+.footer>div:nth-child(2){
+  padding-top:10px;
+  font-size: 2vw;
+  font-family: "nanumsquare";
+  font-weight: 100;
+  color:#adadb3;
+}
+
+.footer>div:nth-child(3){
+  font-size: .7vw;
+  padding-top:50px;
+  padding-bottom:150px;
+  color:#adadb3;
+}

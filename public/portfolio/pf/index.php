@@ -48,8 +48,8 @@
             </div>
             <div>
                 <div class="page-2-content">
-                    <div>반갑습니다</div>
-                    <div>함께 발전해나가고 싶은 웹 퍼블리셔 양세희 입니다.</div>
+                    <div class="active-on-visible">반갑습니다</div>
+                    <div class="active-on-visible">함께 발전해나가고 싶은 웹 퍼블리셔 양세희 입니다.</div>
                 </div>
             </div>
 
@@ -391,12 +391,6 @@
         </div>
     </section>
     <section class="page-5">
-                <!-- 핸드폰 시작 -->
-                <div class="page-5-phone img-box">
-                    <img src="http://sehee3527.github.io/img1/pf/pf/phone_1.png" alt="">
-                    <div class="page-5-phone-in"></div>
-                </div>
-                <!-- 핸드폰 끝 -->
         <div class="page-5-con con">
             <div class="bg-line flex flex-jc-sb">
                 <div></div>
@@ -409,7 +403,6 @@
             <!-- 페이지5내부 -->
             <div class="page-5-in">
                 <div class="page-5-name flex">
-                    <div>Click</div>
                     <div class="flex-grow-1">GRAPHIC DESIGN</div>
                 </div>
                 <div class="page-5-content flex">
@@ -441,8 +434,10 @@
             </div>
         </div>
     </section>
-    <section class="footer con">
-
+    <section class="footer con" style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy123123)">
+        <div>CONTACT</div>
+        <div>sehee3527@gmil.com</div>
+        <div>위 이메일로 문의주시면 3일 이내로 연락드리겟습니다.</div>
     </section>
 </body>
 
