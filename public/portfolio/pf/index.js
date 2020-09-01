@@ -17,7 +17,13 @@ function watchIn() {
         }
     });
 }
-
+function watchBt() {
+    var watchBtn = $(".watch-name");
+    watchBtn.click(function(){
+    watchBtn.parent().find(".watch-circle").removeClass("active");
+    $(this).parent().find(".watch-circle").addClass("active");
+    })
+}
 function SlickSlider() {
     $(".page-5-pad-in > .slider").slick({
         dots: true,
@@ -30,12 +36,11 @@ function SlickSlider() {
         cssEase: 'linear'
     });
 }
+
+
+
 $(function(){
-    var watchBtn = $(".slider");
-    watchBtn.click(function(){
-    watchBtn.parent().find(".watch-circle").removeClass("active");
-    $(this).parent().find(".watch-circle").addClass("active");
-    })
+    watchBt();
     watchIn();
     SlickSlider();
    })

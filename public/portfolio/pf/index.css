@@ -1014,6 +1014,10 @@ width:45%;
 }
 /* 페이지4 끝 */
 /* 페이지5 시작 */
+.page-5{
+  overflow-x: hidden;
+  position: relative;
+}
 .page-5>.page-5-con{
   position:relative;
 }
@@ -1029,16 +1033,72 @@ width:45%;
   height:100%;
   width:1px;
   background-color: #dfdfdf;
+  position: relative;
+}
+.page-5>.page-5-con>.bg-line>div:first-child::before{
+  content:"Benner design" ;
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  left: 0;
+  padding-left: 10px;
+  top:82.5%;
+  font-family: "generica";
+  font-size: 1vw;
+
+}
+.page-5>.page-5-con>.bg-line>div:first-child::after{
+  content:"일러스트와 포토샵을 이용한\a배너디자인" ;
+  position: absolute;
+  display: block;
+  left: 0;
+  padding-left: 10px;
+  white-space: pre;
+  top:85%;
+  color:#bbbbbb;
+  font-size: .8vw;
+}
+.page-5>.page-5-con>.bg-line>div:nth-child(2)::before{
+  content:"Product design" ;
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  left: 0;
+  padding-left: 10px;
+  top:82.5%;
+  font-family: "generica";
+  font-size: 1vw;
+
+}
+.page-5>.page-5-con>.bg-line>div:nth-child(2)::after{
+  content:"라이노와 키샷을 이용한\a제품디자인" ;
+  position: absolute;
+  display: block;
+  left: 0;
+  padding-left: 10px;
+  white-space: pre;
+  top:85%;
+  color:#bbbbbb;
+  font-size: .8vw;
 }
 .page-5>.page-5-con>.page-5-in{
   height: 100%;
+  position: relative;
 }
-.page-5>.page-5-con>.page-5-in>.page-5-name{
+.page-5>.page-5-con>.page-5-in>.page-5-name>div:first-child{
+  padding-top:12%;
+  font-size: 1.2vw;
+  padding-left:5%;
+  text-align: left;
+  transform:translateY(10%);
+}
+.page-5>.page-5-con>.page-5-in>.page-5-name>div:last-child{
   padding-top:10%;
   font-size: 3.5vw;
   padding-right:9%;
   text-align: right;
   transform:translateY(10%);
+  position: relative;
 }
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad{
   width:81%;
@@ -1047,13 +1107,13 @@ width:45%;
 }
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in{
   position: absolute;
-  top:7%;
-  left: 5%;
-  width:87%;
-  height: 64%;
+  top:7.2%;
+  left: 5.1%;
+  width:86.6%;
+  height: 63.8%;
   border-radius:3px;
-  overflow: hidden;
 }
+
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider{
 height: 100%;
 }
@@ -1064,24 +1124,74 @@ height: 100%;
   height: 100% !important;
 }
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider .slider-in{
-  border:2px solid green;
+  overflow: hidden;
 }
+/* 슬릭 닷 */
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots{
+  position: absolute;
+  bottom:0;
+  left: 109%;
+  width:20%;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li{
+  display: flex;
+  width:100%;
+  margin-top:3%;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li>button{
+  width:100%;
+}
+
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li>button::before{
+  content:"Channel-01";
+  font-family: "generica";
+  font-size: 1vw;
+  text-align: left;
+  top:50%;
+  transform: translateY(-50%);
+  color:black;
+  opacity: 65%;
+  width:100%;
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li:nth-child(2)>button::before{
+  content:"Channel-02";
+}
+
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li:nth-child(3)>button::before{
+  content:"Channel-03";
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li:nth-child(4)>button::before{
+  content:"Channel-04";
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li:nth-child(5)>button::before{
+  content:"Channel-05";
+}
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad>.page-5-pad-in>.slider>.slick-dots>li.slick-active>button::before{
+  opacity: 1;
+  font-weight: 600;
+}
+/* 슬릭 닷 끝 */
+/* 5슬라이더 끝 */
+/* 5페이지 폰 시작 */
+.page-5>.page-5-phone{
+  position: absolute;
+  top:50%;
+  left: -50%;
+  transform: translatey(-50%);
+  width:28%;
+  z-index: 10;
+}
+/* 5페이지 폰 끝 */
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right{
   width:19%;
 }
-.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right>div:first-child{
+
+.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right>div{
   padding-top:15%;
   color:#565656;
   font-size: 1vw;
 }
 
-.page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right>div:last-child{
-  padding-top:115%;
-  font-family: "generica";
-  font-size: 1vw;
-  line-height: 2vw;
-  font-weight: 900;
-}
 .page-5>.page-5-con>.page-5-in>.page-5-content>.page-5-pad-right>div:last-child>div:last-child{
   color:#565656;
 }

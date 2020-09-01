@@ -391,6 +391,12 @@
         </div>
     </section>
     <section class="page-5">
+                <!-- 핸드폰 시작 -->
+                <div class="page-5-phone img-box">
+                    <img src="http://sehee3527.github.io/img1/pf/pf/phone_1.png" alt="">
+                    <div class="page-5-phone-in"></div>
+                </div>
+                <!-- 핸드폰 끝 -->
         <div class="page-5-con con">
             <div class="bg-line flex flex-jc-sb">
                 <div></div>
@@ -402,29 +408,34 @@
             </div>
             <!-- 페이지5내부 -->
             <div class="page-5-in">
-                <div class="page-5-name">GRAPHIC DESIGN</div>
+                <div class="page-5-name flex">
+                    <div>Click</div>
+                    <div class="flex-grow-1">GRAPHIC DESIGN</div>
+                </div>
                 <div class="page-5-content flex">
                     <div class="page-5-pad img-box"><img src="http://sehee3527.github.io/img1/pf/pf/tv.png" alt="">
                         <div class="page-5-pad-in">
                             <div class="slider">
-                                <div class="slider-in"></div>
-                                <div class="slider-in"></div>
-                                <div class="slider-in"></div>
-                                <div class="slider-in"></div>
-                                <div class="slider-in"></div>
+                                <div class="slider-in img-box">
+                                    <img src="https://placekitten.com/100/107" alt="">
+                                </div>
+                                <div class="slider-in img-box">
+                                    <img src="https://placekitten.com/300/207" alt="">
+                                </div>
+                                <div class="slider-in img-box">
+                                    <img src="https://placekitten.com/200/207" alt="">
+                                </div>
+                                <div class="slider-in img-box">
+                                    <img src="https://placekitten.com/800/507" alt="">
+                                </div>
+                                <div class="slider-in img-box">
+                                    <img src="https://placekitten.com/600/200" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="page-5-pad-right">
                         <div>나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명</div>
-                        <div>
-                            <div>Used tools</div>
-                            <div>Photoshop<br>
-                                illustration<br>
-                                Riono<br>
-                                Key shot
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
