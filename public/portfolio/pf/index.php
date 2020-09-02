@@ -20,6 +20,9 @@
 </head>
 
 <body>
+    <div class="top img-box">
+        <img src="http://sehee3527.github.io/img1/pf/pf/top.png?" alt="" onclick="window.scrollTo(0,0);">
+    </div>
     <section class="page-1">
         <div class="popup"></div>
         <div class="page-1-con con">
