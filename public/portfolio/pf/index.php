@@ -21,13 +21,14 @@
 
 <body>
     <section class="page-1">
+        <div class="popup"></div>
         <div class="page-1-con con">
             <div>PORTFOLIO</div>
             <div>c.point</div>
             <div>
                 <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/pf/main-rotate.png" alt=""></div>
             </div>
-            <div>
+            <div onclick="Popup();">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -40,10 +41,10 @@
         <div class="page-2-con con">
             <div class="bg-line flex flex-jc-sb">
                 <div></div>
+                <div><div class="active-on-visible">02</div></div>
                 <div></div>
                 <div></div>
-                <div></div>
-                <div></div>
+                <div><div class="active-on-visible">page-02</div></div>
                 <div></div>
             </div>
             <div>
@@ -68,11 +69,6 @@
                 <div class="pad-top-bar flex flex-jc-sa">
                     <div></div>
                     <div class="flex-grow-1">profile</div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
                 </div>
                 <div class="pad-in flex">
                     <div class="information">
@@ -232,8 +228,8 @@
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>아트파이브</div>
                                         </div>
                                     </div>
                                 </div>
@@ -253,8 +249,8 @@
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>베스툴</div>
                                         </div>
                                     </div>
                                 </div>
@@ -274,8 +270,8 @@
                                         <div></div>
                                         <div>
                                             <div>re-design</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>리디자인</div>
+                                            <div>샤롯데씨어터</div>
                                         </div>
                                     </div>
                                 </div>
@@ -295,8 +291,8 @@
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>바바빌리지</div>
                                         </div>
                                     </div>
                                 </div>
@@ -317,8 +313,8 @@
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>파나소닉</div>
                                         </div>
                                     </div>
                                 </div>
@@ -332,18 +328,20 @@
                             <div>
                                 <div class="watch-in
                                 flex flex-jc-sb">
-                                    <div>Responesive</div>
+                                    <div>Web</div>
                                     <div>
                                         <div></div>
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>베스툴</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name">BESTUHL</div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
+                                    onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -351,18 +349,20 @@
                             <div>
                                 <div class="watch-in
                                 flex flex-jc-sb">
-                                    <div>Responesive</div>
+                                    <div>Web</div>
                                     <div>
                                         <div></div>
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>베스툴</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name">BESTUHL</div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
+                                    onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -370,18 +370,20 @@
                             <div>
                                 <div class="watch-in
                                 flex flex-jc-sb">
-                                    <div>Responesive</div>
+                                    <div>Web</div>
                                     <div>
                                         <div></div>
                                         <div></div>
                                         <div>
                                             <div>copy</div>
-                                            <div>소요시간</div>
-                                            <div>8일</div>
+                                            <div>모작</div>
+                                            <div>베스툴</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name">BESTUHL</div>
+                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
+                                    onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -434,7 +436,7 @@
             </div>
         </div>
     </section>
-    <section class="footer con" style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy123123)">
+    <section class="footer con" style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy)">
         <div>CONTACT</div>
         <div>sehee3527@gmil.com</div>
         <div>위 이메일로 문의주시면 3일 이내로 연락드리겟습니다.</div>

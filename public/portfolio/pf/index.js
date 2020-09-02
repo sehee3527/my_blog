@@ -97,6 +97,17 @@ function ActiveOnVisible__checkAndActive() {
     });
 }
 
+    var Popup = function () {
+        if ($(".popup").hasClass("active")) {
+          $(".popup").css("left", "");
+          $(".popup").removeClass("active");
+        } else {
+          $(".popup").css("left", "0");
+          $(".popup").addClass("active");
+        }
+      };
+
+  
 $(function(){
     watchBt();
     watchIn();
