@@ -1,10 +1,14 @@
 
+var $html =  $('html');
 function Slider1__itemClick(el) {
     var $el = $(el);
     var url = $el.attr('data-img-url');
     var link = $el.attr('data-link-url');
+    var contentName = $el.attr('data-content-name');
+    var contentSubtitle = $el.attr('data-content-subtitle');
+    var contentContent = $el.attr('data-content-content');
     
-    $('.phone-img-in').empty().append("<a href='" + link + "' target='_blank'><img src='" + url + "'></a>");
+    $('.phone-img-in').empty().append("<a href='" + link + "' target='_blank' style='background-image:url(" + url + ")'><div><div>" + contentName + "</div><div>" + contentSubtitle + "</div><div>" + contentContent + "</div></div></a>");
 }
 
 function watchIn() {
@@ -101,11 +105,27 @@ function ActiveOnVisible__checkAndActive() {
         if ($(".popup").hasClass("active")) {
           $(".popup").css("left", "");
           $(".popup").removeClass("active");
+          $(".top-menu").removeClass("active");
         } else {
           $(".popup").css("left", "0");
           $(".popup").addClass("active");
+          $(".top-menu").addClass("active");
         }
       };
+
+function TopBar_init() {
+  
+  var $topBar =  $('#top');
+  $(window).scroll(function() {
+    var scrollTop = $(window).scrollTop();
+    if ( scrollTop > 500 ) {
+      $html.addClass('top-active');
+    }
+    else {
+      $html.removeClass('top-active');
+    }
+  });
+}
 
   
 $(function(){
@@ -114,6 +134,8 @@ $(function(){
     SlickSlider();
     designClick();
     ActiveOnVisible__init();
+    $("#watch-first").click();
+    TopBar_init();
    })
   
    

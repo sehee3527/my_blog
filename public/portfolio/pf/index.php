@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="top img-box">
+    <div class="top img-box" id="top">
         <img src="http://sehee3527.github.io/img1/pf/pf/top.png?" alt="" onclick="window.scrollTo(0,0);">
     </div>
     <section class="page-1">
@@ -30,11 +30,6 @@
             <div>c.point</div>
             <div>
                 <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/pf/main-rotate.png" alt=""></div>
-            </div>
-            <div onclick="Popup();">
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
             <div>main-page</div>
             <div>home</div>
@@ -212,9 +207,6 @@
                 </div>
                 <div class="phone-img img-box"><img src="http://sehee3527.github.io/img1/pf/pf/phone_1.png" alt="">
                     <div class="phone-img-in">
-                        <a href="http://localhost:8077/portfolio/artfive">
-                            <img src="http://sehee3527.github.io/img1/pf/pf/artfive.png" alt="">
-                        </a>
                     </div>
                 </div>
             </div>
@@ -236,10 +228,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/artfive"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
+                                <div class="watch-name" id="watch-first" data-link-url="http://localhost:8077/portfolio/artfive"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="아트파이브" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
                                     onclick="Slider1__itemClick(this);">Artfive</div>
-                                <div class="watch-circle active"></div>
+                                <div class="watch-circle"></div>
                             </div>
                         </div>
                         <div class="cell">
@@ -258,7 +250,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png" data-content-name="베스툴" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
                                     onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
                             </div>
@@ -279,7 +271,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/sharlottetheate"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="샤롯데씨어터" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트를 새롭게 리뉴얼"
                                     onclick="Slider1__itemClick(this);">Carotte<br>theate</div>
                                 <div class="watch-circle"></div>
                             </div>
@@ -300,7 +292,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/vavavillage"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="바바빌리지" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
                                     onclick="Slider1__itemClick(this);">VAVA<br>Villabe</div>
                                 <div class="watch-circle"></div>
                             </div>
@@ -322,7 +314,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/panasonic"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="파나소닉"" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
                                     onclick="Slider1__itemClick(this);">Panasonic</div>
                                 <div class="watch-circle"></div>
                             </div>
@@ -433,7 +425,7 @@
                         </div>
                     </div>
                     <div class="page-5-pad-right">
-                        <div>나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명나중에 적당히 설명</div>
+                        <div>디자인 작업물 예시</div>
                     </div>
                 </div>
             </div>
@@ -442,7 +434,7 @@
     <section class="footer con" style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy)">
         <div>CONTACT</div>
         <div>sehee3527@gmil.com</div>
-        <div>위 이메일로 문의주시면 3일 이내로 연락드리겟습니다.</div>
+        <div>항상 새로운것을 배우고 응용할줄아는 능동적인 디자이너가 되겟습니다.<br>#성실함 #꼼꼼함 #섬세함</div>
     </section>
 </body>
 
