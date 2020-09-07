@@ -1,5 +1,5 @@
+var $html = $('html');
 
-var $html =  $('html');
 function Slider1__itemClick(el) {
     var $el = $(el);
     var url = $el.attr('data-img-url');
@@ -7,7 +7,7 @@ function Slider1__itemClick(el) {
     var contentName = $el.attr('data-content-name');
     var contentSubtitle = $el.attr('data-content-subtitle');
     var contentContent = $el.attr('data-content-content');
-    
+
     $('.phone-img-in').empty().append("<a href='" + link + "' target='_blank' style='background-image:url(" + url + ")'><div><div>" + contentName + "</div><div>" + contentSubtitle + "</div><div>" + contentContent + "</div></div></a>");
 }
 
@@ -21,17 +21,19 @@ function watchIn() {
         }
     });
 }
+
 function watchBt() {
     var watchBtn = $(".watch-name");
-    watchBtn.click(function(){
-    watchBtn.parent().find(".watch-circle").removeClass("active");
-    $(this).parent().find(".watch-circle").addClass("active");
+    watchBtn.click(function () {
+        watchBtn.parent().find(".watch-circle").removeClass("active");
+        $(this).parent().find(".watch-circle").addClass("active");
     })
 }
+
 function SlickSlider() {
     $(".page-5-pad-in > .slider").slick({
         dots: true,
-        arrows:false,
+        arrows: false,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
@@ -51,6 +53,7 @@ function designClick() {
         }
     });
 }
+
 function ActiveOnVisible__init() {
     $(window).resize(ActiveOnVisible__initOffset);
     ActiveOnVisible__initOffset();
@@ -60,17 +63,17 @@ function ActiveOnVisible__init() {
 }
 
 function ActiveOnVisible__initOffset() {
-    $('.active-on-visible').each(function(index, node) {
+    $('.active-on-visible').each(function (index, node) {
         var $node = $(node);
 
         var offsetTop = $node.offset().top;
         $node.attr('data-active-on-visible-offsetTop', offsetTop);
 
-        if ( !$node.attr('data-active-on-visible-diff-y') ) {
+        if (!$node.attr('data-active-on-visible-diff-y')) {
             $node.attr('data-active-on-visible-diff-y', '0');
         }
 
-        if ( !$node.attr('data-active-on-visible-delay') ) {
+        if (!$node.attr('data-active-on-visible-delay')) {
             $node.attr('data-active-on-visible-delay', '0');
         }
     });
@@ -78,8 +81,8 @@ function ActiveOnVisible__initOffset() {
     ActiveOnVisible__checkAndActive();
 }
 
-function ActiveOnVisible__checkAndActive() { 
-    $('.active-on-visible:not(.actived)').each(function(index, node) {
+function ActiveOnVisible__checkAndActive() {
+    $('.active-on-visible:not(.actived)').each(function (index, node) {
         var $node = $(node);
 
         var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
@@ -88,12 +91,12 @@ function ActiveOnVisible__checkAndActive() {
 
         var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
 
-        if ( $(window).scrollTop() + $(window).height() + diffY > offsetTop ) {
+        if ($(window).scrollTop() + $(window).height() + diffY > offsetTop) {
             $node.addClass('actived');
 
-            setTimeout(function() {
+            setTimeout(function () {
                 $node.addClass('active');
-                if ( window[callbackFuncName] ) {
+                if (window[callbackFuncName]) {
                     window[callbackFuncName]($node);
                 }
             }, delay);
@@ -101,42 +104,64 @@ function ActiveOnVisible__checkAndActive() {
     });
 }
 
-    var Popup = function () {
-        if ($(".popup").hasClass("active")) {
-          $(".popup").css("left", "");
-          $(".popup").removeClass("active");
-          $(".top-menu").removeClass("active");
-        } else {
-          $(".popup").css("left", "0");
-          $(".popup").addClass("active");
-          $(".top-menu").addClass("active");
-        }
-      };
+var Popup = function () {
+    if ($(".popup").hasClass("active")) {
+        $(".popup").css("left", "");
+        $(".popup").removeClass("active");
+        $(".top-menu").removeClass("active");
+    } else {
+        $(".popup").css("left", "0");
+        $(".popup").addClass("active");
+        $(".top-menu").addClass("active");
+    }
+};
 
 function TopBar_init() {
-  
-  var $topBar =  $('#top');
-  $(window).scroll(function() {
-    var scrollTop = $(window).scrollTop();
-    if ( scrollTop > 500 ) {
-      $html.addClass('top-active');
-    }
-    else {
-      $html.removeClass('top-active');
-    }
-  });
-}
 
-  
-$(function(){
+    var $topBar = $('#top');
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 500) {
+            $html.addClass('top-active');
+        } else {
+            $html.removeClass('top-active');
+        }
+    });
+}
+$(function () {
     watchBt();
     watchIn();
     SlickSlider();
     designClick();
-    ActiveOnVisible__init();
     $("#watch-first").click();
     TopBar_init();
-   })
-  
-   
 
+    setTimeout(function() {
+        ActiveOnVisible__init();
+    }, 1000);
+});
+
+function Circle__run() {
+    $('.second.circle').each(function(index, node) {
+        var perNum = $(node).attr('circleProgress');
+        
+        $(this).circleProgress({
+            value: perNum / 100,
+            startAngle: 300,
+            thickness: 3,
+            fill: {
+                gradient: ["#8780ff", "#ff9998"],
+                gradientAngle: Math.PI / 2
+            },
+            animation: {
+                duration: 2200,
+                easing: "swing"
+            },
+            lineCap: "butt",
+            reverse: true
+    
+        }).on('circle-animation-progress', function (event, progress) {
+            $(this).parent().parent().parent().parent().find('.circle-percent').html(Math.round(perNum * progress) + '<i>%</i>');
+        });
+    });
+}

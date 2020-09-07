@@ -16,6 +16,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+        integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+        crossorigin="anonymous"></script>
     <script src="/portfolio/pf/index.js"></script>
 </head>
 
@@ -39,10 +42,14 @@
         <div class="page-2-con con">
             <div class="bg-line flex flex-jc-sb">
                 <div></div>
-                <div><div class="active-on-visible">02</div></div>
+                <div>
+                    <div class="active-on-visible">02</div>
+                </div>
                 <div></div>
                 <div></div>
-                <div><div class="active-on-visible">page-02</div></div>
+                <div>
+                    <div class="active-on-visible">page-02</div>
+                </div>
                 <div></div>
             </div>
             <div>
@@ -99,22 +106,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill flex-grow-1">
+                    <div class="skill flex-grow-1 active-on-visible" data-active-on-visible-callback-func-name="Circle__run">
                         <div>SKILL</div>
                         <div class="skills flex flex-row-wrap">
                             <div class="flex">
                                 <div>
                                     <div>
-                                        <div class="img-box"><img
+                                        <div class="img-box active-on-visible"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>HTML</div>
+                                            <div class='second circle' circleProgress='70'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>기본기 탄탄한 의미있는 구조 마크업,
                                         웹 표준·웹 접근성에 대한 전반적인 이해</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                             <div class="flex">
@@ -123,12 +131,13 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>CSS</div>
+                                            <div class='second circle' circleProgress='50'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>이해도 높은 사용으로 보다 실용적인 코드 작성, 반응형 사이트 이해 및 구현</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                             <div class="flex">
@@ -137,12 +146,13 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>JQ</div>
+                                            <div class='second circle'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>제이쿼리 라이브러리를 사용하여 필요한 기능 구현, 유용한 플러그인 사용</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                             <div class="flex">
@@ -151,12 +161,13 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>JS</div>
+                                            <div class='second circle'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>자바스크립트의 기본 문법 이해, 기본적인 알고리즘 문제 해결</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                             <div class="flex">
@@ -165,12 +176,13 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>PS</div>
+                                            <div class='second circle'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>필요한 툴과 다양한 편집기능을 유용하게 사용 가능</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                             <div class="flex">
@@ -179,12 +191,13 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>AI</div>
+                                            <div class='second circle'></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div>필요한 툴과 기본적인 아이콘 제작 및 수정 가능</div>
-                                    <div>70%</div>
+                                    <div class='circle-percent'></div>
                                 </div>
                             </div>
                         </div>
@@ -228,9 +241,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" id="watch-first" data-link-url="http://localhost:8077/portfolio/artfive"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="아트파이브" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
-                                    onclick="Slider1__itemClick(this);">Artfive</div>
+                                <div class="watch-name" id="watch-first"
+                                    data-link-url="http://localhost:8077/portfolio/artfive"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
+                                    data-content-name="아트파이브" data-content-subtitle="(HTML/CSS/JQuery)"
+                                    data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">Artfive
+                                </div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -250,8 +266,10 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png" data-content-name="베스툴" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
-                                    onclick="Slider1__itemClick(this);">Bestuhl</div>
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
+                                    data-content-name="베스툴" data-content-subtitle="(HTML/CSS/JQuery)"
+                                    data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">Bestuhl
+                                </div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -271,8 +289,11 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/sharlottetheate"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="샤롯데씨어터" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트를 새롭게 리뉴얼"
-                                    onclick="Slider1__itemClick(this);">Carotte<br>theate</div>
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
+                                    data-content-name="샤롯데씨어터" data-content-subtitle="(HTML/CSS/JQuery)"
+                                    data-content-content="기존 사이트를 새롭게 리뉴얼" onclick="Slider1__itemClick(this);">
+                                    Carotte<br>theate</div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -292,8 +313,11 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/vavavillage"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="바바빌리지" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
-                                    onclick="Slider1__itemClick(this);">VAVA<br>Villabe</div>
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
+                                    data-content-name="바바빌리지" data-content-subtitle="(HTML/CSS/JQuery)"
+                                    data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">
+                                    VAVA<br>Villabe</div>
                                 <div class="watch-circle"></div>
                             </div>
 
@@ -314,8 +338,11 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" data-link-url="http://localhost:8077/portfolio/panasonic"
-                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png" data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png" data-content-name="파나소닉"" data-content-subtitle="(HTML/CSS/JQuery)" data-content-content="기존 사이트와 동일하게 제작"
-                                    onclick="Slider1__itemClick(this);">Panasonic</div>
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png"
+                                    data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
+                                    data-content-name="파나소닉"" data-content-subtitle=" (HTML/CSS/JQuery)"
+                                    data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">Panasonic
+                                </div>
                                 <div class="watch-circle"></div>
                             </div>
                         </div>
@@ -431,7 +458,8 @@
             </div>
         </div>
     </section>
-    <section class="footer con" style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy)">
+    <section class="footer con"
+        style="background-image:url(http://sehee3527.github.io/img1/pf/pf/footer-bg-img.png?dummy)">
         <div>CONTACT</div>
         <div>sehee3527@gmil.com</div>
         <div>항상 새로운것을 배우고 응용할줄아는 능동적인 디자이너가 되겟습니다.<br>#성실함 #꼼꼼함 #섬세함</div>
