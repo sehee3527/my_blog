@@ -146,7 +146,7 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>JQ</div>
-                                            <div class='second circle'></div>
+                                            <div class='second circle' circleProgress='60'></div>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>JS</div>
-                                            <div class='second circle'></div>
+                                            <div class='second circle' circleProgress='50'></div>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>PS</div>
-                                            <div class='second circle'></div>
+                                            <div class='second circle' circleProgress='70'></div>
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@
                                         <div class="img-box"><img
                                                 src="http://sehee3527.github.io/img1/pf/pf/skill-01.png" alt="">
                                             <div>AI</div>
-                                            <div class='second circle'></div>
+                                            <div class='second circle' circleProgress='80'></div>
                                         </div>
                                     </div>
                                 </div>
