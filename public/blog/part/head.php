@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeHee blog</title>
-    <link rel="icon" href="./resource/img/favicon.png">
+    <link rel="icon" href="/resource/img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/resource/common.css">
-    <link rel="stylesheet" href="/resource/index.css">
-    <link rel="stylesheet" href="/resource/blog.css">
+    <link rel="stylesheet" href="/blog/common.css">
+    <link rel="stylesheet" href="/blog/index.css">
+    <link rel="stylesheet" href="/blog/blog.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/resource/common.js"></script>
+    <script src="/blog/common.js"></script>
 </head>
 
 <body>

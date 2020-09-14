@@ -1,5 +1,5 @@
 <?php
-    include "../part/head.php";
+    include "/part/head.php";
 
     $dbConn = mysqli_connect("site15.blog.oa.gg", "site15", "sbs123414", "site15", 3306) or die ("DB CONNECTION ERROR");
     $cateItemId = $_GET['cateItemId'];
@@ -85,5 +85,5 @@
 </div>
 
 <?php
-    include "../part/foot.php";
+    include "/part/foot.php";
 ?>
