@@ -3,17 +3,5 @@ body{
     padding:0;
 }
 img{
-    width:100%;
-}
-.img2{
-display: none;
-}
-
-@media (max-width: 800px) {   
-    .img2{
-        display: block
-        }
-    .img1{
-        display: none;
-    }
+    min-width:1600px;
 }
