@@ -53,7 +53,8 @@
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
                                         <div>01</div>
-                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt=""></div>
+                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>POP-UP STORE</div>
@@ -65,7 +66,8 @@
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
                                         <div>01</div>
-                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt=""></div>
+                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LIFE GOES ON</div>
@@ -77,7 +79,8 @@
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
                                         <div>01</div>
-                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt=""></div>
+                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEICA Q2 LAUNCH</div>
@@ -89,7 +92,8 @@
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
                                         <div>01</div>
-                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt=""></div>
+                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEDA OSKAR BARNACK AWARD</div>
@@ -101,7 +105,8 @@
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
                                         <div>01</div>
-                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt=""></div>
+                                        <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEICA Q2 LAUNCH</div>
@@ -110,7 +115,55 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="bn-4 con-2">
+            <div class="bn-4-name name">CAMERA</div>
+            <div class="slide-4-box">
+                <div class="swiper-container-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div> 
+                                          <div>최대</div>
+                                          <div>24,000,000<span>화소</span></div>
+                                          <div>테스트</div>
+                                    </div>
+                                    <div> 
+                                          <div>최대</div>
+                                          <div>4K</div>
+                                          <div>테스트</div>
+                                    </div>
+                                    <div> 
+                                          <div>4K 촬영시</div>
+                                          <div>30<span>fps</span></div>
+                                          <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>

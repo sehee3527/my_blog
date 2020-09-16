@@ -242,7 +242,7 @@
                                     </div>
                                 </div>
                                 <div class="watch-name" id="watch-first"
-                                    data-link-url="http://localhost:8077/portfolio/artfive"
+                                    data-link-url="/portfolio/artfive"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
                                     data-content-name="아트파이브" data-content-subtitle="(HTML/CSS/JQuery)"
                                     data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">Artfive
@@ -265,7 +265,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                <div class="watch-name" data-link-url="/portfolio/bestuhl"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
                                     data-content-name="베스툴" data-content-subtitle="(HTML/CSS/JQuery)"
                                     data-content-content="기존 사이트와 동일하게 제작" onclick="Slider1__itemClick(this);">Bestuhl
@@ -288,7 +288,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/sharlottetheate"
+                                <div class="watch-name" data-link-url="http:///portfolio/sharlottetheate"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/sharlottetheater.png"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
                                     data-content-name="샤롯데씨어터" data-content-subtitle="(HTML/CSS/JQuery)"
@@ -312,7 +312,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/vavavillage"
+                                <div class="watch-name" data-link-url="/portfolio/vavavillage"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/vavavillage.png"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
                                     data-content-name="바바빌리지" data-content-subtitle="(HTML/CSS/JQuery)"
@@ -337,7 +337,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/panasonic"
+                                <div class="watch-name" data-link-url="/portfolio/panasonic"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/panasonic.png"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/artfive.png"
                                     data-content-name="파나소닉"" data-content-subtitle=" (HTML/CSS/JQuery)"
@@ -361,7 +361,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                <div class="watch-name" data-link-url="/portfolio/bestuhl"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
                                     onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
@@ -382,7 +382,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                <div class="watch-name" data-link-url="/portfolio/bestuhl"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
                                     onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
@@ -403,7 +403,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="watch-name" data-link-url="http://localhost:8077/portfolio/bestuhl"
+                                <div class="watch-name" data-link-url="/portfolio/bestuhl"
                                     data-img-url="http://sehee3527.github.io/img1/pf/pf/bestuhl.png"
                                     onclick="Slider1__itemClick(this);">Bestuhl</div>
                                 <div class="watch-circle"></div>
