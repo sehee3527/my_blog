@@ -135,38 +135,171 @@
                                 <div>Leica CL</div>
                                 <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
                                 <div class="flex">
-                                    <div> 
-                                          <div>최대</div>
-                                          <div>24,000,000<span>화소</span></div>
-                                          <div>테스트</div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>APS-C 포맷 CMOS 센서 해상도</div>
                                     </div>
-                                    <div> 
-                                          <div>최대</div>
-                                          <div>4K</div>
-                                          <div>테스트</div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>영상해상도</div>
                                     </div>
-                                    <div> 
-                                          <div>4K 촬영시</div>
-                                          <div>30<span>fps</span></div>
-                                          <div>테스트</div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>4K 촬영시 영상 프레임</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
-                        <div class="swiper-slide">Slide 10</div>
+                        
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide flex">
+                            <div class="img-box">
+                                <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
+                            </div>
+                            <div class="camera-content flex flex-column-nowrap flex-jc-sb">
+                                <div>Leica CL</div>
+                                <div class="flex-grow-1">:꿈은 크게 짐은 가볍게</div>
+                                <div class="flex">
+                                    <div>
+                                        <div>최대</div>
+                                        <div>24,000,000<span>화소</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>최대</div>
+                                        <div>4K</div>
+                                        <div>테스트</div>
+                                    </div>
+                                    <div>
+                                        <div>4K 촬영시</div>
+                                        <div>30<span>fps</span></div>
+                                        <div>테스트</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination slider-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                </div>
+                <div class="slide-num flex flex-jc-sa">
                 </div>
             </div>
         </div>
+    </section>
+    <section class="bn-5 con-2">
+        
     </section>
     <section class="footer con-min-width"></section>
 </body>

@@ -283,6 +283,10 @@ html {
     justify-content:space-between;
   }
   
+  * > .flex-jc-sa {
+    justify-content:space-around;
+  }
+
   * > .flex-ai-c {
     align-items:center;
   }
@@ -497,25 +501,31 @@ body{
 }
 .bn-4>.slide-4-box{
   height: 650px;
+  position: relative;
 }
+
 
 .bn-4>.slide-4-box>.swiper-container-4{
   overflow: hidden;
+  position: relative;
+  margin-top:-1px;
 }
 
-.bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.img-box{
-  height: 500px;
+.bn-4>.slide-4-box>.swiper-container-4 .swiper-slide{
+  margin-top:50px;
 }
 
 
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content{
-  width:50%;
+  width:48%;
+  margin-bottom: 2%;
 }
 
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content>div:first-child{
   font-size: 7rem;
   -webkit-text-stroke: .5px white;
   color:#eaeaea00;
+  padding-top:3%;
 }
 
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content>div:nth-child(2){
@@ -540,6 +550,7 @@ body{
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content>div:last-child>div>div:nth-child(2){
   font-size: 2rem;
   padding-bottom: 10px;
+  white-space: nowrap;
 }
 
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content>div:last-child>div>div:nth-child(2)>span{
@@ -548,4 +559,35 @@ body{
 
 .bn-4>.slide-4-box>.swiper-container-4 .swiper-slide>.camera-content>div:last-child>div>div:last-child{
   color: #d1d1d1;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: .8;
 }
+
+/* bn-4 슬라이드 바 */
+
+.bn-4>.slide-4-box>.swiper-container-4 .swiper-pagination{
+  position: absolute;;
+  top:0;
+  left: auto;
+  right:0;
+  width:60%;
+  height: 1px;
+  background-color: white;
+}
+
+.bn-4>.slide-4-box>.swiper-container-4 .swiper-pagination>span{
+  background-color: #ff2929;
+}
+/* bn-4 슬라이드 바 끝 */
+/* bn-4슬라이드 개수 표시 */
+.bn-4>.slide-4-box>.slide-num{
+  position: absolute;
+  bottom:100%;
+  right: 0;
+  width:60%;
+  padding-bottom: 5px;
+  color:#d1d1d1;
+  opacity: .8;
+}
+/* bn-4슬라이드 개수 표시 끝 */
