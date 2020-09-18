@@ -29,7 +29,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   var swiper = new Swiper('.bn-5-slider-in', {
-    direction: 'vertical',
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

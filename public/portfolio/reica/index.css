@@ -594,9 +594,9 @@ body{
   margin-top:10%;
   padding-bottom: 20%;
   position: relative;
+  color:white;
 }
 .bn-5 > .bn-5-name{
-  color:white;
   border-bottom:2px solid #eaeaea;
 }
 .bn-5 > .bn-5-name>div{
@@ -605,4 +605,12 @@ body{
   left: 0;
   padding:0 20px;
   background-color: #232323;
+}
+
+.bn-5 > .bn-5-slider{
+  border:2px solid blue;
+}
+.bn-5 > .bn-5-slider > .bn-5-slider-in{
+  border:2px solid red;
+  width:80%;
 }
