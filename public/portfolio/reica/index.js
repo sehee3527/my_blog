@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.slide-1', {
     slidesPerView: 4,
     loop: true,
     spaceBetween: 30,
@@ -27,6 +27,15 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  var swiper = new Swiper('.bn-5-slider-in', {
+    direction: 'vertical',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+});
 
 function slideNum() {
   var $slidesCount = $('.camera-content').length;

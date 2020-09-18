@@ -47,7 +47,7 @@
             <div class="bn-3-name name con">EVENT</div>
             <div class="bn-3-content con-2">
                 <div class="slider-box con-3">
-                    <div class="swiper-container">
+                    <div class="swiper-container slide-1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide flex">
                             <div class="img-box">
                                 <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide flex">
                             <div class="img-box">
                                 <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
@@ -207,7 +207,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide flex">
                             <div class="img-box">
                                 <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide flex">
                             <div class="img-box">
                                 <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
@@ -261,7 +261,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide flex">
                             <div class="img-box">
                                 <img src="http://sehee3527.github.io/img1/pf/reica/reic-camera.png" alt="">
@@ -288,18 +288,38 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="swiper-pagination slider-pagination"></div>
-                        <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
                 <div class="slide-num flex flex-jc-sa">
                 </div>
             </div>
         </div>
-    </section>
-    <section class="bn-5 con-2">
-        
+        <section class="bn-5 con-2">
+            <div class="bn-5-name name">
+                <div class="con-3">AKADEMID SCHEDULE</div>
+            </div>
+            <div class="bn-5-slider swiper-container">
+                <div class="bn-5-slider-in">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
     </section>
     <section class="footer con-min-width"></section>
 </body>

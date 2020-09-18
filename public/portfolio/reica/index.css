@@ -490,7 +490,6 @@ body{
 /* .bn-4시작 */
 .bn-4{
   color:white;
-  padding-bottom: 20%;
 }
 
 .bn-4>.bn-4-name{
@@ -591,3 +590,19 @@ body{
   opacity: .8;
 }
 /* bn-4슬라이드 개수 표시 끝 */
+.bn-5{
+  margin-top:10%;
+  padding-bottom: 20%;
+  position: relative;
+}
+.bn-5 > .bn-5-name{
+  color:white;
+  border-bottom:2px solid #eaeaea;
+}
+.bn-5 > .bn-5-name>div{
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 0;
+  padding:0 20px;
+  background-color: #232323;
+}
