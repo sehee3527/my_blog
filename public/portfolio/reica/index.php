@@ -25,7 +25,27 @@
 </head>
 
 <body>
-    <section class="main-bn con-min-width"></section>
+    <section class="main-bn con-min-width">
+        <div class="video">
+            <video width="100%" muted="muted" autoplay loop>
+                <source src="https://sehee3527.github.io/img1/pf/reica/Swimming - 10835.mp4" type="video/mp4">
+            </video>
+            <div class="grid-box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
     <section class="main-middle con-min-width">
         <!-- 배경 라인 -->
         <div class="main-middle-line"></div>
@@ -301,25 +321,174 @@
             <div class="bn-5-name name">
                 <div class="con-3">AKADEMID SCHEDULE</div>
             </div>
-            <div class="bn-5-slider swiper-container">
-                <div class="bn-5-slider-in">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="http://sehee3527.github.io/img1/pf/reica/reica-schedule.jpg" alt="">
-                                </div>
-                            <div class="text-box"></div>
-                        </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
+            <div class="tab">
+                <div class="tab-box-1 flex flex-jc-sb con-3">
+                    <div class="head">
+                        <ul class="flex flex-column-nowrap flex-jc-sb">
+                            <li class="active" data-tab-name="box-1" data-tab-head-item-name="1"><a>
+                                    <div>DATE</div>
+                                    <div>2020.08.12</div>
+                                    <div>라이카 코리아 <br>강의실</div>
+                                </a></li>
+                            <li data-tab-name="box-1" data-tab-head-item-name="2"><a>
+                                    <div>DATE</div>
+                                    <div>2020.08.12</div>
+                                    <div>라이카 코리아 <br>강의실</div>
+                                </a></li>
+                            <li data-tab-name="box-1" data-tab-head-item-name="3"><a>
+                                    <div>DATE</div>
+                                    <div>2020.08.12</div>
+                                    <div>라이카 코리아 <br>강의실</div>
+                                </a></li>
+                        </ul>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="body">
+                        <ul>
+                            <li class="active" data-tab-name="box-1" data-tab-body-item-name="1"
+                                style="background-image: url(http://sehee3527.github.io/img1/pf/reica/reica-schedule.jpg)">
+                                <div>
+                                    <div> 라이카 코리아 강의실</div>
+                                    <div>아날로그 필름 수업</div>
+                                    <div>2020.08.12</div>
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="2"
+                                style="background-image: url(http://sehee3527.github.io/img1/pf/reica/reica-schedule.jpg)">
+                                <div>
+                                    <div> 라이카 코리아 강의실</div>
+                                    <div>아날로그 필름 수업</div>
+                                    <div>2020.08.12</div>
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="3"
+                                style="background-image: url(http://sehee3527.github.io/img1/pf/reica/reica-schedule.jpg)">
+                                <div>
+                                    <div> 라이카 코리아 강의실</div>
+                                    <div>아날로그 필름 수업</div>
+                                    <div>2020.08.12</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="bn-6">
+            <a href="">
+                <div>
+                    <div class="con">제품등록</div>
+                    <div class="con">라이카 회원 가입과 제품 등록을 통해 여러 혜택을 만나보세요</div>
+                </div>
+            </a>
+        </section>
     </section>
-    <section class="footer con-min-width"></section>
+    <section class="footer con-min-width">
+        <nav class="sitemap">
+            <div class="inner">
+                <div>
+                    <p>LEICA CAMERA KOREA</p>
+
+                    <ul>
+                        <li><a href="/about/company.asp">회사소개</a></li>
+                        <!--li><a href="/about/contact.asp">Contact</a></li-->
+                    </ul>
+
+                    <p>LEGAL</p>
+
+                    <ul>
+                        <li><a href="#" id="popagree__btn">이용약관</a></li>
+                        <li><a href="#" id="popprivacy__btn">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>ONLINE SHOP</p>
+
+                    <ul>
+                        <li><a href="/Product/list.asp?cno=101">ALL Products</a></li>
+                        <li><a href="/Product/list.asp?cno=108">Leica M</a></li>
+                        <li><a href="/Product/list.asp?cno=110">Leica SL</a></li>
+                        <li><a href="/Product/list.asp?cno=112">Leica Q</a></li>
+                        <li><a href="/Product/list.asp?cno=114">CL and TL2</a></li>
+                        <li><a href="/Product/list.asp?cno=116">Compacts</a></li>
+                        <li><a href="/Product/list.asp?cno=117">Sofort</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>AKADEMIE</p>
+
+                    <ul>
+                        <li><a href="/akademie/akademie.asp">라이카 아카데미 소개</a></li>
+                        <li><a href="/akademie/list.asp">아카데미 일정</a></li>
+                    </ul>
+
+                    <p>CUSTOMER SERVICE</p>
+
+                    <ul>
+                        <li><a href="/customer/notice.asp">공지사항</a></li>
+                        <li><a href="/customer/faq.asp">자주하는 질문(FAQ)</a></li>
+                        <li><a href="/customer/delivery.asp">배송 및 교환 정책</a></li>
+                        <li><a href="/customer/qna.asp">1:1문의</a></li>
+                        <li><a href="/store/list.asp">매장안내</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>CONTENTS</p>
+
+                    <ul>
+                        <li><a href="/press/list.asp">보도자료</a></li>
+                        <li><a href="/exhibition/list.asp">라이카 전시 일정</a></li>
+                        <!--li><a href="/gallery/list.asp">온라인 갤러리</a></li>
+					<li><a href="/interview/list.asp">인터뷰</a></li-->
+                    </ul>
+
+                    <p>CUSTOMER CARE</p>
+
+                    <ul>
+                        <li><a href="/mypage/regist.asp">제품등록</a></li>
+                        <li><a href="https://kr.leica-camera.com/Service-Support/Support/Downloads?category=&amp;subcategory=&amp;type=&amp;language=93873"
+                                target="_blank">다운로드</a></li>
+                        <li><a href="/customer/customer_file.asp">자료실</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>LOGIN / SIGN UP</p>
+
+                    <ul>
+                        <li><a href="/member/login.asp">Login Account</a></li>
+                        <li><a href="/member/join.asp">Sign Up</a></li>
+                    </ul>
+                </div>
+
+                <div class="sns">
+                    <p>SOCIAL</p>
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/LeicaCameraKr/" target="_blank"
+                                class="sns__facebook">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/leica_kr/" target="_blank"
+                                class="sns__instagram">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="company">
+            <div class="inner">
+                <p class="address">
+                    라이카 카메라 코리아(주) 대표자 : <span>수닐카울</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    전화번호: <span>1661-0405</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    서울시 강남구 테헤란로 208 안제타워 2층<br>
+                    사업자등록번호 : <span>211-88-55103</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    통신판매업 신고번호 : <span>제2016-서울강남-01819호</span>
+                </p>
+                <p class="copyright">Copyright © 2020 Leica Camera Korea Ltd.</p>
+                <a href="javascript:;" class="wesentliche">DAS WESENTLICHE</a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

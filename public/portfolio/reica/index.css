@@ -382,6 +382,43 @@ body{
 .name{
   font-size: 4rem;
 }
+/* main */
+
+.main-bn>.video{
+  height: 100vh;
+  overflow: hidden;
+}
+.main-bn .grid-box {
+  display: grid;
+  grid-template-columns: [first] 2.6% [second] 38% [third] 57% [Fourth] 2.5%;
+  grid-template-rows: [one] 15% [tow] 75% [three] 10%;
+}
+.main-bn .grid-box>div{
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+}
+
+.main-bn .grid-box>div:nth-child(4n){
+  border-right:0px solid white;
+
+}
+.main-bn .grid-box>div:nth-child(n+9){
+  border-bottom:0px solid white;
+
+}
+.main-bn .grid-box>div:not(:nth-child(7)){
+  background-color:#afafaf80;
+}
+.main-bn .video{
+  position:relative;
+}
+.main-bn .video>.grid-box{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}
 /* section-content */
 .main-middle{
   position: relative;
@@ -592,12 +629,11 @@ body{
 /* bn-4슬라이드 개수 표시 끝 */
 .bn-5{
   margin-top:10%;
-  padding-bottom: 20%;
   position: relative;
   color:white;
 }
 .bn-5 > .bn-5-name{
-  border-bottom:2px solid #eaeaea;
+  border-bottom:1px solid #eaeaea;
 }
 .bn-5 > .bn-5-name>div{
   position: absolute;
@@ -606,11 +642,250 @@ body{
   padding:0 20px;
   background-color: #232323;
 }
-
-.bn-5 > .bn-5-slider{
-  border:2px solid blue;
+.bn-5 .tab{
+  border-bottom:1px solid #eaeaea;
+  padding-bottom: 2%;
 }
-.bn-5 > .bn-5-slider > .bn-5-slider-in{
-  border:2px solid red;
-  width:80%;
+.bn-5 .tab-box-1{
+  margin-top:3%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bn-5 .tab-box-1::after{
+  content:"SCHEDULE";
+  position: absolute;
+  bottom:0%;
+  left: 0;
+  letter-spacing:11.3vw;
+}
+
+.bn-5 .tab-box-1 > .body > ul > li {
+  display:none;
+}
+.bn-5 .tab-box-1 > .body > ul > li.active {
+  display:block;
+}
+.bn-5 .tab-box-1 > .head {
+  width:calc(15% - 30px);
+}
+.bn-5 .tab-box-1 > .head > ul{
+  height: 100%;
+}
+.bn-5 .tab-box-1 > .head > ul>li{
+  border:1px solid #555555;
+  background-color: #232323;
+  box-shadow:0px 0px 10px 10px #0c0c0c5d;
+  height: calc(100% / 3);
+  margin-bottom: 30px;
+  position: relative;
+}
+.bn-5 .tab-box-1 > .head > ul>li>a>div{
+  margin:0 10%;
+  color: #b9b9b9;
+}
+
+.bn-5 .tab-box-1 > .head > ul > li.active>a::after {
+  content:"";
+  display: block;
+  position: absolute;
+  top:10%;
+  right: 10%;
+  width:12px;
+  height: 12px ;
+  border-radius: 50%;
+  box-shadow:0px 0px 5px 5px #0c0c0c21;
+  background-color: #ff2929;
+}
+.bn-5 .tab-box-1 > .head > ul>li>a>div:nth-child(1){
+  font-size: 1.2rem;
+  padding-top:15%;
+  padding-bottom: 20%;
+}
+.bn-5 .tab-box-1 > .head > ul>li>a>div:nth-child(2){
+  font-size: 1rem;
+  border-bottom: 1px solid #b9b9b9;
+  display: inline-block;
+}
+
+.bn-5 .tab-box-1 > .head > ul>li>a>div:nth-child(3){
+  font-size: 1rem;
+}
+
+.bn-5 .tab-box-1 > .body{
+  width:85%;
+  margin-bottom: 30px;
+}
+.bn-5 .tab-box-1 > .body>ul>li{
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.bn-5 .tab-box-1 > .body>ul>li::after{
+  content:"";
+  position: absolute;
+  display: block;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #23232388;
+}
+.bn-5 .tab-box-1 > .body>ul>li>div{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align:center;
+  z-index: 2;
+}
+
+.bn-5 .tab-box-1 > .body>ul>li>div>div:nth-child(1){
+  font-size: 1.3rem;
+}
+.bn-5 .tab-box-1 > .body>ul>li>div>div:nth-child(2){
+  font-size: 2.5rem;
+}
+.bn-5 .tab-box-1 > .body>ul>li>div>div:nth-child(3){
+  font-size: 1rem;
+  padding-top:20%;
+}
+
+.bn-6{
+  color:white;
+  padding:4% 0;
+}
+
+.bn-6>a{
+  background-color: #ff2929;
+  display: block;
+  height: 300px;
+  position: relative;
+}
+
+.bn-6>a>div{
+  position: absolute;
+  background-color: #ff2929;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.bn-6>a>div>div:nth-child(1){
+  font-size: 1.2rem;
+  padding-top:5.5%;
+}
+
+.bn-6>a>div>div:nth-child(2){
+  font-size: 1.5rem;
+  padding-top:2%;
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	min-width: 1200px;
+	margin: 0 auto;
+	background-color: rgb(0,0,0);
+}
+.footer > * > .inner {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.footer > * > .inner:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.footer .sitemap {
+	padding: 34px 0 33px;
+	border-bottom: 1px solid rgb(48,48,48);
+}
+.footer .sitemap .inner > div {
+	width: 15.58%;
+	float: left;
+	margin: 0 0 0 1.67%;
+	box-sizing: border-box;
+}
+.footer .sitemap .inner > div.sns {width: 13.75%;}
+.footer .sitemap .inner > div:first-child {margin: 0;}
+.footer .sitemap p {
+	margin: 27px 0 0;
+	font-family: 'CorporateS-Bold';
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(255,255,255);
+}
+.footer .sitemap p:first-of-type {margin: 0;}
+.footer .sitemap p.cc {margin: 54px 0 0;}
+.footer .sitemap ul {margin: 20px 0 0;}
+.footer .sitemap ul li a {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	line-height: 24px;
+}
+.footer .sitemap .sns ul li {margin: 6px 0 0;}
+.footer .sitemap .sns ul li:first-child {margin: 0;}
+.footer .sitemap .sns ul li a {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.footer .sitemap .sns ul li a:before {
+	width: 16px;
+	height: 24px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.footer .sitemap .sns ul li .sns__facebook:before {background-image: url(/pc/resource/images/common/ico_facebook_wt_10x16.png);}
+.footer .sitemap .sns ul li .sns__instagram:before {background-image: url(/pc/resource/images/common/ico_instagram_wt_16x16.png);}
+.footer .company {padding: 35px 0 42px;}
+.footer .company .address {
+	float: left;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgb(255,255,255);
+	line-height: 22px;
+}
+.footer .company .address span {color: rgb(85,85,85);}
+.footer .company .copyright {
+	float: left;
+	margin: 10px 0 0 55px;
+	font-family: 'HelveticaNeueLTStd-Roman', 'HelveticaNeue-Medium', 'Nanum Gothic', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgb(85,85,85);
+}
+.footer .company .wesentliche {
+	height: 34px;
+	float: right;
+	margin: 5px 0 0;
+	padding: 0 0 0 40px;
+	font-family: 'HelveticaNeueLTStd-Roman';
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	line-height: 34px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(/pc/resource/images/common/logo_leica_48x48.png);
+	background-size: 34px;
 }
