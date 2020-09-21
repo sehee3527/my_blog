@@ -25,6 +25,28 @@
 </head>
 
 <body>
+    <div id="top-bar" class="con-min-width">
+        <div class="con-3 flex flex-jc-sb flex-ai-e">
+            <div class="logo img-box">
+                <a href="">
+                    <img src="http://sehee3527.github.io/img1/pf/reica/reica-logo.png" alt="">
+                </a>
+            </div>
+            <ul class="menu flex flex-jc-sb flex-ai-e">
+                <li><a href="">LEICA CAMERA KOREA</a>
+                <div></div>
+            </li>
+                <li><a href="">AKADEMIE</a>
+                <div></div></li>
+                <li><a href="">CONTENTS</a>
+                <div></div></li>
+                <li><a href="">STORE</a>
+                <div></div></li>
+                <li><a href="">CUSTOMER CARE</a>
+                <div></div></li>
+            </ul>
+        </div>
+    </div>
     <section class="main-bn con-min-width">
         <div class="video">
             <video width="100%" muted="muted" autoplay loop>
@@ -36,12 +58,26 @@
                 <div></div>
                 <div></div>
                 <div></div>
+                <div>
+                    <div class="main-text-box">
+                    <div><span>Visual pleasure</span> &<br>lasting value</div>
+                    <div>시각적인 즐거움과 지속적인 가치 라이카</div>
+                    <div>타협하지 않는 높은 퀄리티와 다양한 시도들은 라이카 제품을 더욱 완벽하고 견고하게 만들었고,<br> 지난 수십년간의 경험과 유저와의 소통으로 혁신적인 발전을 이루어 냈습니다.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-box">
+                        <img src="https://sehee3527.github.io/img1/pf/reica/reica-img.png" alt="">
+                    </div>
+                </div>
                 <div></div>
                 <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/reica/1.png" alt=""></div>
+                </div>
+                <div>
+                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/reica/2.png" alt=""></div>
+                </div>
                 <div></div>
             </div>
         </div>
@@ -78,59 +114,59 @@
                                     </div>
                                     <div class="slide-bottom">
                                         <div>POP-UP STORE</div>
-                                        <div>라이카 카메라 <br>팝업 스토어 오픈</div>
+                                        <div>라이카 카메라 <br><span>팝업 스토어 오픈</span></div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
-                                        <div>01</div>
+                                        <div>02</div>
                                         <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
                                         </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LIFE GOES ON</div>
-                                        <div>임인식 <br>사진전 오픈</div>
+                                        <div>임인식 <br><span>사진전 오픈</span></div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
-                                        <div>01</div>
+                                        <div>03</div>
                                         <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
                                         </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEICA Q2 LAUNCH</div>
-                                        <div>한치의 오차도 <br>없는 완벽함</div>
+                                        <div>한치의 오차도 <br>없는 <span>완벽함</span></div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
-                                        <div>01</div>
+                                        <div>04</div>
                                         <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
                                         </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEDA OSKAR BARNACK AWARD</div>
-                                        <div>LABA 2020 <br>사진상 성남훈의<br>RED ISLAND</div>
+                                        <div>LABA 2020 <br>사진상 성남훈의<br><span>RED ISLAND</span></div>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <div class="slide-top flex flex-jc-sb">
-                                        <div>01</div>
+                                        <div>05</div>
                                         <div><img src="http://sehee3527.github.io/img1/pf/reica/reica-btn.png" alt="">
                                         </div>
                                     </div>
                                     <div class="slide-bottom">
                                         <div>LEICA Q2 LAUNCH</div>
-                                        <div>한치의 오차도 <br>없는 완벽함</div>
+                                        <div>한치의 오차도 <br>없는 <span>완벽함</span></div>
                                     </div>
                                 </a>
                             </div>
@@ -345,10 +381,10 @@
                     <div class="body">
                         <ul>
                             <li class="active" data-tab-name="box-1" data-tab-body-item-name="1"
-                                style="background-image: url(http://sehee3527.github.io/img1/pf/reica/reica-schedule.jpg)">
+                                style="background-image: url(http://sehee3527.github.io/img1/pf/reica/3.png)">
                                 <div>
-                                    <div> 라이카 코리아 강의실</div>
-                                    <div>아날로그 필름 수업</div>
+                                    <div> 라이카 스토어 청담</div>
+                                    <div>라이카 살롱 9월 신청</div>
                                     <div>2020.08.12</div>
                                 </div>
                             </li>

@@ -20,6 +20,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   var swiper = new Swiper('.swiper-container-4', {
+    loop:true,
     pagination: {
       el: '.swiper-pagination',
       type: 'progressbar',
