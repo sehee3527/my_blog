@@ -26,6 +26,7 @@
     <a href="/portfolio/test">라이카 이미지</a><br>
     <p>design</p>
 
+    <a href="/portfolio/subpage">서브 페이지</a><br>
     <p><a href="http://sehee3527.github.io/img1/pf/design/7월달 이미지1-01.jpg" target="_blank"
             rel="noopener noreferrer">디자인1</a></p>
 
