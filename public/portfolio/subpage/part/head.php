@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>sub-page</title>
-    <link rel="stylesheet" href="/portfolio/subpage/index.css">
-    <script src="/portfolio/subpage/index.js"></script><!-- 유용한 링크 -->
+    <title>sub-page</title><!-- 유용한 링크 -->
     <!-- 구글 폰트 불러오기 -->
     <!-- rotobo(400/700/900), notosanskr(400/600/900) -->
     <link
@@ -22,6 +20,8 @@
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="/portfolio/subpage/index.css">
+    <script src="/portfolio/subpage/index.js"></script>
 </head>
 
 <body>
@@ -38,3 +38,27 @@
             <li><a href="">로그인</a></li>
         </ul>
     </section>
+    <section class="mobile-top-bar flex flex-jc-sb">
+        <div></div>
+        <div class="logo">Do-N</div>
+        <div class="mobile-top-bar-menu" onclick="PopUp(); Active();">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <div class="mobile-pop-up">
+        <div class="pop-up-content">
+            <div>
+                <div><a href="">로그인 하러가기</a></div>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="">홈</a></li>
+                    <li><a href="">스토어</a></li>
+                    <li><a href="">마이 페이지</a></li>
+                    <li><a href="">문의사항</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
