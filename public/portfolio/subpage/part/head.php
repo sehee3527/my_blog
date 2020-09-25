@@ -28,10 +28,10 @@
     <section class="top-bar flex flex-jc-sb">
         <div class="logo">Do-N</div>
         <ul class="top-bar-menu flex flex-ai-c flex-grow-1">
-            <li><a href="">홈</a></li>
+            <li><a href="/portfolio/subpage">홈</a></li>
             <li><a href="">스토어</a></li>
             <li><a href="">마이 페이지</a></li>
-            <li><a href="">문의사항</a></li>
+            <li><a href="/portfolio/subpage/customer-ser">고객센터</a></li>
         </ul>
         <ul class="top-bar-right-menu flex-ai-c flex">
             <li><a href="">회원가입</a></li>

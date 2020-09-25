@@ -12,9 +12,10 @@
     </div>
     <div class="ling img-box"><img src="http://sehee3527.github.io/img1/pf/subpage/line-01.png" alt=""></div>
     <div>Do-n에 오신것을 환영합니다<br>지금바로 만나보세요</div>
-    <div class="do-n-start"><a href="" class="btn">시작하기</a></div>
+    <div class="do-n-start btn"><a href="" >시작하기</a></div>
 </div>
 
 <?php
     include "part/footer.php";
 ?>
+

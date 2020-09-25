@@ -373,8 +373,11 @@ label[for] {
     font-size: 3.5rem;
     font-weight: bold;
 }
+.subtitle{
+    color:#7c7c7c;
+}
 
-.btn{
+.btn>a{
     color:#fff;
     display: block;
     background-color: #6663f2;
@@ -383,9 +386,34 @@ label[for] {
     width:250px;
 }
 
+.form-name {
+    color: #6c6c6c;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    text-align:left;
+    padding-top:10px;
+}
+.form-in {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.form-in::placeholder {
+    color: #dcdcdc;
+    padding: 10px;
+}
+
 @media(max-width:700px){
     .page-name {
         font-size: 3rem;
+        text-align: left;
+    }
+    .subtitle{
+        text-align: left;
     }
 }
 /* 탑바 css */
@@ -569,25 +597,6 @@ label[for] {
     margin-top: 20px;
 }
 
-.sign-in-page>.form-container>.email-address>div:first-child {
-    color: #6c6c6c;
-    padding-left: 5px;
-    font-size: 1.1rem;
-}
-
-.sign-in-page>.form-container>.email-address>input {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid #dcdcdc;
-    padding: 10px 0;
-    width: 100%;
-}
-
-.sign-in-page>.form-container>.email-address>input::placeholder {
-    color: #dcdcdc;
-    padding: 10px;
-}
 
 .sign-in-page>.form-container>.password {
     margin-top: 20px;
@@ -748,9 +757,6 @@ label[for] {
     padding-top:10px;
     text-align: left;
 }
-.sign-up>div:nth-child(2){
-    color:#7c7c7c;
-}
 
 .sign-up>.name>div>input{
     border-top: 0;
@@ -765,6 +771,66 @@ label[for] {
     color: #dcdcdc;
     padding: 10px;
     
+}
+
+.sign-up>.check-menu-box{
+    text-align: left;
+    color:#999999;
+    font-size: 0.8rem;
+    padding-top:15px;
+}
+
+.sign-up>.check-menu-box>div{
+    padding:1px 0;
+
+}
+.sign-up>.check-menu-box>div:nth-child(1){
+    border-bottom:1px solid #dcdcdc;
+    padding:2px 0 5px;
+}
+
+.sign-up>.check-menu-box>.checkbox-container>label{
+    padding-left: 30px;
+}
+
+.sign-up input[type="checkbox"] {
+    display: none;
+}
+
+.sign-up input[type="checkbox"] + label {
+    cursor: pointer;
+}
+
+.sign-up input[type="checkbox"] + label:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top:2px;
+    left: 55px;
+    border:1px solid #7c7c7c;
+}
+.sign-up .check-menu-box {
+    position: relative;
+}
+
+.sign-up input[type="checkbox"]:checked + label:before {
+    content: "\2714";
+    font-size: 0.5rem;
+    color: #fff;
+    background-color: #6663f2;
+    text-align: center;
+}
+.sign-up .btn>a{
+width:100%;
+margin: 30px 0;
+}
+.sign-up .login-connection{
+    color:#999999;
+    margin-top: -10px;
+}
+.sign-up .login-connection>a{
+    font-weight: 600;
 }
 
 /* 푸터 */

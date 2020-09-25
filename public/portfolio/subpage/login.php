@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="continue con-3 row">
-        <a href="/portfolio/subpage/login.php">continue</a>
+        <a href="">continue</a>
     </div>
 </section>
 
