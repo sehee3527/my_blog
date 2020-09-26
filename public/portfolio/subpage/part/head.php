@@ -34,8 +34,8 @@
             <li><a href="/portfolio/subpage/customer-ser">고객센터</a></li>
         </ul>
         <ul class="top-bar-right-menu flex-ai-c flex">
-            <li><a href="">회원가입</a></li>
-            <li><a href="">로그인</a></li>
+            <li><a href="/portfolio/subpage/sign-up.php">회원가입</a></li>
+            <li><a href="/portfolio/subpage/login.php">로그인</a></li>
         </ul>
     </section>
     <section class="mobile-top-bar flex flex-jc-sb">
@@ -50,14 +50,14 @@
     <div class="mobile-pop-up">
         <div class="pop-up-content">
             <div>
-                <div><a href="">로그인 하러가기</a></div>
+                <div><a href="/portfolio/subpage/login.php">로그인 하러가기</a></div>
             </div>
             <div>
                 <ul>
                     <li><a href="">홈</a></li>
                     <li><a href="">스토어</a></li>
                     <li><a href="">마이 페이지</a></li>
-                    <li><a href="">문의사항</a></li>
+                    <li><a href="/portfolio/subpage/customer-service.php">고객센터</a></li>
                 </ul>
             </div>
         </div>

@@ -16,14 +16,14 @@
         </div>
     </div>
     <div class="form-bottom flex con-3">
-        <div class="flex-grow-1">새로운 사용자이신가요? <a href="">회원가입</a></div>
+        <div class="flex-grow-1">새로운 사용자이신가요? <a href="/portfolio/subpage/sign-up.php">회원가입</a></div>
         <div>
             <a href="">아이디 찾기</a>
             <a href="">비밀번호 찾기</a>
         </div>
     </div>
     <div class="continue con-3 row">
-        <a href="">continue</a>
+        <a href="/portfolio/subpage/login.php">continue</a>
     </div>
 </section>
 
