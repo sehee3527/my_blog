@@ -12,7 +12,7 @@
     </div>
     <div class="ling img-box"><img src="http://sehee3527.github.io/img1/pf/subpage/line-01.png" alt=""></div>
     <div>답변까지 평일기준 3일 정도 소요될 수 있습니다.</div>
-    <div class="do-n-start btn"><a href="" >홈페이지로 돌아가기</a></div>
+    <div class="do-n-start btn"><a href="/portfolio/subpage" >홈페이지로 돌아가기</a></div>
 </div>
 
 <?php

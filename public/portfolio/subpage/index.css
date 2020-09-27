@@ -613,7 +613,15 @@ label[for] {
 .mobile-pop-up>.pop-up-content>div>ul>li {
     padding: 15px 30px;
 }
+/* 홈 */
+.home{
+    margin: 300px 0;
 
+}
+.home>div>.home-greeting>span{
+    color:#6663f2;
+    padding-right: 10px;
+}
 /* 로그인 페이지 */
 .sign-in-page {
     padding-bottom: 210px;
