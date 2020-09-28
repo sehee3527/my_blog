@@ -20,7 +20,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   var swiper = new Swiper('.swiper-container-4', {
-    loop:true,
     pagination: {
       el: '.swiper-pagination',
       type: 'progressbar',
@@ -65,4 +64,6 @@ function TabBox__init() {
 $(function () {
   slideNum();
   TabBox__init();
+  $('.main-text-box').addClass('active');
+  $('.main-bn .grid-box>div:nth-child(7)>div').addClass('active');
 });

@@ -475,6 +475,26 @@ padding-bottom: 7.5%;
   box-sizing: border-box;
   padding:5%;
 }
+.main-bn .grid-box>div:nth-child(6)>.main-text-box>div{
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.main-bn .grid-box>div:nth-child(6)>.main-text-box.active>div{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.main-bn .grid-box>div:nth-child(6)>.main-text-box.active>div:first-child{
+  transition: all 1.5s;
+}
+
+.main-bn .grid-box>div:nth-child(6)>.main-text-box.active>div:nth-child(2){
+  transition: all 1.5s .2s;
+}
+.main-bn .grid-box>div:nth-child(6)>.main-text-box.active>div:last-child{
+  transition: all 1.5s .5s;
+}
+
 .main-bn .grid-box>div:nth-child(6)>.main-text-box>div:nth-child(1){
   font-size: 3.5rem;
   line-height: 3.2rem;
@@ -498,6 +518,11 @@ padding-bottom: 7.5%;
 width:75%;
 margin:0 auto;
 padding-top:10%;
+opacity: 0;
+transition: all 1.5s;
+}
+.main-bn .grid-box>div:nth-child(7)>div.active{
+  opacity: 1;
 }
 
 .main-bn .grid-box>div:nth-child(10)>div{
@@ -537,6 +562,11 @@ padding-top:10%;
   padding-top:10%;
   color:white;
 }
+
+.main-middle>.bn-2>.bn-2-img{
+  overflow: hidden;
+}
+
 .main-middle>.bn-2>.bn-2-content{
   padding-left: 2%;
   width:20%;
@@ -635,7 +665,7 @@ padding-top:10%;
 }
 
 .bn-4>.bn-4-name{
-  padding-top:20%;
+  padding-top:15%;
   border-bottom: 1px solid #eaeaea;
   padding-left:5.5%;
   display: inline-block;
