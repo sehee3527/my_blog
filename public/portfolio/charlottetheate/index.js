@@ -105,6 +105,15 @@ function ActiveOnVisible__checkAndActive() {
 }
 
 /* 발견되면 활성화시키는 라이브러리 끝 */
+function TopBar__init() {
+  $('.btn-toggle').click(function() {
+    $('html').toggleClass('side-bar-actived');
+  });
+  $('.top-bar>.right-menu>.search').click(function() {
+    $('html').toggleClass('side-bar-search-actived');
+  });
+}
+
 
 function start() {
   $('.slider-item:nth-child(2)').addClass('start')
@@ -112,7 +121,7 @@ function start() {
 }
 
 $(function(){
-  TopBar_init();
+  TopBar__init();
   ActiveOnVisible__init();
   start();
 });

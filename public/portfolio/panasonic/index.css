@@ -427,11 +427,12 @@ a {
 }
 .bn-5-box>.last-box>.con>.last-information>.img-box{
   position:absolute;
+  display: block;
   top:0;
   left:0;
-  width:20%;
-  height:20%;
+  width:10%;
 }
+
 .bn-5-box>.last-box>.con>.last-information>.list-box{
   position:absolute;
   top:0;
@@ -440,7 +441,7 @@ a {
   height:80%;
 }
 .bn-5-box>.last-box>.con>.last-information>.list-box>div{
-  font-size:1.2vw;
+  font-size:15px;
   color:rgba(255,255,255,.8);
   padding-bottom:1%;
   word-spacing:.5px;
@@ -451,7 +452,7 @@ a {
 }
 
 .bn-5-box>.last-box>.con>.last-information>.list-box>nav{
-  font-size:1.2vw;
+  font-size:1vw;
   color:rgba(255,255,255,.5);
 }
 .bn-5-box>.last-box>.con>.last-information>.list-box>nav:first-of-type{
@@ -720,7 +721,7 @@ a {
   height:80%;
 }
 .bn-5-box>.last-box>.con>.last-information>.list-box>div{
-  font-size:1.2vw;
+  font-size:15px;
   color:rgba(255,255,255,.8);
   padding-bottom:1%;
   word-spacing:.5px;
@@ -731,7 +732,6 @@ a {
 }
 
 .bn-5-box>.last-box>.con>.last-information>.list-box>nav{
-  font-size:1.2vw;
   color:rgba(255,255,255,.5);
 }
 .bn-5-box>.last-box>.con>.last-information>.list-box>nav:first-of-type{

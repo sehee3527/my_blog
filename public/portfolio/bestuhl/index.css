@@ -672,10 +672,12 @@ html {
   left: 20%;
   transform: translateY(-50%);
   color:white;
-  transition: left 1s;
+  opacity: 0;
+  transition: all 1s;
 }
 .main-compuny>.main-company__inner>.main-company__info.active{
   left: 0%;
+  opacity: 1;
 }
 .main-compuny>.main-company__inner>.main-company__info>p:first-child{
   font-weight: 700;

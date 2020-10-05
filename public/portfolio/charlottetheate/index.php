@@ -31,6 +31,21 @@
 </head>
 
 <body>
+    <div class="popup1">
+        <div class="box">
+            <div>charlottetheater</div>
+            <div>Presentation</div>
+            <div>Ticket</div>
+            <div>Event</div>
+            <div>Customer Service</div>
+        </div>
+    </div>
+    <div class="popup2">
+        <div class="flex">
+            <input type="text" placeholder="검색">
+            <div class="img-box"><img src="" alt=""></div>
+        </div>
+    </div>
     <div class="top flex flex-jc-e">
         <div><a href="#">ENG</a></div>
         <div><a href="#">KOR</a></div>
@@ -51,7 +66,7 @@
         </ul>
         <div class="right-menu flex flex-ai-c">
             <div class="search"><img src="https://sehee3527.github.io/img1/pf/charlottetheate/search.png" alt=""></div>
-            <div class="side-menu">
+            <div class="side-menu btn-toggle">
                 <div>
                     <div></div>
                     <div></div>
@@ -88,7 +103,8 @@
                     <div>2020.02.11 ~ 2020.06.07</div>
                     <div>DRACULA</div>
                     <div>IM-MOR-DI-TE NOS-FE-RA-TU</div>
-                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤 <br>한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를<br>사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을 초월한<br> 세기의 러브스토리</div>
+                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤 <br>한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를<br>사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을
+                        초월한<br> 세기의 러브스토리</div>
                     <div>view more</div>
                 </div>
             </div>
@@ -111,7 +127,8 @@
                     <div>드라큘라</div>
                     <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/dracula.png" alt=""></div>
                     <div>2020.02.11 ~ 2020.06.07</div>
-                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤/한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를 사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을 초월한 세기의 러브스토리</div>
+                    <div>브로드웨이 역사상 가장 매혹적인 입맞춤/한 여인을 사랑하기 위해 영원의 삶을 선택한 ‘드라큘라’와 그를 사랑할 수밖에 없는 운명의 여인 ‘미나’ 죽음을 초월한 세기의
+                        러브스토리</div>
                 </div>
                 <div class="musical-item">
                     <div>브로드웨이 42번가</div>
@@ -140,7 +157,8 @@
                 <div></div>
                 <div class="active-on-visible">Hamlet<span>2019.10.02. ~ 2020.01.27</span></div>
                 <div class="active-on-visible">William shakespeare - hamlet</div>
-                <div class="active-on-visible">대중적인 선율의 뮤지컬 넘버들과 화려한 회전 무대를 <br class="active-on-visible">사용한 역동적인 드라마 전개가 돋보이는 뮤지컬 <햄릿>
+                <div class="active-on-visible">대중적인 선율의 뮤지컬 넘버들과 화려한 회전 무대를 <br class="active-on-visible">사용한 역동적인 드라마
+                    전개가 돋보이는 뮤지컬 <햄릿>
                 </div>
                 <div class="active-on-visible">view more</div>
             </div>
@@ -178,15 +196,18 @@
             </div>
             <div class="bn-4-right flex">
                 <div class="flex-grow-1">
-                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')">
+                    <div class="active-on-visible"
+                        style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img1.png')">
                     </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')">
+                    <div class="active-on-visible"
+                        style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img2.png')">
                     </div>
                 </div>
                 <div class="flex-grow-1">
-                    <div class="active-on-visible" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')">
+                    <div class="active-on-visible"
+                        style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img3.png')">
                     </div>
                 </div>
             </div>
@@ -195,7 +216,8 @@
     <div class="bn-5" style="background-image:url('https://sehee3527.github.io/img1/pf/charlottetheate/img4.png')">
         <div></div>
         <div class="active-on-visible">Charlottetheater</div>
-        <div class="active-on-visible">샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게 지속적으로 제공하여 공연 시장 확대와
+        <div class="active-on-visible">샤롯데씨어터는 그룹의 문화 사업을 통한 사회환원이란 이념으로 국내 최고 수준의 장비와 시설을 갖추었으며, 수준 높고 다양한 뮤지컬을 한국 관객에게
+            지속적으로 제공하여 공연 시장 확대와
             문화발전에 기여해 나갈 것입니다.</div>
     </div>
     <div class="bn-6 con flex">
@@ -308,9 +330,11 @@
         <div class="con flex">
             <div><img src="https://sehee3527.github.io/img1/pf/charlottetheate/logo_white.png" alt=""></div>
             <div class="flex-grow-1">
-                <div>화원약관 | 개인정보처리방침 | 사이트맵<br>서울특별시 송파구 올림픽로 240(잠실동) 롯데컬쳐웍스(주) 대표이사 기원규 사업자 등록번호 313-87-00979 | 개인정보보호 책임자 상무 이미선</div>
+                <div>화원약관 | 개인정보처리방침 | 사이트맵<br>서울특별시 송파구 올림픽로 240(잠실동) 롯데컬쳐웍스(주) 대표이사 기원규 사업자 등록번호 313-87-00979 | 개인정보보호
+                    책임자 상무 이미선</div>
                 <div></div>
-                <div>티켓예매문의 | 1899-6336&nbsp;&nbsp;&nbsp;공연장(시설킻 운영)문의 | 1644-0078&nbsp;&nbsp;&nbsp;공연장 광고문의 | KIM_YG@lotte.net <br>CopyrightⓒLOTTE CULTUREWORKS All rights Reserved.</div>
+                <div>티켓예매문의 | 1899-6336&nbsp;&nbsp;&nbsp;공연장(시설킻 운영)문의 | 1644-0078&nbsp;&nbsp;&nbsp;공연장 광고문의 |
+                    KIM_YG@lotte.net <br>CopyrightⓒLOTTE CULTUREWORKS All rights Reserved.</div>
             </div>
         </div>
     </div>
