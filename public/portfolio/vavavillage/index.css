@@ -20,6 +20,7 @@ a {
 
 label[for] {
   cursor: pointer;
+
   user-select: none;
 }
 
@@ -285,6 +286,9 @@ label[for] {
   justify-content: space-between;
 }
 
+*>.flex-jc-sa {
+  justify-content: space-around;
+}
 *>.flex-ai-c {
   align-items: center;
 }
@@ -345,10 +349,27 @@ label[for] {
   top: 0;
   left: 0;
   width: 100%;
-  height: 0;
-  padding-bottom: 7%;
+  height: 111px;
   color: white;
   z-index: 100;
+  background-color: #00000000;
+  transition:background-color .3s;
+}
+
+
+.top-bar-fly .top-bar{
+  transition:top .3s;
+  position: fixed;
+  background-color: #000000d2;
+  animation:.3s ease-in-out 0s normal none 1 running fadeInDown;
+}
+@keyframes fadeInDown{
+  0% {
+    transform:translateY(-100%);
+  }
+  100%{
+    transform:translateY(-0%);
+  }
 }
 
 .top-bar>.logo {
@@ -657,6 +678,18 @@ font-size: 26px;
     background-color: black;
     color:white;
   }
+
+
+  .bn2-list>.inner>.slider .new-item-list>.img-box{
+    overflow: hidden;
+  }
+  .bn2-list>.inner>.slider .new-item-list>.img-box>img{
+    transition:transform .7s;
+  }
+  .bn2-list>.inner>.slider .new-item-list>.img-box:hover>img{
+    transform: scale(1.2);
+  }
+
   .bn2-list>.inner>.slider .slick-next.slick-arrow{
     width:30px;
     height: 50px;
@@ -824,8 +857,23 @@ font-size: 26px;
   position: absolute;
   left: 0;
   width:30%;
+  color:white;
 }
 
+.bn-4-best-item>.bn-4-content>.bn-4-content-left>.bn-4-content-left-box>.text-box{
+  position: absolute;
+  bottom:100px;
+  left: 0;
+  padding-left: 30px;
+}
+
+
+.bn-4-best-item>.bn-4-content>.bn-4-content-left>.bn-4-content-left-box>.text-box>div:first-child{
+  font-size: 3rem;
+  line-height: 3rem;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
 .bn-4-best-item>.bn-4-content>.bn-4-content-right{
   width:64%;
 }
@@ -1088,3 +1136,35 @@ font-size: 26px;
   color:#1a1a1a;
 }
 /* 배너8 끝 */
+#footer{
+  background-color: #191919;
+  color:white;
+}
+#footer>ul{
+  max-width: 1500px;
+  margin:0 auto;
+  padding-top:50px;
+}
+
+#footer>ul:last-child{
+  padding-bottom: 80px;
+}
+
+#footer>ul>li>.name{
+  font-size: 1.5rem;
+}
+
+#footer>ul>li>.number{
+  font-size: 2.5rem;
+  padding-top:10px;
+}
+
+#footer>ul>li>.Etc{
+  color:#727272;
+  font-size: .8rem;
+}
+
+#footer>.icon>li{
+  padding-right:20px;
+}
+/* 푸터시작 */

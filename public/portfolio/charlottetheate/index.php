@@ -43,7 +43,7 @@
     <div class="popup2">
         <div class="flex">
             <input type="text" placeholder="검색">
-            <div class="img-box"><img src="" alt=""></div>
+            <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/charlottetheate/search.png" alt=""></div>
         </div>
     </div>
     <div class="top flex flex-jc-e">

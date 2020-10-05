@@ -154,11 +154,7 @@ function ActiveOnVisible__init() {
     });
   }
   
-  $(function() {
-    ActiveOnVisible__init();
-  })
   /* 발견되면 활성화시키는 라이브러리 끝 */
-
 
 
 $(function () {

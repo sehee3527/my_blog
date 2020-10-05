@@ -201,6 +201,11 @@
                 <div class="bn-4-content-left-box follow-bar img-box" data-scroll-section=".bn-4-content-left">
                     <img src="http://sehee3527.github.io/img1/pf/vavavillage/4691250cea4db6c3341fa36fed2caf7c_10825.png"
                         alt="">
+                    <div class="text-box">
+
+                        <div>ARTIST GROUP<br>VAVA VILLAGE</div>
+                        <div>바바빌리지에 있는 많은 아티스트들은 <br>다양한 곳에서 당신과 소통하고 있습니다.</div>
+                    </div>
                 </div>
             </div>
             <div class="bn-4-content-right">
@@ -371,6 +376,54 @@
             </li>
 
             </li>
+        </ul>
+    </div>
+    <div id="footer">
+        <ul class="flex flex-jc-sb">
+            <li>
+                <div class="name">Customer center</div>
+                <div class="number">02-3448-5991</div>
+                <div class="Etc">상담시간 10:00 ~ 18:00<br>점심시간 11:50 ~ 12:50<br>토/일/공휴일 휴무</div>
+            </li>
+            <li>
+                <div class="name">Returns & Exchange</div>
+                <div class="Etc">반품주소<br>서울특별시 용산구 후임로16길 30</div>
+            </li>
+            <li>
+                <div class="name">Bank info</div>
+                <div class="Etc">국민은행 09760104268997 조원희</div>
+            </li>
+            <li>
+                <div class="name">Adout</div>
+                <div class="Etc">회사소개<br>이용약관<br>이용안내<br>개인정보처리방침</div>
+            </li>
+        </ul>
+        <ul class="flex icon">
+            <li>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-facebook-icon.png" alt=""></div>
+            </li>
+            <li>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-instagram-icon.png" alt=""></div>
+            </li>
+            <li>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-naverblog-icon.png" alt=""></div>
+            </li>
+            <li>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-smartstore-icon.png" alt=""></div>
+            </li>
+            <li>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-youtube-icon.png" alt=""></div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                상호명 : 주식회사 뉴턴그룹 대표 : 조원희 주소 : 서울특별시 강남구 도산대로27길 33 (쟈스미빌딩) 7층 뉴턴그룹 사업자등록번호 : 211-88-78504
+                [사업자정보확인]<br>통신판매업신고 : 2019-서울강남-05429 개인정보보호책임자 : Nicolas Kerr E-MAIL : nturn@nturn.com 고객센터 :
+                010-8653-2331
+            </li>
+            <li>Copyright © 2019 주식회사 뉴턴그룹 All rights reserved. Hosting by godo.
+
+</li>
         </ul>
     </div>
 </body>

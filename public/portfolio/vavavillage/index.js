@@ -86,10 +86,28 @@ function scroller() {
     });
 }
 
+
+function TopBar_init() {
+  
+  var $topBar =  $('.top-bar');
+  $(window).scroll(function() {
+    var scrollTop = $(window).scrollTop();
+    if ( scrollTop > 111 ) {
+      $html.addClass('top-bar-fly');
+    }
+    else {
+      $html.removeClass('top-bar-fly');
+    }
+  });
+}
+
+
+
 $(function () {
     SlickSlider();
     setTimeout(function () {
         ScrollSection__init();
     }, 1000);
     scroller();
+    TopBar_init()
 });
