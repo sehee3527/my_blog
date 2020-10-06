@@ -309,22 +309,34 @@
     <!-- 6번째 배너 -->
     <div class="bn-6 flex">
         <div class="bn-6-video-left">
-            <iframe src="https://www.youtube.com/embed/vIyjQlq-f-k?rel=0" frameborder="0"></iframe>
+            <div class="bn-6-video active" data-tab-name="box-1" data-tab-body-item-name="1">
+                <iframe src="https://www.youtube.com/embed/vIyjQlq-f-k?rel=0" frameborder="0"></iframe>
+            </div>
+            <div class="bn-6-video" data-tab-name="box-1" data-tab-body-item-name="2">
+                <iframe width="816" height="486" src="https://www.youtube.com/embed/wVdLLeQ9WMs" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="bn-6-video" data-tab-name="box-1" data-tab-body-item-name="3">
+                <iframe width="816" height="486" src="https://www.youtube.com/embed/YFQrRE_M6Dc" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="bn-6-video-right flex flex-row-wrap">
-            <div class="bn-6-video-right-in">
+        <div class="bn-6-video-right flex">
+            <div class="bn-6-video-right-in active" data-tab-name="box-1" data-tab-head-item-name="1">
                 <img src="http://sehee3527.github.io/img1/pf/vavavillage/8792891886a6a23e08677b1114b90ad2_49275.jpg"
                     alt="">
                 <h3>#01</h3>
                 <p>VAVA village interview</p>
             </div>
-            <div class="bn-6-video-right-in">
+            <div class="bn-6-video-right-in" data-tab-name="box-1" data-tab-head-item-name="2">
                 <img src="http://sehee3527.github.io/img1/pf/vavavillage/9f2310c32a6b1b9fda237b69fda5a76a_35339.jpg"
                     alt="">
                 <h3>#02</h3>
                 <p>VAVA village Countdown 2012</p>
             </div>
-            <div class="bn-6-video-right-in">
+            <div class="bn-6-video-right-in" data-tab-name="box-1" data-tab-head-item-name="3">
                 <img src="http://sehee3527.github.io/img1/pf/vavavillage/f0629130fddf0c5fafba3c63f0b2d064_68311.jpg"
                     alt="">
                 <h3>#03</h3>
@@ -400,19 +412,24 @@
         </ul>
         <ul class="flex icon">
             <li>
-                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-facebook-icon.png" alt=""></div>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-facebook-icon.png"
+                        alt=""></div>
             </li>
             <li>
-                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-instagram-icon.png" alt=""></div>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-instagram-icon.png"
+                        alt=""></div>
             </li>
             <li>
-                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-naverblog-icon.png" alt=""></div>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-naverblog-icon.png"
+                        alt=""></div>
             </li>
             <li>
-                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-smartstore-icon.png" alt=""></div>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-smartstore-icon.png"
+                        alt=""></div>
             </li>
             <li>
-                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-youtube-icon.png" alt=""></div>
+                <div class="img-box"><img src="http://sehee3527.github.io/img1/pf/vavavillage/f-youtube-icon.png"
+                        alt=""></div>
             </li>
         </ul>
         <ul>
@@ -423,7 +440,7 @@
             </li>
             <li>Copyright © 2019 주식회사 뉴턴그룹 All rights reserved. Hosting by godo.
 
-</li>
+            </li>
         </ul>
     </div>
 </body>
