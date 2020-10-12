@@ -151,7 +151,8 @@
 }
 @media(max-width:950px){
   .top-bar{
-    display: none;
+    opacity: 0;
+    visibility:visible;
   }
   .main-bn>.main-bn-main-img{
     height: 350px;
@@ -316,15 +317,115 @@
   background:url(//t1.kakaocdn.net/jewika/images/v1/icon_plusfriend.png) no-repeat 0 0;
   background-size: 26px 26px;
 }
-.mobile-top-bar-box.active>.mobile-top-bar-bg>div:last-child{
+.mobile-top-bar-box.active.mobile-top-bar-bg>div:last-child{
   text-align: center;
   margin-top:100px;
   font-size:11px; 
 }
 @media(min-width:954px){
   .mobile-top-bar-box{
-    display: none;
+    opacity: 0;
+    visibility:visible;
   }
+}
+
+/* today */
+#today{
+  margin-top:100px;
+}
+#today>.today-top{
+  margin-bottom:40px;
+}
+#today>.today-content>.weather>.img-box{
+  width:200px;
+}
+
+#today>.today-content>.weather>div:nth-child(2){
+  font-size: 122px;
+  line-height:122px;
+  height: 122px;
+  margin-right:30px;
+}
+
+#today>.today-content>.weather>div:nth-child(2)>span{
+  font-size:20px;
+  line-height: 70px;
+  vertical-align: top;
+}
+
+#today>.today-content>.weather>div:last-child>span{
+  font-weight: 900;
+  color:#34be00;
+}
+#today>.today-content>.calender{
+  width:45%;
+  margin-top:50px;
+}
+#today>.today-content>.calender>div:first-child{
+  font-size: 12px;
+  color:#333437;
+}
+
+#today>.today-content>.calender>div:first-child>span{
+font-size:24px;
+color:#000;
+padding-right:20px;
+}
+#today>.today-content>.calender .swiper-container{
+  margin-top:30px;
+}
+
+#today>.today-content>.calender .swiper-container ul{
+  margin:0 50px;
+  padding:20px 0;
+}
+#today>.today-content>.calender .swiper-container ul>li.day{
+  position:relative;
+  color:white;
+}
+
+#today>.today-content>.calender .swiper-container ul>li.day::after{
+  position: absolute;
+  content:'';
+  top:50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  background-color: #5c5c5c;
+  width:30px;
+  height:30px;
+  border-radius:40px;
+  color:white;
+  z-index: -1;
+}
+
+#today>.today-content>.calender .swiper-container .swiper-button-next{
+  border:1px solid #000;
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  top:58%;
+  opacity: 1;
+  background-color: #efefef;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-next:after{
+  color:#000;
+  font-size: 1rem;
+}
+
+#today>.today-content>.calender .swiper-container .swiper-button-prev{
+  border:1px solid #000;
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  top:58%;
+  opacity: 1;
+  background-color: #efefef;
+
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+  color:#000;
+  font-size: 1rem;
 }
 
 
@@ -334,6 +435,326 @@
   margin-top:100px;
 }
 
+#live-jeju>.live-jeju-top>.arrow>a>div{
+  margin-top:34px;
+  position:relative;
+  width:35px;
+  height: 1px;
+  background-color: black;
+}
+
 #live-jeju>ul{
   margin-top:40px;
+}
+
+#live-jeju>ul>li>.img-box{
+  width:392px;
+  height: 200px;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#live-jeju>ul>li>.live-jeju-name{
+  font-size:24px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+  height:60px;
+}
+
+
+
+
+/* in-kakao-space */
+
+#in-kakao-space{
+  margin-top:100px;
+}
+#in-kakao-space>.in-kakao-space-content{
+  background-image: url('http://sehee3527.github.io/img1/pf/jeju-with-kakao/다운로드 (3).jpg');
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+  position:relative;
+  margin-top:40px;
+}
+
+
+#in-kakao-space>.in-kakao-space-content::before{
+  content:"";
+  display: block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #0000006c;
+}
+
+#in-kakao-space>.in-kakao-space-content>div>strong{ 
+  font-size: 30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  height:60px;
+  }
+  
+#in-kakao-space>.in-kakao-space-content>div>p{
+  color:white;
+}
+#in-kakao-space>.in-kakao-space-content> div{
+  z-index:2;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 2;
+  padding:50px;
+  box-sizing:border-box;
+}
+
+
+
+#in-kakao-space>.in-kakao-space-content>div>.btn{
+  display: inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  border:1px solid #fff;
+}
+
+
+@media(max-width:950px){
+  #in-kakao-space>.in-kakao-space-content>div{
+    text-align: center;
+  }
+  #in-kakao-space>.in-kakao-space-content>div>.btn{
+    margin:20px auto 0;
+  }
+}
+
+#notice{
+  margin-top:100px;
+}
+
+#notice>.notice-content{
+  margin-top:40px;
+}
+
+#with-jeju{
+  margin-top:100px;
+}
+
+#with-jeju>ul>li{
+  width:604px;
+  height:272px;
+  margin-top:32px;
+  padding:35px 0 0 50px;
+  color:#fff;
+  box-sizing:border-box;
+  position:relative;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#with-jeju>ul>li::before{
+  content:"";
+  display:block;
+  background-color: #0000006c;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+#with-jeju>ul>li:nth-child(2n){
+  margin-left:32px;
+}
+#with-jeju>ul>li>.text-box{
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  box-sizing:border-box;
+  padding:35px 0 0 50px;
+  z-index: 2;
+}
+
+#with-jeju>ul>li>.text-box>.name{
+  font-size:36px;
+  font-weight:400;
+}
+
+#with-jeju>ul>li>.text-box>.content{
+  margin-top:8px;
+  font-size: 14px;
+  line-height:150%;
+}
+#with-jeju>ul>li>.text-box>.btn{
+  display: inline-block;
+  padding:10px 20px;
+  margin-top:30px;
+  border:1px solid #fff;
+}
+
+#footer{
+  height:340px;
+  margin-top:300px;
+  padding-top:68px;
+  color:white;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  font-size:13px;
+  box-sizing:border-box;
+}
+#footer>ul>li:first-child{
+  padding-right:50px;
+}
+#footer>ul>li:first-child>div:last-child{
+  border:1px solid #fff;
+  margin-top:50px;
+  border-radius:30px;
+  width:200px;
+}
+
+#footer>ul>li:first-child>div:last-child>img{
+  padding:10px;
+}
+
+#footer>ul>li:nth-child(2)>ul{
+  width:120px;
+}
+
+#footer>ul>li:nth-child(2)>ul>li:first-child{
+  padding-bottom:15px;
+  font-weight:900;
+}
+#footer>ul>li:last-child{
+  position:relative;
+}
+#footer>ul>li:last-child>div{
+  padding-right:80px;
+}
+#footer>ul>li:last-child>button{
+  position:relative;
+  background-color: transparent;
+  border:0px;
+  color:white;
+  height: 18px;
+}
+
+#footer>ul>li:last-child>ul{
+  position: absolute;
+  top:30px;
+  left: 0;
+  background-color:#fff;
+  padding:10px;
+  color:#000;
+  width:150px;
+  display: none;
+}
+#footer>ul>li:last-child>ul>li{
+  padding:10px 0;
+}
+
+#footer>ul>li:last-child>ul.active{
+  display:block;
+}
+
+@media(max-width:954px){
+  .con{
+    width:100% !important;
+  }
+  #today{
+    display:none;
+  }
+  
+  #live-jeju{
+    width:95% !important;
+  }
+  #live-jeju>ul{
+    display: block;
+  }
+  #live-jeju>ul>li>.img-box{
+    width:100%;
+    height:387px;
+  }
+  #live-jeju>ul>li>.live-jeju-name, .name{
+    font-size:18px;
+    padding-top:18px;
+    padding-bottom:10px;
+    height:auto;
+    font-weight: 900;
+  }
+  #live-jeju>ul>li>.live-jeju-content{
+    color:#5c5c5c;
+    padding-bottom: 30px;
+  }
+  
+  #notice{
+    width:95% !important;
+  }
+
+  #notice>.notice-content{
+    display:block;
+  }
+  #notice>.notice-content>li{
+    padding-bottom:20px;
+  }
+
+  #with-jeju>ul>li{
+    width:100%;
+    position:relative;
+    height: 150px;
+    margin-bottom:150px;
+    color:#000;
+  }
+  #with-jeju>ul>li:nth-child(2n){
+    margin-left:0;
+  }
+  
+  #with-jeju>ul>li>.text-box{
+    position: absolute;
+  }
+  
+  #with-jeju>ul>li>.text-box>.name{
+    color:white;
+    text-align: center;
+  }
+  
+  #with-jeju>ul>li>.text-box>.content{
+    padding-top:50px;
+    padding-right:50px;
+  }
+  #with-jeju>ul>li>.text-box>.content>br{
+    display: none;
+  }
+  
+  #with-jeju>ul>li>.text-box>.btn{
+    border-color:black;
+    display: block;
+    width:100px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+  }
+  #footer>ul>li:first-child{
+    text-align: center;
+    width:100%;
+  }
+  #footer>ul>li:first-child>div:last-child{
+    display: none;
+  }
+  #footer>ul>li:not(:first-child){
+      display: none;
+  }
 }
