@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>바바빌리지 모작페이지</title>
+    <link rel="icon" href="http://www.vava-village.com/data/common/favicon.ico">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/portfolio/vavavillage/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- 슬릭슬라이더 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
@@ -22,7 +24,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.css">
 
     <script src="/portfolio/vavavillage/index.js"></script>
-
+    <link rel="stylesheet" href="/portfolio/vavavillage/common.css">
 
 
 
@@ -164,7 +166,7 @@
         <div class="bn-3-main-img img-box cell"><a href="#" class="block img-box"><img
                     src="http://sehee3527.github.io/img1/pf/vavavillage/1329131e1c3e2b30317da305b2b48b8f_94055.png"
                     alt="">
-                <div class="bn-3-main-img-name">RUN TO <br>VAVA VILLATE<br>[CLICK]<br>
+                <div class="bn-3-main-img-name active-on-visible">RUN TO <br>VAVA VILLATE<br>[CLICK]<br>
                     <div><span>당신의 일상에서 벗어나세요</span><span>바바빌리지는 당신을 </span><span>기다리고 있습니다.</span></div>
                 </div>
             </a></div>
@@ -173,22 +175,22 @@
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/a4679a6768309d4e35e9a4bcc1809801_45143.jpg"
                             alt="">
-                        <div class="bn-3-sub-img-name">BLANKET</div>
+                        <div class="bn-3-sub-img-name active-on-visible">BLANKET</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/369f6cae3663c16692f9dea267b11174_13771.png"
                             alt="">
-                        <div class="bn-3-sub-img-name">STICKER</div>
+                        <div class="bn-3-sub-img-name active-on-visible">STICKER</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/e4562ff49d92d977a2fd57bbdc57034a_67446.png"
                             alt="">
-                        <div class="bn-3-sub-img-name">VAVAPOSTER</div>
+                        <div class="bn-3-sub-img-name active-on-visible">VAVAPOSTER</div>
                     </a></li>
                 <li class="cell"><a href="#" class="block img-box"><img
                             src="http://sehee3527.github.io/img1/pf/vavavillage/e35356260b919299c5b0da994963b350_94354.png"
                             alt="">
-                        <div class="bn-3-sub-img-name">CLOTHES</div>
+                        <div class="bn-3-sub-img-name active-on-visible">CLOTHES</div>
                     </a></li>
             </ul>
         </div>
@@ -351,9 +353,9 @@
                 <img src="http://sehee3527.github.io/img1/pf/vavavillage/9eec00f49ed763d66049d9a56dfa8d7b_39947.png"
                     alt="">
                 <div class="bn-7-1-content">
-                    <p>COLLABORATION</p>
-                    <p>바바빌리지 콜라보레이션</p>
-                    <p>바바빌리지 콜라보레이션을 확인하세요</p>
+                    <p class="active-on-visible">COLLABORATION</p>
+                    <p class="active-on-visible">바바빌리지 콜라보레이션</p>
+                    <p class="active-on-visible">바바빌리지 콜라보레이션을 확인하세요</p>
                 </div>
             </a>
         </div>
@@ -362,9 +364,9 @@
                 <img src="http://sehee3527.github.io/img1/pf/vavavillage/b9c7595b7641a272608aa84f1d48d790_88493.png"
                     alt="">
                 <div class="bn-7-1-content">
-                    <p>ABOUT VAVA VILLAGE</p>
-                    <p>어바웃 바바빌리지</p>
-                    <p>바바빌리지를 소개합니다</p>
+                    <p class="active-on-visible">ABOUT VAVA VILLAGE</p>
+                    <p class="active-on-visible">어바웃 바바빌리지</p>
+                    <p class="active-on-visible">바바빌리지를 소개합니다</p>
                 </div>
             </a>
         </div>
@@ -438,7 +440,7 @@
                 [사업자정보확인]<br>통신판매업신고 : 2019-서울강남-05429 개인정보보호책임자 : Nicolas Kerr E-MAIL : nturn@nturn.com 고객센터 :
                 010-8653-2331
             </li>
-            <li>Copyright © 2019 주식회사 뉴턴그룹 All rights reserved. Hosting by godo.
+            <li class="copyright">Copyright © 2019 주식회사 뉴턴그룹 All rights reserved. Hosting by godo.
 
             </li>
         </ul>

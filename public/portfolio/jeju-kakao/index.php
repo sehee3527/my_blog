@@ -179,7 +179,7 @@
         </div>
         <ul class="flex">
             <li>
-                <div class="img-box" style="background-image:url(http://sehee3527.github.io/img1/pf/jeju-with-kakao/다운로드(1).jpg)">
+                <div class="img-box" style="background-image:url(http://sehee3527.github.io/img1/pf/jeju-with-kakao/thumb_withjeju04.jpg)">
                 </div>
                 <div class="live-jeju-name">면역력에 도움 되는 본투비 제주 제품</div>
                 <div class="live-jeju-content">안녕하세요, 여러분! 어두운 시기 속에서도 봄이 왔습니다. 모두 각자의 방법으로 봄을 만끽하고 계실텐데요 이럴 때일수록 건강을 더욱

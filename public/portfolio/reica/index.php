@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>라이카 코딩중</title>
+    <link rel="icon" href="https://www.leica-store.co.kr/favicon.ico">
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
@@ -425,7 +427,7 @@
                     <p>LEICA CAMERA KOREA</p>
 
                     <ul>
-                        <li><a href="/about/company.asp">회사소개</a></li>
+                        <li><a href="">회사소개</a></li>
                         <!--li><a href="/about/contact.asp">Contact</a></li-->
                     </ul>
 
@@ -441,13 +443,13 @@
                     <p>ONLINE SHOP</p>
 
                     <ul>
-                        <li><a href="/Product/list.asp?cno=101">ALL Products</a></li>
-                        <li><a href="/Product/list.asp?cno=108">Leica M</a></li>
-                        <li><a href="/Product/list.asp?cno=110">Leica SL</a></li>
-                        <li><a href="/Product/list.asp?cno=112">Leica Q</a></li>
-                        <li><a href="/Product/list.asp?cno=114">CL and TL2</a></li>
-                        <li><a href="/Product/list.asp?cno=116">Compacts</a></li>
-                        <li><a href="/Product/list.asp?cno=117">Sofort</a></li>
+                        <li><a href="">ALL Products</a></li>
+                        <li><a href="">Leica M</a></li>
+                        <li><a href="">Leica SL</a></li>
+                        <li><a href="">Leica Q</a></li>
+                        <li><a href="">CL and TL2</a></li>
+                        <li><a href="">Compacts</a></li>
+                        <li><a href="">Sofort</a></li>
                     </ul>
                 </div>
 
@@ -455,18 +457,18 @@
                     <p>AKADEMIE</p>
 
                     <ul>
-                        <li><a href="/akademie/akademie.asp">라이카 아카데미 소개</a></li>
-                        <li><a href="/akademie/list.asp">아카데미 일정</a></li>
+                        <li><a href="">라이카 아카데미 소개</a></li>
+                        <li><a href="">아카데미 일정</a></li>
                     </ul>
 
                     <p>CUSTOMER SERVICE</p>
 
                     <ul>
-                        <li><a href="/customer/notice.asp">공지사항</a></li>
-                        <li><a href="/customer/faq.asp">자주하는 질문(FAQ)</a></li>
-                        <li><a href="/customer/delivery.asp">배송 및 교환 정책</a></li>
-                        <li><a href="/customer/qna.asp">1:1문의</a></li>
-                        <li><a href="/store/list.asp">매장안내</a></li>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">자주하는 질문(FAQ)</a></li>
+                        <li><a href="">배송 및 교환 정책</a></li>
+                        <li><a href="">1:1문의</a></li>
+                        <li><a href="">매장안내</a></li>
                     </ul>
                 </div>
 
@@ -474,19 +476,16 @@
                     <p>CONTENTS</p>
 
                     <ul>
-                        <li><a href="/press/list.asp">보도자료</a></li>
-                        <li><a href="/exhibition/list.asp">라이카 전시 일정</a></li>
-                        <!--li><a href="/gallery/list.asp">온라인 갤러리</a></li>
-					<li><a href="/interview/list.asp">인터뷰</a></li-->
+                        <li><a href="">보도자료</a></li>
+                        <li><a href="">라이카 전시 일정</a></li>
                     </ul>
 
                     <p>CUSTOMER CARE</p>
 
                     <ul>
-                        <li><a href="/mypage/regist.asp">제품등록</a></li>
-                        <li><a href="https://kr.leica-camera.com/Service-Support/Support/Downloads?category=&amp;subcategory=&amp;type=&amp;language=93873"
-                                target="_blank">다운로드</a></li>
-                        <li><a href="/customer/customer_file.asp">자료실</a></li>
+                        <li><a href="">제품등록</a></li>
+                        <li><a href="">다운로드</a></li>
+                        <li><a href="">자료실</a></li>
                     </ul>
                 </div>
 
@@ -494,8 +493,8 @@
                     <p>LOGIN / SIGN UP</p>
 
                     <ul>
-                        <li><a href="/member/login.asp">Login Account</a></li>
-                        <li><a href="/member/join.asp">Sign Up</a></li>
+                        <li><a href="">Login Account</a></li>
+                        <li><a href="">Sign Up</a></li>
                     </ul>
                 </div>
 
@@ -503,10 +502,8 @@
                     <p>SOCIAL</p>
 
                     <ul>
-                        <li><a href="https://www.facebook.com/LeicaCameraKr/" target="_blank"
-                                class="sns__facebook">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/leica_kr/" target="_blank"
-                                class="sns__instagram">Instagram</a></li>
+                        <li><a href="" class="sns__facebook">Facebook</a></li>
+                        <li><a href="" class="sns__instagram">Instagram</a></li>
                     </ul>
                 </div>
             </div>

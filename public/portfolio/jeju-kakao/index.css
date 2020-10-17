@@ -317,7 +317,7 @@
   background:url(//t1.kakaocdn.net/jewika/images/v1/icon_plusfriend.png) no-repeat 0 0;
   background-size: 26px 26px;
 }
-.mobile-top-bar-box.active.mobile-top-bar-bg>div:last-child{
+.mobile-top-bar-box.active>.mobile-top-bar-bg>div:last-child{
   text-align: center;
   margin-top:100px;
   font-size:11px; 
@@ -463,6 +463,9 @@ padding-right:20px;
   height:60px;
 }
 
+#live-jeju>ul>li>.live-jeju-content{
+  padding-right:30px;
+}
 
 
 
