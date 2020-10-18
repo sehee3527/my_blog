@@ -338,8 +338,11 @@ html {
   }
   
   .con {
-    width:1370px;
+    margin:0 auto;
+    width:1180px;
+    padding:0 30px;
   }
+  
   /* 고정형 .con 끝 */
   
   /* 반응형 타입 1 .con 시작 */
