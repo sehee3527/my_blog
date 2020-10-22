@@ -84,6 +84,9 @@ a {
   width:165px;
   margin:35px 0;
 }
+body{
+  min-width: 1400px;
+}
 
 /*상단 메뉴*/
 .top-menu>ul>li{

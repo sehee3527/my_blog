@@ -412,140 +412,611 @@
                 <div class="swiper-container new-arrivals-slider con">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012134840139.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
-                        
+
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201015111913298.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">라곰</h6>
+                                        <p class="content">라곰 셀러스 센서티브 시카 크림 60ml</p>
+                                        <strong class="price"><span>10%</span>28,800원</strong>
+                                        <div class="sale">32,000</div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012134840139.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012135356628.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™헤어 & 스칼프 마스크 150ml</p>
+                                        <strong class="price">54,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">나스</h6>
+                                        <p class="content">나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201006184307129.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">프리메라</h6>
+                                        <p class="content">알파인 베리 워터리 크림 기획 세트</p>
+                                        <strong class="price"><span>15%</span>33,150원</strong>
+                                        <div class="sale">39,000원</div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012134840139.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201015111913298.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">라곰</h6>
+                                        <p class="content">라곰 셀러스 센서티브 시카 크림 60ml</p>
+                                        <strong class="price"><span>10%</span>28,800원</strong>
+                                        <div class="sale">32,000</div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012134840139.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
-                           <div class="slider-box">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-item-img"></div>
-                                <div class="new-arrivals-item-content">
-                                    <h6 class="name">아베다</h6>
-                                    <p class="content">인바티 어드밴스드™ 엑그폴리에이팅 샴푸 - 리치</p>
-                                    <strong class="price">38,000원</strong>
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201012135356628.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">아베다</h6>
+                                        <p class="content">인바티 어드밴스드™헤어 & 스칼프 마스크 150ml</p>
+                                        <strong class="price">54,000원</strong>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">나스</h6>
+                                        <p class="content">나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
+
+                        <div class="swiper-slide">
+                            <div class="slider-box">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-item-img"
+                                        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201006184307129.jpg)">
+                                    </div>
+                                    <div class="new-arrivals-item-content">
+                                        <h6 class="name">프리메라</h6>
+                                        <p class="content">알파인 베리 워터리 크림 기획 세트</p>
+                                        <strong class="price"><span>15%</span>33,150원</strong>
+                                        <div class="sale">39,000원</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chicor-picks" style="background-image:url(https://cdn.chicor.com/static/pui/img/layout/brands-bg0.jpg)">
+        <div class="chicor-picks-box con">
+            <div class="chicor-picks-name title-name">CHICOR's-Picks</div>
+            <div class="chicor-picks-slider-box">
+                <div class="chicor-picks-slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200814093526901.png" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">오리진스</div>
+                                    <div class="content">자연을 향한 멈추지 않는 탐험가, 오리진스는 고기능 자연주의 스킨케어로 입증된 자연성분을 제시하는 브랜드입니다.
+                                    </div>
+                                </div>
+                                <div class="item-hover">
+                                    <div class="hover-name">오리진스대표상품</div>
+                                    <div class="hover-img img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200518060644129.jpg"
+                                            alt=""></div>
+                                    <div class="hover-text-box">
+                                        <div class="name">오리진스</div>
+                                        <p>메가 버섯 퍼스트 에센스 <br>200ml</p>
+                                        <strong class="price">42,000원</strong>
+                                        <div class="btn"><a href="#">브랜드관 바로가기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200806140220058.png" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">롬앤</div>
+                                    <div class="content">뷰티 크리에이터 먼새롬이 함께하는 고객 중심의 색조 전문 브랜드</div>
+                                </div>
+                                <div class="item-hover">
+                                    <div class="hover-name">롬앤대표상품</div>
+                                    <div class="hover-img img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200616114435127.jpg"
+                                            alt=""></div>
+                                    <div class="hover-text-box">
+                                        <div class="name">롬앤</div>
+                                        <p>[단독기화]배러댄쿠션 세트_<br>퓨어 21호</p>
+                                        <strong class="price"><span>30%</span>25,200원<p>36,000원</p></strong>
+                                        <div class="btn"><a href="#">브랜드관 바로가기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200828095323833.png" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">라로슈포제</div>
+                                    <div class="content">전 세계 1위 더모 코스메틱 브랜드 라로슈포제. 민감성 피부로 고통받는 사람들의 더 나은 삶을 위해 노력합니다.
+                                    </div>
+                                </div>
+                                <div class="item-hover">
+                                    <div class="hover-name">라로슈포제대표상품</div>
+                                    <div class="hover-img img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200811094945971.jpg"
+                                            alt=""></div>
+                                    <div class="hover-text-box">
+                                        <div class="name">라로슈포제</div>
+                                        <p>라로슈포제 유비데이XL<br>톤업크림 30ml</p>
+                                        <strong class="price">32,000원</strong>
+                                        <div class="btn"><a href="#">브랜드관 바로가기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200724134830827.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">클라랑스</div>
+                                    <div class="content">클라랑스는 식물과학 노하우를 담은 제품혁신과 책임있는 뷰티의 가치를 실현하는 No.1 유렵 프림미엄 스킨케어
+                                        브랜드</div>
+                                </div>
+                                <div class="item-hover">
+                                    <div class="hover-name">클라랑스대표상품</div>
+                                    <div class="hover-img img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200723093145298.jpg"
+                                            alt=""></div>
+                                    <div class="hover-text-box">
+                                        <div class="name">클라랑스</div>
+                                        <p>립 오일 인텐스 7ml</p>
+                                        <strong class="price">28,000원</strong>
+                                        <div class="btn"><a href="#">브랜드관 바로가기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200806140300864.png" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">시슬리</div>
+                                    <div class="content">프랑스 하이엔드 화장품 시슬리의 제품들은 우수한 품질력과 뛰어난 효능으로 시대와 장소를 초월하여 변함없는 사랑을
+                                        받고 있습니다.</div>
+                                </div>
+                                <div class="item-hover">
+                                    <div class="hover-name">시슬리대표상품</div>
+                                    <div class="hover-img img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200831132319417.jpg"
+                                            alt=""></div>
+                                    <div class="hover-text-box">
+                                        <div class="name">시슬리</div>
+                                        <p>에뭘씨옹 에꼴로지끄 125ml</p>
+                                        <strong class="price">270,000원</strong>
+                                        <div class="btn"><a href="#">브랜드관 바로가기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <span class="more"><a href="">브랜드관 더보기</a></span>
+        </div>
+    </div>
+
+    <div class="chicor-beauty-stage">
+        <div class="chicor-beauty-stage-box">
+            <div class="chicor-beauty-stage-name title-name">CHICOR Beauty Stage</div>
+            <div class="chicor-beauty-stage-content flex con">
+                <div class="content-left">
+                    <div class="content-left-box">
+                        <div class="left-item1">
+                            <div class="img-box">
+                                <img src="https://sehee3527.github.io/img1/pf/chicor/20201016100307935.png" alt="">
+                                <div class="chicor-pick">CHICOR PICK</div>
+                            </div>
+                            <h2>오노마, 진정케어 짝꿍템 증정♥</h2>
+                            <p>함께쓰면 너무좋은 짝꿍템 #정품용량증정 파격혜택</p>
+                        </div>
+                        <div class="left-item2">
+                            <div class="img-box">
+                                <img src="https://sehee3527.github.io/img1/pf/chicor/20201015180023765.png" alt="">
+                                <div class="chicor-pick">CHICOR PICK</div>
+                            </div>
+                            <h2>라곰, 민감 피부에는<br>#시카하세요</h2>
+                            <p>함께쓰면 너무좋은 짝꿍템 #정품용량증정 파격혜택</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="content-right-box">
+                        <div class="right-item">
+                            <div class="img-box">
+                                <img src="https://sehee3527.github.io/img1/pf/chicor/20201015180226858.png" alt="">
+                                <div class="chicor-pick">CHICOR PICK</div>
+                            </div>
+                            <h2>LUXURY BRAND FLEX!</h2>
+                            <p>#로라메르시에 #나스 #시세이도 #끌레드뽀보떼</p>
+                            <div class="item-box">
+                                <ul class="right-item-item flex">
+                                    <li class="in-item">
+                                        <div class="img-box"
+                                            style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg)">
+                                        </div>
+                                        <div class="name">나스</div>
+                                        <p>나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </li>
+                                    <li class="in-item">
+                                        <div class="img-box"
+                                            style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20200603223720279.jpg)">
+                                        </div>
+                                        <div class="name">끌레드뽀보떼</div>
+                                        <p>[10월] 시나끄티프 솝세트</p>
+                                        <strong class="price">138,000원</strong>
+                                    </li>
+                                    <li class="in-item">
+                                        <div class="img-box"
+                                            style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20200625141253135.jpg)">
+                                        </div>
+                                        <div class="name">시세이도</div>
+                                        <p>셀프-리프레싱 쿠션 세트 (+정품 리필 증정)</p>
+                                        <strong class="price">55,000</strong>
+                                    </li>
+                                    <li class="in-item">
+                                        <div class="img-box"
+                                            style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20200527004756658.jpg)">
+                                        </div>
+                                        <div class="name">로라메르시에</div>
+                                        <p>수플레 바디 크림</p>
+                                        <strong class="price">83,000원</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skin-care"
+        style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/20201013165103878.png)">
+        <div class="skin-care-box con">
+            <div class="skin-care-name title-name">각질부자 LOG IN! 각질 잠재워 줄 페이스&보디 아이템</div>
+            <div class="skin-care-description">매끈하고 뽀얀 우윳빛 피부를 되찾아 줄 거에요♥</div>
+            <ul class="skin-care-tag">
+                <li>#각질케어_피부결정돈</li>
+                <li>#각질은없어져오_수분은꽉잡아</li>
+                <li>#반사판피부완성</li>
+                <li>#보디의한끗차이</li>
+                <li>#손닿지않는곳까지_꼼꼼하게</li>
+                <li>#스타킹 올 안나가요</li>
+            </ul>
+
+            <div class="skin-care-slide swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/chicor/20200515100412291.jpg" alt=""></div>
+
+                            <div class="name">디오디너리</div>
+                            <p>글리코릭 애시드 7% 토닝 솔루션 240ml</p>
+                            <strong class="price">8,700원</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/chicor/20200515080521500.jpg" alt=""></div>
+
+                            <div class="name">디오디너리</div>
+                            <p>랙틱애시드 10% + 에이치에이 30ml</p>
+                            <strong class="price">6,700원</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/chicor/20200527004756658.jpg" alt=""></div>
+
+                            <div class="name">로라메르시에</div>
+                            <p>수플레 바디 크림</p>
+                            <strong class="price">83,000원</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/chicor/20200518045602912.jpg" alt=""></div>
+
+                            <div class="name">툴리프</div>
+                            <p>바디 브러시</p>
+                            <strong class="price">11,000원</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="img-box"><img
+                                    src="https://sehee3527.github.io/img1/pf/chicor/20200715101601799.jpg" alt=""></div>
+
+                            <div class="name">프리메라</div>
+                            <p>페이셜 마일드 필링 150ml</p>
+                            <strong class="price"><span>15%</span>25,500.원<p>30,000원</p></strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-nav">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="best-item">
+        <div class="best-item-box con">
+            <div class="best-item-name title-name">Best7 Seller</div>
+
+            <div class="tab-box-1">
+                <div class="head">
+                    <ul class="flex flex-jc-sb">
+                        <li class="item-name1 active" data-tab-name="box-1" data-tab-head-item-name="1"><a>전체</a></li>
+                        <li class="item-name2" data-tab-name="box-1" data-tab-head-item-name="2"><a>립메이크업</a></li>
+                        <li class="item-name3" data-tab-name="box-1" data-tab-head-item-name="3"><a>아이메이크업</a></li>
+                        <li class="item-name4" data-tab-name="box-1" data-tab-head-item-name="4"><a>블러셔/컨투어링</a></li>
+                        <li class="item-name5" data-tab-name="box-1" data-tab-head-item-name="5"><a>베이스메이크업</a></li>
+                        <li class="item-name6" data-tab-name="box-1" data-tab-head-item-name="6"><a>페이셜케어</a></li>
+                        <li class="item-name7" data-tab-name="box-1" data-tab-head-item-name="7"><a>클렌징</a></li>
+                        <li class="item-name8" data-tab-name="box-1" data-tab-head-item-name="7"><a>마스크/팩</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li class="item-content1 flex active" data-tab-name="box-1" data-tab-body-item-name="1">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                <div class="text-box">
+                                    <div class="name">디오디너리</div>
+                                    <p>나이아신아마이드 10% + 징크 1% 30ml</p>
+                                    <strong class="price">5,900원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515080208745.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>히알루로닉 애시드 2% +비5 30ml</p>
+                                        <strong class="price">6,800원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">로라메르시에</div>
+                                        <p>★[1+1] 트랜스루센트 루스 세팅 파우더 트래블사이즈</p>
+                                        <strong class="price">33,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515102518035.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>나이아신아마이드 10％ + 징크 1％ 60ml</p>
+                                        <strong class="price">10,600원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>★ 리퀴드 블러쉬 + 립 밤 특별 세트</p>
+                                        <strong class="price">40,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content2" data-tab-name="box-1" data-tab-body-item-name="2">내용2</li>
+                        <li class="item-content3" data-tab-name="box-1" data-tab-body-item-name="3">내용3</li>
+                        <li class="item-content4" data-tab-name="box-1" data-tab-body-item-name="4">내용3</li>
+                        <li class="item-content5" data-tab-name="box-1" data-tab-body-item-name="5">내용3</li>
+                        <li class="item-content6" data-tab-name="box-1" data-tab-body-item-name="6">내용3</li>
+                        <li class="item-content7" data-tab-name="box-1" data-tab-body-item-name="7">내용3</li>
+                        <li class="item-content8" data-tab-name="box-1" data-tab-body-item-name="8">내용3</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <span class="more"><a href="">브랜드관 더보기</a></span>
+        </div>
+    </div>
+    <div class="last-bn flex">
+        <div>
+            <div class="name">PLAYGROUND FOR BEAUTYHOLICS</div>
+            <p>시코르는 신세계 백화점이 감각적인 안목으로 엄선한<br>뷰티 컬렉션이 있는 뷰티 스페셜티 스토어입니다.</p>
+            <div class="btn">시코르 소개</div>
+            <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/about-0.jpg" alt=""></div>
+        </div>
+        <div>
+            <div class="name">ONE-STOP BEAUTY SHOPPING</div>
+            <p>해외직구를 통해 만날 수 있었던 글로벌 인기 브랜드 부터 감각적인 국내 브랜드까지<br>자유롭게 경험하고 테스트 할 수 있는 메이크 오버 스테이지</p>
+            <div class="btn">시코르 매장안내</div>
+            <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/about-1.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="notice">
+        <div class="notice-box con">
+            <div>
+                <div class="name"></div>
+                <div>1600-5932</div>
+                <div>운영시간 : 평일 09:30~18:00</div>
+            </div>
+            <div></div>
+            <div>
+
             </div>
         </div>
     </div>
