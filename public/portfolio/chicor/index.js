@@ -1,3 +1,5 @@
+var $html =  $('html');
+
 $(document).ready(function () {
   swiper = new Swiper(".main-slider", {
     speed: 600,
@@ -9,8 +11,8 @@ $(document).ready(function () {
     slidesPerView: "auto",
     slideToClickedSlide: true,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next1',
+      prevEl: '.swiper-button-prev1',
     },
   });
 
@@ -21,8 +23,8 @@ $(document).ready(function () {
       spaceBetween: 30,
       centeredSlides: true,
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
       },
     });
   });
@@ -34,8 +36,8 @@ $(document).ready(function () {
     loop: true,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next3',
+      prevEl: '.swiper-button-prev3',
     },
   });
 });
@@ -46,8 +48,8 @@ $(document).ready(function () {
     loop: true,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next4',
+      prevEl: '.swiper-button-prev4',
     },
   });
 });
@@ -74,9 +76,22 @@ function TabBox__init() {
   });
 }
 
+function TopBar_init() {
+  
+  $(window).scroll(function() {
+    var scrollTop = $(window).scrollTop();
+    if ( scrollTop > 80 ) {
+      $html.addClass('fly-top-bar-active');
+    }
+    else {
+      $html.removeClass('fly-top-bar-active');
+    }
+  });
+}
 
 
 $(function () {
   topBack();
   TabBox__init();
+  TopBar_init();
 });

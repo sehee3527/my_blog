@@ -401,8 +401,8 @@
                         style="background-image:url(https://sehee3527.github.io/img1/pf/chicor/main7.png)"></div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next swiper-button-next1"></div>
+            <div class="swiper-button-prev swiper-button-prev1"></div>
         </div>
     </div>
     <div class="bn-2 bn">
@@ -597,8 +597,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-button-next2"></div>
+                    <div class="swiper-button-prev swiper-button-prev2"></div>
                 </div>
             </div>
         </div>
@@ -736,8 +736,8 @@
                     </div>
                 </div>
                 <div class="slide-btn">
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-button-next3"></div>
+                    <div class="swiper-button-prev swiper-button-prev3"></div>
                 </div>
             </div>
             <span class="more"><a href="">브랜드관 더보기</a></span>
@@ -888,8 +888,8 @@
                 </div>
             </div>
             <div class="slide-nav">
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-button-next4"></div>
+                <div class="swiper-button-prev swiper-button-prev4"></div>
             </div>
         </div>
     </div>
@@ -907,7 +907,7 @@
                         <li class="item-name5" data-tab-name="box-1" data-tab-head-item-name="5"><a>베이스메이크업</a></li>
                         <li class="item-name6" data-tab-name="box-1" data-tab-head-item-name="6"><a>페이셜케어</a></li>
                         <li class="item-name7" data-tab-name="box-1" data-tab-head-item-name="7"><a>클렌징</a></li>
-                        <li class="item-name8" data-tab-name="box-1" data-tab-head-item-name="7"><a>마스크/팩</a></li>
+                        <li class="item-name8" data-tab-name="box-1" data-tab-head-item-name="8"><a>마스크/팩</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -915,7 +915,9 @@
                         <li class="item-content1 flex active" data-tab-name="box-1" data-tab-body-item-name="1">
                             <div>
                                 <div class="number">Best.1</div>
-                                <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt="">
+                                </div>
                                 <div class="text-box">
                                     <div class="name">디오디너리</div>
                                     <p>나이아신아마이드 10% + 징크 1% 30ml</p>
@@ -925,7 +927,9 @@
                             <ul class="flex flex-row-wrap flex-grow-1">
                                 <li>
                                     <div class="number">2</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515080208745.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515080208745.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">디오디너리</div>
                                         <p>히알루로닉 애시드 2% +비5 30ml</p>
@@ -934,7 +938,9 @@
                                 </li>
                                 <li>
                                     <div class="number">3</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200716105800954.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">로라메르시에</div>
                                         <p>★[1+1] 트랜스루센트 루스 세팅 파우더 트래블사이즈</p>
@@ -943,7 +949,9 @@
                                 </li>
                                 <li>
                                     <div class="number">4</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515102518035.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515102518035.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">디오디너리</div>
                                         <p>나이아신아마이드 10％ + 징크 1％ 60ml</p>
@@ -952,7 +960,9 @@
                                 </li>
                                 <li>
                                     <div class="number">5</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200520151838945.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">나스</div>
                                         <p>★ 리퀴드 블러쉬 + 립 밤 특별 세트</p>
@@ -961,7 +971,9 @@
                                 </li>
                                 <li>
                                     <div class="number">6</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200715101601799.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">디오디너리</div>
                                         <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
@@ -970,7 +982,9 @@
                                 </li>
                                 <li>
                                     <div class="number">7</div>
-                                    <div class="img-box"><img src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt=""></div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200525002938174.jpg"
+                                            alt=""></div>
                                     <div class="text-box">
                                         <div class="name">힌스</div>
                                         <p>트루 디멘션 래디언스 밤</p>
@@ -979,18 +993,578 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="item-content2" data-tab-name="box-1" data-tab-body-item-name="2">내용2</li>
-                        <li class="item-content3" data-tab-name="box-1" data-tab-body-item-name="3">내용3</li>
-                        <li class="item-content4" data-tab-name="box-1" data-tab-body-item-name="4">내용3</li>
-                        <li class="item-content5" data-tab-name="box-1" data-tab-body-item-name="5">내용3</li>
-                        <li class="item-content6" data-tab-name="box-1" data-tab-body-item-name="6">내용3</li>
-                        <li class="item-content7" data-tab-name="box-1" data-tab-body-item-name="7">내용3</li>
-                        <li class="item-content8" data-tab-name="box-1" data-tab-body-item-name="8">내용3</li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="2">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200828190221744.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">헤라메이크업</div>
+                                    <p>센슈얼 파우더 매트</p>
+                                    <strong class="price">35,000원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200924144625695.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>무드 인해서 마뜨</p>
+                                        <strong class="price">19,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521070330519.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">베네피트</div>
+                                        <p>베네피트 틴트 5종</p>
+                                        <strong class="price">27,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200723093145298.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">맥</div>
+                                        <p>파우더 키스 립스틱</p>
+                                        <strong class="price">31,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200527022158613.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521065349121.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="3">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200520151838945.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">어반디케이</div>
+                                    <p>문더스트 아이섀도우</p>
+                                    <strong class="price">23,800원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200525064414368.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">로라메르시에</div>
+                                        <p>매트 아이컬러</p>
+                                        <strong class="price">35,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200917114052934.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>뉴 뎁스 아이섀도우 팔레트</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200903102955603.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>뉴뎁스 아이섀도우</p>
+                                        <strong class="price">18,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200708104034823.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">베네피트</div>
+                                        <p>프리사이슬리, 마이브로우 펜슬</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200520152733059.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">크리니크</div>
+                                        <p>크리니크 마스카라 기획</p>
+                                        <strong class="price">34,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200527022158613.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">니스</div>
+                                        <p>[시코르단독]나스시스트 미니 윈티드 아이섀도우 팔레트</p>
+                                        <strong class="price">36,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="4">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">디오디너리</div>
+                                    <p>나이아신아마이드 10% + 징크 1% 30ml</p>
+                                    <strong class="price">5,900원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515080208745.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>히알루로닉 애시드 2% +비5 30ml</p>
+                                        <strong class="price">6,800원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200716105800954.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">로라메르시에</div>
+                                        <p>★[1+1] 트랜스루센트 루스 세팅 파우더 트래블사이즈</p>
+                                        <strong class="price">33,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515102518035.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>나이아신아마이드 10％ + 징크 1％ 60ml</p>
+                                        <strong class="price">10,600원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200520151838945.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>★ 리퀴드 블러쉬 + 립 밤 특별 세트</p>
+                                        <strong class="price">40,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200715101601799.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200525002938174.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="5">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200828190221744.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">헤라메이크업</div>
+                                    <p>센슈얼 파우더 매트</p>
+                                    <strong class="price">35,000원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200924144625695.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>무드 인해서 마뜨</p>
+                                        <strong class="price">19,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521070330519.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">베네피트</div>
+                                        <p>베네피트 틴트 5종</p>
+                                        <strong class="price">27,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200723093145298.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">맥</div>
+                                        <p>파우더 키스 립스틱</p>
+                                        <strong class="price">31,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200527022158613.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521065349121.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="6">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200520151838945.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">어반디케이</div>
+                                    <p>문더스트 아이섀도우</p>
+                                    <strong class="price">23,800원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200525064414368.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">로라메르시에</div>
+                                        <p>매트 아이컬러</p>
+                                        <strong class="price">35,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200917114052934.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>뉴 뎁스 아이섀도우 팔레트</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200903102955603.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>뉴뎁스 아이섀도우</p>
+                                        <strong class="price">18,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200708104034823.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">베네피트</div>
+                                        <p>프리사이슬리, 마이브로우 펜슬</p>
+                                        <strong class="price">38,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200520152733059.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">크리니크</div>
+                                        <p>크리니크 마스카라 기획</p>
+                                        <strong class="price">34,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200527022158613.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">니스</div>
+                                        <p>[시코르단독]나스시스트 미니 윈티드 아이섀도우 팔레트</p>
+                                        <strong class="price">36,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="7">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200515075637113.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">디오디너리</div>
+                                    <p>나이아신아마이드 10% + 징크 1% 30ml</p>
+                                    <strong class="price">5,900원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515080208745.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>히알루로닉 애시드 2% +비5 30ml</p>
+                                        <strong class="price">6,800원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200716105800954.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">로라메르시에</div>
+                                        <p>★[1+1] 트랜스루센트 루스 세팅 파우더 트래블사이즈</p>
+                                        <strong class="price">33,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200515102518035.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>나이아신아마이드 10％ + 징크 1％ 60ml</p>
+                                        <strong class="price">10,600원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200520151838945.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>★ 리퀴드 블러쉬 + 립 밤 특별 세트</p>
+                                        <strong class="price">40,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200715101601799.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200525002938174.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-content1 flex" data-tab-name="box-1" data-tab-body-item-name="8">
+                            <div>
+                                <div class="number">Best.1</div>
+                                <div class="img-box"><img
+                                        src="https://sehee3527.github.io/img1/pf/chicor/20200828190221744.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class="name">헤라메이크업</div>
+                                    <p>센슈얼 파우더 매트</p>
+                                    <strong class="price">35,000원</strong>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row-wrap flex-grow-1">
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200924144625695.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">나스</div>
+                                        <p>나스 에어매트 립컬러</p>
+                                        <strong class="price">39,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20201007133735867.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>무드 인해서 마뜨</p>
+                                        <strong class="price">19,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521070330519.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">베네피트</div>
+                                        <p>베네피트 틴트 5종</p>
+                                        <strong class="price">27,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">5</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200723093145298.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">맥</div>
+                                        <p>파우더 키스 립스틱</p>
+                                        <strong class="price">31,000원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">6</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200527022158613.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">디오디너리</div>
+                                        <p>카페인 솔루션 5％ + 이지씨지 30ml</p>
+                                        <strong class="price">6,700원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="number">7</div>
+                                    <div class="img-box"><img
+                                            src="https://sehee3527.github.io/img1/pf/chicor/20200521065349121.jpg"
+                                            alt=""></div>
+                                    <div class="text-box">
+                                        <div class="name">힌스</div>
+                                        <p>트루 디멘션 래디언스 밤</p>
+                                        <strong class="price">29,000원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
-            
-            <span class="more"><a href="">브랜드관 더보기</a></span>
+
+            <span class="more"><a href="">베스트 상품 더보기</a></span>
         </div>
     </div>
     <div class="last-bn flex">
@@ -1008,15 +1582,80 @@
         </div>
     </div>
     <div class="notice">
-        <div class="notice-box con">
+        <div class="notice-box con flex flex-jc-sb">
             <div>
-                <div class="name"></div>
-                <div>1600-5932</div>
+                <div class="name">고객센터</div>
+                <div class="number">1600-5932</div>
                 <div>운영시간 : 평일 09:30~18:00</div>
+                <ul class="flex">
+                    <li class="btn">FAQ</li>
+                    <li class="btn">1:1문의하기</li>
+                </ul>
             </div>
-            <div></div>
             <div>
-
+                <div class="notice-tap">
+                    <div class="name flex flex-jc-sb flex-ai-c">
+                        <div>공지사항</div>
+                        <a href="">+</a>
+                    </div>
+                    <ul>
+                        <li class="flex flex-jc-sb">
+                            <a>[공지] 신세계포인트 통합회원 관련 사이트 점검</a>
+                            <div>2020.10.06</div>
+                        </li>
+                        <li class="flex flex-jc-sb">
+                            <a>[공지] 10/9(금) 한글날 배송&고객센터 휴무 안내</a>
+                            <div>2020.09.28</div>
+                        </li>
+                        <li class="flex flex-jc-sb">
+                            <a>[공지] 10월 온라인 등급명 선적용 안내
+                            </a>
+                            <div>2020.09.29</div>
+                        </li>
+                        <li class="flex flex-jc-sb">
+                            <a>[공지] 20년 추석 명절 배송 및 고객센터 휴무 안내
+                            </a>
+                            <div>2020.09.22</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="name">APP 다운로드</div>
+                <div class="code flex">
+                    <div>
+                        <div>QR CODE</div>
+                        <div>이제 시코르 닷컴을 <br>모바일 앱으로 <br>만나보세요.</div>
+                    </div>
+                    <img src="https://sehee3527.github.io/img1/pf/chicor/qrcode.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="band">
+            <div class="band-box con flex flex-jc-sb">
+                <ul class="flex">
+                    <li><a href="">시코르 소개</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">매장안내</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                </ul>
+                <div>
+                    CHICOR Official
+                </div>
+            </div>
+        </div>
+        <div class="footer-last">
+            <div class="footer-last-box con flex flex-jc-sb">
+                <div>(주)신세계 사업자등록번호 :201-81-32195 대표이사 :차정호<br>주소서울특별시 중구 소공로63, (충무로 1가)대표 전화번호
+                    :1600-5932통신판매업신고1996-서울중구-0291<br>개인정보보호 책임자 :이은영 담당대표 이메일주소 :chicor_com@shinsegae.com호스팅사업자
+                    :주)신세계아이앤씨CHICOR
+                </div>
+                <div>
+                    <div>CHICOR</div>
+                    <div>@2020 SHINSEGAE ALL RIGHTS RESERVED</div>
+                </div>
             </div>
         </div>
     </div>

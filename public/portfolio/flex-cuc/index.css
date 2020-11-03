@@ -1,0 +1,329 @@
+
+/* top-bar-start */
+
+.top-bar{
+    color:white;
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    z-index: 50;
+}
+.top-bar>.top-bar-logo{
+    text-align: center;
+    height: 100px;
+    box-sizing:border-box;
+    padding-top:30px;
+}
+.top-bar>.top-bar-logo>a:first-child{
+    display: none;
+}
+.top-bar:hover>.top-bar-logo>a:first-child{
+    display: block;
+}
+.top-bar:hover>.top-bar-logo>a:last-child{
+    display: block;
+}
+.top-bar:hover>.top-bar-logo>a:last-child{
+    display: none;
+}
+.top-bar>.top-bar-menu{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.top-bar:hover>.top-bar-menu{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+.top-bar>.top-bar-menu>.top-bar-menu-box>ul{
+    font-size: 20px;
+    text-align: center;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>ul>li{
+    margin-right:85px;
+    height: 60px;
+    line-height:60px;
+    position:relative;
+}
+.top-bar:hover>.top-bar-menu>.top-bar-menu-box>ul>li{
+    color:#000;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>ul>li>.name:hover{
+    color:#ed6d00;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>ul>li>ul{
+    margin-top: 20px;
+    position: absolute;
+    line-height: 30px;
+    display: block;
+    top:100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 16px;
+    color:#8d8d8d;
+    white-space:nowrap;
+    display: none;
+}
+.top-bar:hover>.top-bar-menu>.top-bar-menu-box>ul>li>ul{
+    display: block;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>ul>li>ul>li:hover{
+    color:#ed6d00
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>.util-menu>a{
+    display: inline-block;
+    border:3px solid #fff;
+    border-radius: 50px;
+    width:140px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top:10px;
+    line-height: 35px;
+}
+
+.top-bar>.top-bar-menu>.top-bar-menu-box>.util-menu>a:last-child{
+    border-color:#ed6d00;
+    color:#ed6d00;
+}
+.top-bar:hover>.top-bar-menu>.top-bar-menu-box>.util-menu>a:first-child{
+    border-color:#000;
+    color:#000;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>.util-menu>a:first-child:hover{
+    background-color: #000;
+    color:#fff;
+}
+.top-bar>.top-bar-menu>.top-bar-menu-box>.util-menu>a:last-child:hover{
+    background-color: #ed6d00;
+    color:white;
+}
+.top-bar>.top-bar-bg{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    height: 200%;
+    background-color: #fff;
+    z-index: -1;
+    display: none;
+}
+
+.top-bar:hover>.top-bar-bg{
+    display: block;
+}
+
+/* top-bar-end */
+
+
+
+/* main-start */
+
+.main{
+    height:100vh;
+    position: relative;
+    color:white;
+}
+.main>.main-box{
+    text-align: center;
+}
+.main>.main-box>.main-in{
+    transform: translateY(50px);
+    opacity: 0;
+    transition:all .8s;
+}
+.main>.main-box>.main-in.active{
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+.main>.main-box>.main-in>.slogan{
+    font-size: 30px;
+    letter-spacing:20px;
+    padding-top:230px
+}
+.main>.main-box>.main-in>.btn>a{
+    color:#000;
+    background-color: #e6e6e6;
+    border-radius: 80px;
+    font-size:25px;
+    margin-top: 25px;
+    padding:10px 30px;
+    display: inline-block;
+    transition:all .3s;
+}
+.main>.main-box>.main-in>.btn>a:hover{
+    box-sizing: border-box;
+    border:1px solid #fff;
+    background-color: #00000000;
+    color:#fff;
+}
+
+.main>.main-box>.video-box{
+    position: absolute;
+    width:52%;
+    margin:0 auto;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main>.main-box>.video-box>video{
+    width:100%;
+}
+.main>.main-box>.video-box>.scroll{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.main>.main-box>.video-box>.scroll>div:first-child{
+    margin-bottom:10px;
+}
+.main>.main-box>.video-box>.scroll>div:last-child{
+    height:50px;
+    position: relative;
+    width:1px;
+    margin:0 auto;
+}
+.main>.main-box>.video-box>.scroll>div:last-child::after{
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-color: #fff;
+    animation:mainScroll 1.5s linear infinite;
+}
+@keyframes mainScroll{
+    0%{top:0; bottom:100%}
+    50%{top:0; bottom:0}
+    100%{top:100%; bottom:0}
+}
+/* main end */
+
+/* intro start */
+
+.intro{
+    background-color: #f8f8f8;
+    font-size: 25px;
+    text-align:center;
+}
+
+.intro>.intro-box>p{
+    padding:50px;
+}
+
+/* intro end */
+
+
+
+/* content start */
+
+.content>.content-box>li{
+    position: relative;
+}
+.content>.content-box>li>.text-box{
+    padding:100px 0;
+}
+.content>.content-box>li:nth-child(2n + 1)>.text-box{
+    width:450px;
+    text-align: right;
+}
+.content>.content-box>li:nth-child(2n)>.text-box{
+    position: absolute;
+    bottom:-10%;
+    left: 48%;
+}
+.content>.content-box>li>.text-box>.title{
+    padding-bottom:8px;
+    font-size:20px;
+}
+.content>.content-box>li>.text-box>.name{
+    font-size:40px
+}
+.content>.content-box>li>.text-box>.sub-title{
+    font-size: 16px;
+    color: #8d8d8d;
+    padding:35px 0 25px;
+    line-height: 27px;
+    font-weight: 200;
+}
+.content>.content-box>li>.text-box>a{
+    padding-left: 30px;
+    position:relative;
+}
+.content>.content-box>li>.text-box>a::after{
+    position: absolute;
+    content:"";
+    display: block;
+    top:50%;
+    left: 0;
+    height: 1px;
+    width:25px;
+    background-color: black;
+}
+
+.content>.content-box>li:first-child>.content-img{
+    position: absolute;
+    right:0;
+    top:50%;
+}
+.content>.content-box>li:nth-child(3)>.content-img{
+    position: absolute;
+    right:0;
+    top:20%;
+}
+
+
+
+/* content end */
+
+
+
+/* middle-benner start */
+
+.middle-benner{
+    margin-top: 80px;
+    background-image:url(https://www.flexcuc.com/public_markup/asset/images/main/middle_banner_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 450px;
+    text-align: center;
+}
+.middle-benner>b{
+    display: block;
+    padding-top:120px;
+}
+.middle-benner>b, .middle-benner>div:nth-child(2){
+    font-size: 40px;
+    color:white;
+}
+.middle-benner>div:nth-child(2){
+    padding-bottom: 20px;
+}
+.middle-benner>div:last-child{
+    display: block;
+    font-size: 22px;
+    height: 60px;
+    line-height: 60px;
+    width: 230px;
+    text-align: center;
+    margin:0 auto;
+    border:1px solid #fff;
+    border-radius: 80px;
+    color:white;
+}
+
+/* middle-benner end */
+
+
+body{
+    padding-bottom:500px;
+}

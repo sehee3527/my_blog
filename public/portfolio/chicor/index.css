@@ -54,7 +54,6 @@
 }
 
 .fly-top-bar {
-    /* position:fixed; */
     position: absolute;
     ;
     top: 80px;
@@ -65,11 +64,17 @@
     background-color: #222;
     z-index: 100;
 }
-
+.fly-top-bar-active .fly-top-bar{
+    position:fixed;
+    top: 0px;
+}
 .fly-top-bar>.fly-top-bar-box>ul>li>a {
     padding: 17px 15px 20px 20px;
     display: block;
     font-size: 15px;
+}
+.fly-top-bar>.fly-top-bar-box>ul>li:hover>a{
+    color:#e31e8f;
 }
 
 .fly-top-bar>.fly-top-bar-box>ul>li>.top-bar-item-in-box {
@@ -495,27 +500,29 @@
 }
 
 .chicor-picks>.chicor-picks-box .swiper-button-next {
-    color:white;
+    color: white;
 }
 
 .chicor-picks>.chicor-picks-box .swiper-button-prev {
-    color:white;
-}
-.chicor-picks>.chicor-picks-box>.more{
-    display: block;
-    margin-top:20px;
+    color: white;
 }
 
-.chicor-picks>.chicor-picks-box>.more>a{
+.chicor-picks>.chicor-picks-box>.more {
     display: block;
-    padding:10px 50px;
-    border:1px solid #fff;
-    color:white;
+    margin-top: 20px;
+}
+
+.chicor-picks>.chicor-picks-box>.more>a {
+    display: block;
+    padding: 10px 50px;
+    border: 1px solid #fff;
+    color: white;
     text-align: center;
-    width:100px;
-    margin:0 auto;
+    width: 100px;
+    margin: 0 auto;
     font-size: 14px;
 }
+
 /* chicor-picks끝 */
 
 /* chicor-beauty-stage시작 */
@@ -721,14 +728,19 @@
 /* best-item시작 */
 
 
-.best-item>.best-item-box>.tab-box-1>.head>ul{
-    width:800px;
-    margin:0 auto;
+.best-item>.best-item-box>.tab-box-1>.head>ul {
+    width: 800px;
+    margin: 0 auto;
 }
-.best-item>.best-item-box>.tab-box-1>.head>ul>li>a{
-    padding:10px;
-    color:#555555;
+
+.best-item>.best-item-box>.tab-box-1>.head>ul>li>a {
+    padding: 10px;
+    color: #555555;
     cursor: pointer;
+}
+.best-item>.best-item-box>.tab-box-1>.head>ul>li.active>a{
+    text-decoration: underline;
+    color:#000;
 }
 
 
@@ -741,113 +753,124 @@
 
 .best-item>.best-item-box>.tab-box-1>.body>ul>li.active {
     display: flex;
-    width:100%;
+    width: 100%;
     height: 625px;
-    margin-top:50px;
+    margin-top: 50px;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child{
-    width:430px;
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child {
+    width: 430px;
     height: 100%;
     position: relative;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child::after{
-    content:"";
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child::after {
+    content: "";
     display: block;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     background-color: #22222208;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.number{
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.number {
     font-size: 20px;
-    padding:30px;
+    padding: 30px;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.img-box{
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.img-box {
     position: absolute;
-    top:130px;
+    top: 130px;
     left: 50%;
     border-radius: 50%;
     overflow: hidden;
     transform: translateX(-50%);
-    width:80%;
+    width: 80%;
     z-index: 2;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.text-box{
-    width:160px;
-    margin:400px auto 0;
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.text-box {
+    width: 160px;
+    margin: 400px auto 0;
     font-size: 14px;
     text-align: center;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.text-box>p{
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>div:first-child>.text-box>p {
     line-height: 15px;
-    color:#555555;
-    padding:1px 0 3px;
+    color: #555555;
+    padding: 1px 0 3px;
 }
 
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul{
-}
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li{
-    width:calc(100% / 3 - 10px);
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul {}
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li {
+    width: calc(100% / 3 - 10px);
     margin-left: 10px;
-    position:relative;
+    position: relative;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(1), 
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(2), 
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(3){
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(1),
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(2),
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li:nth-child(3) {
     margin-bottom: 10px;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li::after{
-    content:"";
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li::after {
+    content: "";
     display: block;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     height: 100%;
-    width:100%;
+    width: 100%;
     background-color: #22222208;
 
 }
 
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.number{
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.number {
     font-size: 20px;
-    padding:30px;
+    padding: 30px;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.img-box{
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.img-box {
     position: absolute;
-    top:20px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width:70%;
+    width: 70%;
     z-index: -1;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.text-box{
-    width:160px;
-    margin:0 auto;
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.text-box {
+    width: 160px;
+    margin: 0 auto;
     font-size: 14px;
     text-align: center;
-    margin-top:120px;
+    margin-top: 120px;
 }
-.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.text-box>p{
+
+.best-item>.best-item-box>.tab-box-1>.body>ul>li>ul>li>.text-box>p {
     line-height: 15px;
-    color:#555555;
-    padding:1px 0 3px;
+    color: #555555;
+    padding: 1px 0 3px;
 }
 
 
-.best-item>.best-item-box>.more{
+.best-item>.best-item-box>.more {
     display: block;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
-.best-item>.best-item-box>.more>a{
+.best-item>.best-item-box>.more>a {
     display: block;
-    padding:10px 50px;
-    border:1px solid #d6d6d6;
+    padding: 10px 50px;
+    border: 1px solid #d6d6d6;
     text-align: center;
-    width:100px;
-    margin:0 auto;
+    width: 110px;
+    margin: 0 auto;
     font-size: 14px;
 }
 
@@ -856,51 +879,172 @@
 
 /* last-bn시작 */
 
-.last-bn{
-    margin-top:100px;
+.last-bn {
+    margin-top: 100px;
 }
 
-.last-bn>div{
-    width:50%;
-    height:320px;
+.last-bn>div {
+    width: 50%;
+    height: 320px;
     text-align: center;
-    position:relative;
+    position: relative;
     overflow: hidden;
-    color:white;
+    color: white;
 }
 
-.last-bn>div>.name{
+.last-bn>div>.name {
     font-size: 30px;
     padding-bottom: 10px;
     margin-top: 80px;
 }
-.last-bn>div>.btn{
-    margin-top:20px;
+
+.last-bn>div>.btn {
+    margin-top: 20px;
     display: inline-block;
-    padding:10px 50px;
-    border:1px solid white;
+    padding: 10px 50px;
+    border: 1px solid white;
     text-align: center;
 }
-.last-bn>div>.img-box>img{
+
+.last-bn>div>.img-box>img {
     position: absolute;
-    right:0;
-    top:50%;
+    right: 0;
+    top: 50%;
     height: 100%;
     transform: translateY(-50%);
-    width:auto;
+    width: auto;
     z-index: -1;
-    transform-origin:right center;
-    transition:all 1.5s;
+    transform-origin: right center;
+    transition: all 1.5s;
 }
-.last-bn>div:hover>.img-box>img{
-    transform:translateY(-50%) scale(1.2);
+
+.last-bn>div:hover>.img-box>img {
+    transform: translateY(-50%) scale(1.2);
 }
 
 /* last-bn끝 */
 
 
 
-
-body {
-    padding-bottom: 500px;
+/* notice시작 */
+.notice {
+    font-size: 14px;
+    margin-top:120px;
+    padding-bottom:50px;
 }
+
+.notice>.notice-box>div:first-child {
+    padding-right:50px;
+}
+
+.notice>.notice-box>div:first-child>.name {
+    padding-bottom: 10px;
+}
+
+.notice>.notice-box>div:first-child>.number {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.notice>.notice-box>div:first-child>div:nth-child(3) {
+    color: #555555;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+.notice>.notice-box>div:first-child>ul>li {
+    border: 1px solid #d6d6d6;
+    padding: 3px 20px;
+    margin-right: 3px;
+}
+
+.notice>.notice-box>div:nth-child(2) {
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    width: 490px;
+    padding: 0 50px;
+}
+
+.notice>.notice-box>div:nth-child(2)>.notice-tap>.name {
+    font-size: 15px;
+    border-bottom: 1px solid #222;
+    padding: 3px 0;
+}
+
+.notice>.notice-box>div:nth-child(2)>.notice-tap>ul>li {
+    padding-top: 7px;
+    color: #555555;
+}
+.notice>.notice-box>div:nth-child(3){
+    padding-left:20px;
+}
+.notice>.notice-box>div:nth-child(3)>.code{
+    border:1px solid #d6d6d6;
+    margin-top:10px;
+    padding:20px;
+    
+}
+.notice>.notice-box>div:nth-child(3)>.code>div>div:nth-child(2){
+    color:#555555;
+    font-size: 13px;
+}
+
+.notice>.notice-box>div:nth-child(3)>.code>img{
+    display: block;
+    padding-left: 50px;
+}
+.footer>.band{
+    background-color: #eee;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.footer>.band>.band-box{
+    padding:20px 0;
+    font-size: 13px;
+    color:#555555;
+}
+.footer>.band>.band-box>ul>li{
+    position:relative;
+}
+.footer>.band>.band-box>ul>li>a{
+    display: inline-block;
+    padding: 0 20px;
+}
+.footer>.band>.band-box>ul>li:first-child{
+    padding-left:0;
+}
+.footer>.band>.band-box>ul>li::after{
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    right:0;
+    width:2px;
+    height: 100%;
+    background-color: #d6d6d6;
+}
+
+.footer>.footer-last{
+    font-size: 13px;
+    color:#222;
+    padding-top:45px;
+    padding-bottom:80px;
+}
+.footer>.footer-last>.footer-last-box>div:nth-child(2){
+    text-align: right;
+}
+.footer>.footer-last>.footer-last-box>div:nth-child(2)>div:first-child{
+    font-size: 30px;
+    color:#111111;
+}
+
+
+
+
+
+/* notice끝 */
+
+
+
+
+
