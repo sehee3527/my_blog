@@ -1,0 +1,186 @@
+/* 탑바 시작 */
+
+.top-bar-box{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:50;
+    width:100%;
+    color:white;
+}
+
+.top-bar-box > .top-bar-top{
+    border-bottom:1px solid #fff;
+}
+.top-bar-box > .top-bar-top > .top-bar-top-menu{
+    width:50%;
+    height: 120px;
+}
+.top-bar-box > .top-bar-top > .logo-box{
+    width:350px;
+    transform:translateX(50%);
+    padding-top:20px;
+}
+.top-bar-box > .top-bar-top > .top-bar-top-menu>div{
+    float:right;
+    width:30px;
+    height:25px;
+    width:28px;
+    margin:50px;
+    position:relative;
+}
+.top-bar-box > .top-bar-top > .top-bar-top-menu>div>div{
+    position:absolute;
+    width:100%;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    top:0;
+}
+.top-bar-box > .top-bar-top > .top-bar-top-menu>div>div:nth-child(2){
+    top:50%;
+    transform: translateY(-50%);
+}
+.top-bar-box > .top-bar-top > .top-bar-top-menu>div>div:last-child{
+    top:auto;
+    bottom:0;
+}
+
+.top-bar-box > .top-bar-bottom{
+ font-size: 1.2rem;
+ text-align: center;
+}
+.top-bar-box > .top-bar-bottom > .top-bar-bottom-menu {
+    display:inline-block;
+}
+
+.top-bar-box > .top-bar-bottom > .top-bar-bottom-menu > li > a{
+    display:block;
+    padding:20px 40px;
+}
+/* 탑바 끝 */
+
+
+/* 메인시작 */
+
+.main-box{
+    height:100vh;
+    color:#fff;
+    background-size: cover;
+    position:relative;
+}
+.main-box > .screen {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    background-color: #000;
+    opacity: 60%;
+    z-index: 1;
+}
+.main-box > p{
+    white-space: nowrap;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    padding:0;
+}
+
+.main-box > p > strong {
+    font-size: 3.5rem;
+    padding:10px 0;
+}
+.main-box > .scroll{
+    position:absolute;
+    bottom:5%;
+    left:50%;
+    transform:translateX(-50);
+    z-index: 2;
+    text-align: center;
+}
+
+.main-box > .scroll > p {
+    color:white;
+    font-size: 1rem;
+    padding:0;
+}
+.main-box > .scroll > .arrow{
+    width:12px;
+    height:12px;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    margin-top:10px;
+}
+/* 메인끝 */
+
+
+/* 서비스 시작 */
+
+.service-box{
+    padding-top:100px;
+    padding-bottom:500px;
+}
+.service-box > .service-name{
+    font-size:3rem;
+}
+.service-box > .service-content > .service-left{
+    width:55%;
+}
+.service-box > .service-content > .service-left > li > a{
+    display:block;
+    background-color: #95c156;
+    box-sizing: border-box;
+    padding:50px;
+    margin-bottom:20px;
+    border-radius:15px;
+    font-size: 1.7rem;
+    color:white;
+    margin-right:20px;
+}
+
+.service-box > .service-content > .service-left > li:nth-child(3) > a{
+    background-color: #3ebff0;
+}
+.service-box > .service-content > .service-left > li:nth-child(4) > a{
+    background-color: #3d87c8;
+}
+
+.service-box > .service-content > .service-left > p{
+    font-size:1.5rem;
+    padding:0 0 3px;
+    line-height: 1.7rem;
+}
+.service-box > .service-content > .service-left > .left-bottom {
+    background-color: #f2f2f2;
+    border-radius:15px;
+    margin-right:20px;
+    height: 180px;
+}
+.service-box > .service-content {
+    border:1px solid blue;
+}
+
+.service-box > .service-content > .service-right {
+    display: block;
+    width:45%;
+    height: 100%;
+    border:1px solid red;
+}
+
+.service-box > .service-content > .service-right >div{
+    border-radius:15px;
+    background-color: #f2f2f2;
+}
+
+/* 서비스 끝 */
+
+
+
